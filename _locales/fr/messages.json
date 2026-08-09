@@ -27,13 +27,13 @@
     "message": "Votre musique, toujours à portée"
   },
   "welcomeBody": {
-    "message": "Contrôlez Spotify Web depuis le panneau Chrome ou avec un widget flottant facultatif."
+    "message": "Contrôlez Spotify Web depuis la barre latérale Firefox ou avec un widget flottant facultatif."
   },
   "privacyTitle": {
     "message": "Confidentialité simple"
   },
   "privacyBody": {
-    "message": "Aucun compte TuneDock, aucun serveur et aucune donnée personnelle collectée. Les préférences restent dans Chrome."
+    "message": "Aucun compte TuneDock, aucun serveur et aucune donnée personnelle collectée. Les préférences restent dans Firefox."
   },
   "continueSpotify": {
     "message": "Continuer avec Spotify"
@@ -222,8 +222,8 @@
   "backToPlayer": { "message": "Retour au lecteur" },
   "settingsSubtitle": { "message": "Personnalisez TuneDock et obtenez de l'aide." },
   "languageTitle": { "message": "Langue de TuneDock" },
-  "languageHelp": { "message": "Par défaut, TuneDock suit automatiquement la langue de Chrome." },
-  "automaticLanguage": { "message": "Automatique — Chrome ($1)" },
+  "languageHelp": { "message": "Par défaut, TuneDock suit automatiquement la langue de Firefox." },
+  "automaticLanguage": { "message": "Automatique — Firefox ($1)" },
   "feedbackTitle": { "message": "Votre avis nous aide" },
   "feedbackBody": { "message": "Une note ou un signalement permet d'améliorer les prochaines versions." },
   "rateTuneDock": { "message": "Évaluez et notez TuneDock" },
@@ -231,7 +231,7 @@
   "contactSupport": { "message": "Contacter l'assistance" },
   "followGithub": { "message": "Suivre sur GitHub ↗" },
   "advancedSettings": { "message": "Réglages avancés" },
-  "advancedPrivacy": { "message": "Les préférences sont enregistrées uniquement dans Chrome. TuneDock ne collecte aucune donnée personnelle." },
+  "advancedPrivacy": { "message": "Les préférences sont enregistrées uniquement dans Firefox. TuneDock ne collecte aucune donnée personnelle." },
   "resetPreferences": { "message": "Réinitialiser les préférences" },
   "resetConfirm": { "message": "Réinitialiser les préférences de TuneDock ?" },
   "resetDone": { "message": "Préférences réinitialisées." },
@@ -249,8 +249,8 @@
   "privacyNotice": { "message": "TuneDock ne collecte, ne vend et ne partage aucune donnée personnelle. Il ne possède aucun serveur, n'affiche aucune publicité et n'utilise aucun outil d'analyse." },
   "privacyLocalTitle": { "message": "Données utilisées localement" },
   "privacyLocalBody": { "message": "TuneDock lit les informations visibles du lecteur Spotify Web — titre, artiste, pochette, lecture, position, volume et état des commandes — uniquement pour afficher et contrôler la lecture demandée par l'utilisateur." },
-  "privacyStorageTitle": { "message": "Stockage Chrome" },
-  "privacyStorageBody": { "message": "Les préférences, la position du widget et l'état de l'accueil sont conservés localement dans le profil Chrome. Aucun identifiant Spotify, mot de passe ou jeton OAuth n'est stocké." },
+  "privacyStorageTitle": { "message": "Stockage Firefox" },
+  "privacyStorageBody": { "message": "Les préférences, la position du widget et l'état de l'accueil sont conservés localement dans le profil Firefox. Aucun identifiant Spotify, mot de passe ou jeton OAuth n'est stocké." },
   "privacyWidgetTitle": { "message": "Widget facultatif" },
   "privacyWidgetBody": { "message": "L'accès aux pages HTTPS n'est demandé que si l'utilisateur active le widget. Le widget ne lit pas le contenu, les formulaires ou l'historique des pages ; il affiche uniquement les commandes TuneDock." },
   "privacyThirdTitle": { "message": "Services tiers" },

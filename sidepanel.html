@@ -21,10 +21,10 @@
       <section id="welcome" class="card welcome hidden">
         <img class="welcome-logo" src="icons/tunedock-128.png" alt="Logo TuneDock" />
         <h2 data-i18n="welcomeTitle">Your music, always within reach</h2>
-        <p data-i18n="welcomeBody">Control Spotify Web from Chrome's side panel or an optional floating widget.</p>
+        <p data-i18n="welcomeBody">Control Spotify Web from Firefox's sidebar or an optional floating widget.</p>
         <div class="privacy-note">
           <strong data-i18n="privacyTitle">Privacy first</strong>
-          <span data-i18n="privacyBody">No TuneDock account, no server and no personal data collection. Preferences stay in Chrome.</span>
+          <span data-i18n="privacyBody">No TuneDock account, no server and no personal data collection. Preferences stay in Firefox.</span>
         </div>
         <button id="startTuneDock" class="primary" type="button" data-i18n="continueSpotify">Continue with Spotify</button>
         <small class="welcome-help" data-i18n="officialSpotifyHelp">Spotify opens on its official website.</small>
@@ -86,12 +86,12 @@
         </a>
 
         <div class="settings-row">
-          <label class="preference" for="autoOpenSpotify" title="Ouvrir Spotify Web au démarrage de Chrome">
+          <label class="preference" for="autoOpenSpotify" title="Ouvrir Spotify Web au démarrage de Firefox">
             <span><strong data-i18n="spotifyAuto">Spotify auto</strong><small data-i18n="atStartup">At startup</small></span>
             <input id="autoOpenSpotify" type="checkbox" />
           </label>
           <button id="toggleWidget" class="soft-button widget-toggle" type="button" data-i18n="showWidget">Show widget</button>
-          <label class="widget-startup" for="widgetOnStartup" title="Afficher le widget au démarrage de Chrome">
+          <label class="widget-startup" for="widgetOnStartup" title="Afficher le widget au démarrage de Firefox">
             <span><strong data-i18n="widgetAuto">Widget auto</strong><small data-i18n="atStartup">At startup</small></span>
             <input id="widgetOnStartup" type="checkbox" />
           </label>
@@ -100,11 +100,11 @@
         <div class="main-feedback" aria-labelledby="ratingPrompt">
           <strong id="ratingPrompt" data-i18n="rateTuneDock">Rate and review TuneDock</strong>
           <div class="interactive-stars" role="group" aria-labelledby="ratingPrompt">
-            <a href="https://chromewebstore.google.com/detail/tunedock-remote-for-spotify/ehemggpdajfcghfhbdcebcflcgndmcaj/reviews" target="_blank" rel="noreferrer" aria-label="5/5" title="5/5">★</a>
-            <a href="https://chromewebstore.google.com/detail/tunedock-remote-for-spotify/ehemggpdajfcghfhbdcebcflcgndmcaj/reviews" target="_blank" rel="noreferrer" aria-label="4/5" title="4/5">★</a>
-            <a href="https://chromewebstore.google.com/detail/tunedock-remote-for-spotify/ehemggpdajfcghfhbdcebcflcgndmcaj/reviews" target="_blank" rel="noreferrer" aria-label="3/5" title="3/5">★</a>
-            <a href="https://chromewebstore.google.com/detail/tunedock-remote-for-spotify/ehemggpdajfcghfhbdcebcflcgndmcaj/reviews" target="_blank" rel="noreferrer" aria-label="2/5" title="2/5">★</a>
-            <a href="https://chromewebstore.google.com/detail/tunedock-remote-for-spotify/ehemggpdajfcghfhbdcebcflcgndmcaj/reviews" target="_blank" rel="noreferrer" aria-label="1/5" title="1/5">★</a>
+            <a href="https://github.com/SDINAHET/TuneDock/issues/new" target="_blank" rel="noreferrer" aria-label="5/5" title="5/5">★</a>
+            <a href="https://github.com/SDINAHET/TuneDock/issues/new" target="_blank" rel="noreferrer" aria-label="4/5" title="4/5">★</a>
+            <a href="https://github.com/SDINAHET/TuneDock/issues/new" target="_blank" rel="noreferrer" aria-label="3/5" title="3/5">★</a>
+            <a href="https://github.com/SDINAHET/TuneDock/issues/new" target="_blank" rel="noreferrer" aria-label="2/5" title="2/5">★</a>
+            <a href="https://github.com/SDINAHET/TuneDock/issues/new" target="_blank" rel="noreferrer" aria-label="1/5" title="1/5">★</a>
           </div>
         </div>
 
@@ -129,13 +129,13 @@
         <section class="settings-card">
           <label class="field-label" for="languageOverride" data-i18n="languageTitle">TuneDock language</label>
           <select id="languageOverride" class="settings-select"></select>
-          <p class="field-help" data-i18n="languageHelp">By default, TuneDock automatically follows Chrome's language.</p>
+          <p class="field-help" data-i18n="languageHelp">By default, TuneDock automatically follows Firefox's language.</p>
         </section>
 
         <section class="settings-card">
           <h3 data-i18n="feedbackTitle">Your feedback helps</h3>
           <p data-i18n="feedbackBody">A rating or report helps improve future versions.</p>
-          <a class="rating-link" href="https://chromewebstore.google.com/detail/tunedock-remote-for-spotify/ehemggpdajfcghfhbdcebcflcgndmcaj/reviews" target="_blank" rel="noreferrer">
+          <a class="rating-link" href="https://github.com/SDINAHET/TuneDock/issues/new" target="_blank" rel="noreferrer">
             <span aria-hidden="true">★★★★★</span><strong data-i18n="rateTuneDock">Rate TuneDock</strong>
           </a>
           <div class="support-grid">
@@ -148,7 +148,7 @@
 
         <section class="settings-card">
           <h3 data-i18n="advancedSettings">Advanced settings</h3>
-          <p data-i18n="advancedPrivacy">Preferences are stored only in Chrome. TuneDock does not collect personal data.</p>
+          <p data-i18n="advancedPrivacy">Preferences are stored only in Firefox. TuneDock does not collect personal data.</p>
           <button id="resetSettings" class="danger-soft" type="button" data-i18n="resetPreferences">Reset preferences</button>
         </section>
 

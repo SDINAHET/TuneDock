@@ -27,13 +27,13 @@
     "message": "Tu música, siempre a mano"
   },
   "welcomeBody": {
-    "message": "Control Spotify Web from Chrome's side panel or an optional floating widget."
+    "message": "Control Spotify Web from Firefox's sidebar or an optional floating widget."
   },
   "privacyTitle": {
     "message": "Privacidad primero"
   },
   "privacyBody": {
-    "message": "No TuneDock account, no server and no personal data collection. Preferences stay in Chrome."
+    "message": "No TuneDock account, no server and no personal data collection. Preferences stay in Firefox."
   },
   "continueSpotify": {
     "message": "Continuar con Spotify"

@@ -27,13 +27,13 @@
     "message": "음악을 언제나 가까이"
   },
   "welcomeBody": {
-    "message": "Control Spotify Web from Chrome's side panel or an optional floating widget."
+    "message": "Control Spotify Web from Firefox's sidebar or an optional floating widget."
   },
   "privacyTitle": {
     "message": "개인정보 보호 우선"
   },
   "privacyBody": {
-    "message": "No TuneDock account, no server and no personal data collection. Preferences stay in Chrome."
+    "message": "No TuneDock account, no server and no personal data collection. Preferences stay in Firefox."
   },
   "continueSpotify": {
     "message": "Spotify로 계속"

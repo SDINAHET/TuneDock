@@ -27,13 +27,13 @@
     "message": "Musik selalu dalam jangkauan"
   },
   "welcomeBody": {
-    "message": "Control Spotify Web from Chrome's side panel or an optional floating widget."
+    "message": "Control Spotify Web from Firefox's sidebar or an optional floating widget."
   },
   "privacyTitle": {
     "message": "Privasi utama"
   },
   "privacyBody": {
-    "message": "No TuneDock account, no server and no personal data collection. Preferences stay in Chrome."
+    "message": "No TuneDock account, no server and no personal data collection. Preferences stay in Firefox."
   },
   "continueSpotify": {
     "message": "Lanjutkan dengan Spotify"

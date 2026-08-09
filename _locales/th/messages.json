@@ -27,13 +27,13 @@
     "message": "เพลงของคุณอยู่ใกล้มือเสมอ"
   },
   "welcomeBody": {
-    "message": "Control Spotify Web from Chrome's side panel or an optional floating widget."
+    "message": "Control Spotify Web from Firefox's sidebar or an optional floating widget."
   },
   "privacyTitle": {
     "message": "ความเป็นส่วนตัวมาก่อน"
   },
   "privacyBody": {
-    "message": "No TuneDock account, no server and no personal data collection. Preferences stay in Chrome."
+    "message": "No TuneDock account, no server and no personal data collection. Preferences stay in Firefox."
   },
   "continueSpotify": {
     "message": "ดำเนินการต่อด้วย Spotify"
