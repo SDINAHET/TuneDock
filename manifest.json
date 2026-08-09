@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "TuneDock – Remote for Spotify",
+  "description": "Contrôlez Spotify Web depuis le panneau latéral ou un widget flottant facultatif.",
+  "version": "1.0.0",
+  "minimum_chrome_version": "116",
+  "permissions": ["storage", "sidePanel", "scripting"],
+  "host_permissions": ["https://open.spotify.com/*"],
+  "optional_host_permissions": ["https://*/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/tunedock-16.png",
+    "32": "icons/tunedock-32.png",
+    "48": "icons/tunedock-48.png",
+    "128": "icons/tunedock-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://open.spotify.com/*"],
+      "js": ["spotify-web.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "Ouvrir TuneDock",
+    "default_icon": {
+      "16": "icons/tunedock-16.png",
+      "32": "icons/tunedock-32.png"
+    }
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "web_accessible_resources": [{
+    "resources": ["assets/spotify-full-logo-white.svg"],
+    "matches": ["https://*/*"]
+  }]
+}

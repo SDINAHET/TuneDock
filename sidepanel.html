@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TuneDock</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="brand app-header">
+        <img class="app-logo" src="icons/tunedock-48.png" alt="" />
+        <div class="brand-copy">
+          <h1>TuneDock</h1>
+          <p>Remote for Spotify</p>
+        </div>
+        <span id="connectionStatus" class="status-pill connecting"><i></i><span>Connexion</span></span>
+      </header>
+
+      <section id="welcome" class="card welcome hidden">
+        <img class="welcome-logo" src="icons/tunedock-128.png" alt="Logo TuneDock" />
+        <h2>Votre musique, toujours à portée</h2>
+        <p>Contrôlez Spotify Web depuis le panneau Chrome ou avec un widget flottant facultatif.</p>
+        <div class="privacy-note">
+          <strong>Confidentialité simple</strong>
+          <span>Aucun compte TuneDock, aucun serveur et aucune donnée personnelle collectée. Les préférences restent dans Chrome.</span>
+        </div>
+        <button id="startTuneDock" class="primary" type="button">Continuer avec Spotify</button>
+        <small class="welcome-help">Spotify s'ouvre sur sa page officielle.</small>
+      </section>
+
+      <section id="player" class="player hidden">
+        <div class="device-bar">
+          <div class="device-summary">
+            <span class="device-symbol" aria-hidden="true">▣</span>
+            <span><strong>Cet ordinateur</strong><small>Spotify Web</small></span>
+          </div>
+          <button id="openDevices" class="device-button" type="button" title="Changer d'appareil dans Spotify">Changer</button>
+          <button id="refresh" class="mini-button" type="button" title="Reconnecter Spotify Web" aria-label="Reconnecter Spotify Web">↻</button>
+        </div>
+
+        <a id="artLink" class="art-wrap" href="https://open.spotify.com" target="_blank" rel="noreferrer" title="Ouvrir ce morceau dans Spotify">
+          <img id="albumArt" class="album-art hidden" alt="Pochette du morceau" />
+          <div id="albumFallback" class="album-placeholder">♪</div>
+        </a>
+
+        <div class="track-meta">
+          <h2 id="trackTitle">Aucun morceau</h2>
+          <p id="trackArtist">Ouvrez Spotify Web pour commencer</p>
+        </div>
+
+        <div class="progress-row">
+          <span id="elapsed">0:00</span>
+          <input id="progress" type="range" min="0" max="1000" value="0" aria-label="Position dans le morceau" />
+          <span id="duration">0:00</span>
+        </div>
+
+        <div class="controls-zone">
+          <div class="controls">
+            <button id="previous" class="control secondary-control" type="button" aria-label="Morceau précédent">⏮</button>
+            <button id="playPause" class="control play" type="button" aria-label="Lecture ou pause">▶</button>
+            <button id="next" class="control secondary-control" type="button" aria-label="Morceau suivant">⏭</button>
+          </div>
+          <div class="smart-controls">
+            <button id="shuffle" class="smart-button" type="button" aria-label="Lecture aléatoire" title="Lecture aléatoire">⇄</button>
+            <button id="favorite" class="smart-button heart" type="button" aria-label="Ajouter aux Titres likés" title="Ajouter aux Titres likés">＋</button>
+            <button id="repeat" class="smart-button" type="button" aria-label="Répétition" title="Répétition">↻</button>
+          </div>
+        </div>
+
+        <div class="volume-row">
+          <span aria-hidden="true">🔊</span>
+          <input id="volume" type="range" min="0" max="100" value="50" aria-label="Volume" />
+        </div>
+        <p id="playerMessage" class="message" role="status"></p>
+
+        <a id="openSpotify" class="open-spotify" href="https://open.spotify.com" target="_blank" rel="noreferrer">
+          <img src="assets/spotify-full-logo-white.svg" alt="Spotify" />
+          <span>OPEN SPOTIFY</span>
+        </a>
+
+        <div class="settings-row">
+          <label class="preference" for="autoOpenSpotify" title="Ouvrir Spotify Web au démarrage de Chrome">
+            <span><strong>Spotify auto</strong><small>Au démarrage</small></span>
+            <input id="autoOpenSpotify" type="checkbox" />
+          </label>
+          <button id="toggleWidget" class="soft-button widget-toggle" type="button">Afficher le widget</button>
+          <label class="widget-startup" for="widgetOnStartup" title="Afficher le widget au démarrage de Chrome">
+            <span><strong>Widget auto</strong><small>Au démarrage</small></span>
+            <input id="widgetOnStartup" type="checkbox" />
+          </label>
+        </div>
+
+        <footer class="about-footer">
+          <span>Créé par Stéphane Dinahet</span>
+          <nav aria-label="Informations TuneDock">
+            <a href="https://github.com/SDINAHET/TuneDock" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="privacy.html" target="_blank">Confidentialité</a>
+          </nav>
+          <small>TuneDock est indépendant et non affilié à Spotify.</small>
+        </footer>
+      </section>
+    </main>
+    <script src="sidepanel.js"></script>
+  </body>
+</html>
