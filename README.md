@@ -1,4 +1,4 @@
-# TuneDock
+# ![alt text](icons/tunedock-32.png) TuneDock
 
 TuneDock est une extension Chrome Manifest V3 qui contrôle **Spotify Web** depuis le panneau latéral de Chrome ou depuis un widget flottant facultatif.
 
