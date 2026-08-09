@@ -433,7 +433,8 @@
       "pointer-events: auto"
     ].join(";");
     shadow = host.attachShadow({ mode: "closed" });
-    shadow.innerHTML = getHtml();
+    const widgetDocument = new DOMParser().parseFromString(getHtml(), "text/html");
+    shadow.append(...widgetDocument.head.childNodes, ...widgetDocument.body.childNodes);
     shadow.querySelector(".spotify-mark").src = chrome.runtime.getURL("assets/spotify-full-logo-white.svg");
     document.documentElement.append(host);
 
