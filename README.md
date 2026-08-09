@@ -1,8 +1,15 @@
+[![Installer depuis le Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Installer-4285F4?logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/tunedock-remote-for-spotify/ehemggpdajfcghfhbdcebcflcgndmcaj)
+
 # ![alt text](icons/tunedock-32.png) TuneDock
 
 TuneDock est une extension Chrome Manifest V3 qui contrôle **Spotify Web** depuis le panneau latéral de Chrome ou depuis un widget flottant facultatif.
 
 Projet créé par **Stéphane Dinahet**. TuneDock est un projet indépendant, non affilié, non approuvé et non sponsorisé par Spotify AB.
+
+
+## Installation
+
+[Installer TuneDock depuis le Chrome Web Store](https://chromewebstore.google.com/detail/tunedock-remote-for-spotify/ehemggpdajfcghfhbdcebcflcgndmcaj)
 
 ## Fonctionnalités
 
