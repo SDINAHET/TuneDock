@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -12,95 +12,151 @@
         <img class="app-logo" src="icons/tunedock-48.png" alt="" />
         <div class="brand-copy">
           <h1>TuneDock</h1>
-          <p>Remote for Spotify</p>
+          <p data-i18n="tagline">Remote for Spotify</p>
         </div>
-        <span id="connectionStatus" class="status-pill connecting"><i></i><span>Connexion</span></span>
+        <span id="connectionStatus" class="status-pill connecting"><i></i><span data-i18n="statusConnecting">Connecting</span></span>
+        <button id="openSettings" class="header-button" type="button" data-i18n-aria="settings" data-i18n-title="settings">⚙</button>
       </header>
 
       <section id="welcome" class="card welcome hidden">
         <img class="welcome-logo" src="icons/tunedock-128.png" alt="Logo TuneDock" />
-        <h2>Votre musique, toujours à portée</h2>
-        <p>Contrôlez Spotify Web depuis le panneau Chrome ou avec un widget flottant facultatif.</p>
+        <h2 data-i18n="welcomeTitle">Your music, always within reach</h2>
+        <p data-i18n="welcomeBody">Control Spotify Web from Chrome's side panel or an optional floating widget.</p>
         <div class="privacy-note">
-          <strong>Confidentialité simple</strong>
-          <span>Aucun compte TuneDock, aucun serveur et aucune donnée personnelle collectée. Les préférences restent dans Chrome.</span>
+          <strong data-i18n="privacyTitle">Privacy first</strong>
+          <span data-i18n="privacyBody">No TuneDock account, no server and no personal data collection. Preferences stay in Chrome.</span>
         </div>
-        <button id="startTuneDock" class="primary" type="button">Continuer avec Spotify</button>
-        <small class="welcome-help">Spotify s'ouvre sur sa page officielle.</small>
+        <button id="startTuneDock" class="primary" type="button" data-i18n="continueSpotify">Continue with Spotify</button>
+        <small class="welcome-help" data-i18n="officialSpotifyHelp">Spotify opens on its official website.</small>
       </section>
 
       <section id="player" class="player hidden">
         <div class="device-bar">
           <div class="device-summary">
             <span class="device-symbol" aria-hidden="true">▣</span>
-            <span><strong>Cet ordinateur</strong><small>Spotify Web</small></span>
+            <span><strong data-i18n="thisComputer">This computer</strong><small>Spotify Web</small></span>
           </div>
-          <button id="openDevices" class="device-button" type="button" title="Changer d'appareil dans Spotify">Changer</button>
-          <button id="refresh" class="mini-button" type="button" title="Reconnecter Spotify Web" aria-label="Reconnecter Spotify Web">↻</button>
+          <button id="openDevices" class="device-button" type="button" data-i18n="changeDevice" data-i18n-title="changeDeviceTitle">Change</button>
+          <button id="refresh" class="mini-button" type="button" data-i18n-title="reconnect" data-i18n-aria="reconnect">↻</button>
         </div>
 
-        <a id="artLink" class="art-wrap" href="https://open.spotify.com" target="_blank" rel="noreferrer" title="Ouvrir ce morceau dans Spotify">
+        <a id="artLink" class="art-wrap" href="https://open.spotify.com" target="_blank" rel="noreferrer" data-i18n-title="openSpotify">
           <img id="albumArt" class="album-art hidden" alt="Pochette du morceau" />
           <div id="albumFallback" class="album-placeholder">♪</div>
         </a>
 
         <div class="track-meta">
-          <h2 id="trackTitle">Aucun morceau</h2>
-          <p id="trackArtist">Ouvrez Spotify Web pour commencer</p>
+          <h2 id="trackTitle" data-i18n="noTrack">No track</h2>
+          <p id="trackArtist" data-i18n="openSpotifyToStart">Open Spotify Web to get started</p>
         </div>
 
         <div class="progress-row">
           <span id="elapsed">0:00</span>
-          <input id="progress" type="range" min="0" max="1000" value="0" aria-label="Position dans le morceau" />
+          <input id="progress" type="range" min="0" max="1000" value="0" data-i18n-aria="playbackPosition" data-i18n-title="playbackPosition" />
           <span id="duration">0:00</span>
         </div>
 
         <div class="controls-zone">
           <div class="controls">
-            <button id="previous" class="control secondary-control" type="button" aria-label="Morceau précédent">⏮</button>
-            <button id="playPause" class="control play" type="button" aria-label="Lecture ou pause">▶</button>
-            <button id="next" class="control secondary-control" type="button" aria-label="Morceau suivant">⏭</button>
+            <button id="previous" class="control secondary-control" type="button" data-i18n-aria="previousTrack" data-i18n-title="previousTrack">⏮</button>
+            <button id="playPause" class="control play" type="button" data-i18n-aria="playPause" data-i18n-title="playPause">▶</button>
+            <button id="next" class="control secondary-control" type="button" data-i18n-aria="nextTrack" data-i18n-title="nextTrack">⏭</button>
           </div>
           <div class="smart-controls">
-            <button id="shuffle" class="smart-button" type="button" aria-label="Lecture aléatoire" title="Lecture aléatoire">⇄</button>
-            <button id="favorite" class="smart-button heart" type="button" aria-label="Ajouter aux Titres likés" title="Ajouter aux Titres likés">＋</button>
-            <button id="repeat" class="smart-button" type="button" aria-label="Répétition" title="Répétition">↻</button>
+            <button id="shuffle" class="smart-button" type="button" data-i18n-aria="shuffle" data-i18n-title="shuffle">⇄</button>
+            <button id="favorite" class="smart-button heart" type="button" data-i18n-aria="addLiked" data-i18n-title="addLiked">＋</button>
+            <button id="repeat" class="smart-button" type="button" data-i18n-aria="repeat" data-i18n-title="repeat">↻</button>
           </div>
         </div>
 
         <div class="volume-row">
-          <span aria-hidden="true">🔊</span>
-          <input id="volume" type="range" min="0" max="100" value="50" aria-label="Volume" />
+          <button id="mute" class="mute-button" type="button" data-i18n-aria="mute" data-i18n-title="mute">🔊</button>
+          <input id="volume" type="range" min="0" max="100" value="50" data-i18n-aria="volume" data-i18n-title="volume" />
         </div>
         <p id="playerMessage" class="message" role="status"></p>
 
+        <div class="track-tools" aria-label="Track tools">
+          <a id="searchLyrics" class="track-tool" href="https://www.google.com" target="_blank" rel="noreferrer" data-i18n="searchLyrics">Search lyrics</a>
+          <button id="copyTrackLink" class="track-tool" type="button" data-i18n="copyLink">Copy link</button>
+        </div>
+
         <a id="openSpotify" class="open-spotify" href="https://open.spotify.com" target="_blank" rel="noreferrer">
           <img src="assets/spotify-full-logo-white.svg" alt="Spotify" />
-          <span>OPEN SPOTIFY</span>
+          <span data-i18n="openSpotify">OPEN SPOTIFY</span>
         </a>
 
         <div class="settings-row">
           <label class="preference" for="autoOpenSpotify" title="Ouvrir Spotify Web au démarrage de Chrome">
-            <span><strong>Spotify auto</strong><small>Au démarrage</small></span>
+            <span><strong data-i18n="spotifyAuto">Spotify auto</strong><small data-i18n="atStartup">At startup</small></span>
             <input id="autoOpenSpotify" type="checkbox" />
           </label>
-          <button id="toggleWidget" class="soft-button widget-toggle" type="button">Afficher le widget</button>
+          <button id="toggleWidget" class="soft-button widget-toggle" type="button" data-i18n="showWidget">Show widget</button>
           <label class="widget-startup" for="widgetOnStartup" title="Afficher le widget au démarrage de Chrome">
-            <span><strong>Widget auto</strong><small>Au démarrage</small></span>
+            <span><strong data-i18n="widgetAuto">Widget auto</strong><small data-i18n="atStartup">At startup</small></span>
             <input id="widgetOnStartup" type="checkbox" />
           </label>
         </div>
 
+        <div class="main-feedback" aria-labelledby="ratingPrompt">
+          <strong id="ratingPrompt" data-i18n="rateTuneDock">Rate and review TuneDock</strong>
+          <div class="interactive-stars" role="group" aria-labelledby="ratingPrompt">
+            <a href="https://chromewebstore.google.com/detail/tunedock-remote-for-spotify/ehemggpdajfcghfhbdcebcflcgndmcaj/reviews" target="_blank" rel="noreferrer" aria-label="5/5" title="5/5">★</a>
+            <a href="https://chromewebstore.google.com/detail/tunedock-remote-for-spotify/ehemggpdajfcghfhbdcebcflcgndmcaj/reviews" target="_blank" rel="noreferrer" aria-label="4/5" title="4/5">★</a>
+            <a href="https://chromewebstore.google.com/detail/tunedock-remote-for-spotify/ehemggpdajfcghfhbdcebcflcgndmcaj/reviews" target="_blank" rel="noreferrer" aria-label="3/5" title="3/5">★</a>
+            <a href="https://chromewebstore.google.com/detail/tunedock-remote-for-spotify/ehemggpdajfcghfhbdcebcflcgndmcaj/reviews" target="_blank" rel="noreferrer" aria-label="2/5" title="2/5">★</a>
+            <a href="https://chromewebstore.google.com/detail/tunedock-remote-for-spotify/ehemggpdajfcghfhbdcebcflcgndmcaj/reviews" target="_blank" rel="noreferrer" aria-label="1/5" title="1/5">★</a>
+          </div>
+        </div>
+
         <footer class="about-footer">
-          <span>Créé par Stéphane Dinahet</span>
+          <span data-i18n="createdBy">Created by Stéphane Dinahet</span>
           <nav aria-label="Informations TuneDock">
             <a href="https://github.com/SDINAHET/TuneDock" target="_blank" rel="noreferrer">GitHub</a>
-            <a href="privacy.html" target="_blank">Confidentialité</a>
+            <a href="privacy.html" target="_blank" data-i18n="privacy">Privacy</a>
           </nav>
-          <small>TuneDock est indépendant et non affilié à Spotify.</small>
+          <small data-i18n="notAffiliated">TuneDock is independent and not affiliated with Spotify.</small>
         </footer>
       </section>
+
+      <section id="settingsPanel" class="settings-panel hidden" aria-labelledby="settingsTitle">
+        <div class="settings-heading">
+          <div>
+            <h2 id="settingsTitle" data-i18n="settings">Settings</h2>
+            <p data-i18n="settingsSubtitle">Customize TuneDock and get help.</p>
+          </div>
+        </div>
+
+        <section class="settings-card">
+          <label class="field-label" for="languageOverride" data-i18n="languageTitle">TuneDock language</label>
+          <select id="languageOverride" class="settings-select"></select>
+          <p class="field-help" data-i18n="languageHelp">By default, TuneDock automatically follows Chrome's language.</p>
+        </section>
+
+        <section class="settings-card">
+          <h3 data-i18n="feedbackTitle">Your feedback helps</h3>
+          <p data-i18n="feedbackBody">A rating or report helps improve future versions.</p>
+          <a class="rating-link" href="https://chromewebstore.google.com/detail/tunedock-remote-for-spotify/ehemggpdajfcghfhbdcebcflcgndmcaj/reviews" target="_blank" rel="noreferrer">
+            <span aria-hidden="true">★★★★★</span><strong data-i18n="rateTuneDock">Rate TuneDock</strong>
+          </a>
+          <div class="support-grid">
+            <a href="https://github.com/SDINAHET/TuneDock/issues/new" target="_blank" rel="noreferrer" data-i18n="reportIssue">Report a problem ↗</a>
+            <a href="mailto:contact@loto-tracker.fr?subject=TuneDock%20-%20Support" data-i18n="contactSupport">Contact support</a>
+            <a href="https://github.com/SDINAHET/TuneDock" target="_blank" rel="noreferrer" data-i18n="followGithub">Follow on GitHub ↗</a>
+            <a href="privacy.html" target="_blank" data-i18n="privacy">Privacy</a>
+          </div>
+        </section>
+
+        <section class="settings-card">
+          <h3 data-i18n="advancedSettings">Advanced settings</h3>
+          <p data-i18n="advancedPrivacy">Preferences are stored only in Chrome. TuneDock does not collect personal data.</p>
+          <button id="resetSettings" class="danger-soft" type="button" data-i18n="resetPreferences">Reset preferences</button>
+        </section>
+
+        <p id="settingsMessage" class="settings-message" role="status"></p>
+        <footer class="settings-version">TuneDock <span id="extensionVersion"></span> · <span data-i18n="createdBy">Created by Stéphane Dinahet</span></footer>
+      </section>
     </main>
+    <script src="i18n.js"></script>
     <script src="sidepanel.js"></script>
   </body>
 </html>

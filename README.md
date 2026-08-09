@@ -4,6 +4,8 @@
 
 TuneDock est une extension Chrome Manifest V3 qui contrôle **Spotify Web** depuis le panneau latéral de Chrome ou depuis un widget flottant facultatif.
 
+La version 2.0 ajoute la sélection automatique de la langue de Chrome, une détection claire des commandes indisponibles avec Spotify Free, la recherche volontaire des paroles et la copie du lien du morceau.
+
 Projet créé par **Stéphane Dinahet**. TuneDock est un projet indépendant, non affilié, non approuvé et non sponsorisé par Spotify AB.
 
 
@@ -21,6 +23,9 @@ Projet créé par **Stéphane Dinahet**. TuneDock est un projet indépendant, no
 - ajout/retrait des Titres likés avec état synchronisé ;
 - ouverture du sélecteur d'appareils Spotify ;
 - lien direct vers le contenu dans Spotify ;
+- recherche des paroles via Google après un clic explicite ;
+- copie du lien Spotify du morceau ;
+- interface automatiquement adaptée à la langue de Chrome (20 langues) ;
 - widget flottant compact ou agrandi, déplaçable et facultatif ;
 - mémorisation locale des préférences.
 
@@ -33,6 +38,8 @@ TuneDock ne diffuse aucun son : la lecture reste assurée par le lecteur officie
 - compte Spotify Free ou Premium, dans la limite des actions autorisées par Spotify pour le compte et le contenu concernés.
 
 Spotify peut modifier son interface Web. TuneDock utilise des sélecteurs de secours français et anglais, mais une modification importante du lecteur peut nécessiter une mise à jour de l'extension.
+
+Les commandes **Précédent**, **Lecture aléatoire** et **Répétition** peuvent être désactivées par Spotify selon le compte, le contenu ou le contexte de lecture. TuneDock respecte cette limitation, désactive alors la commande et affiche une explication au survol.
 
 ## Installation locale
 
@@ -62,6 +69,8 @@ Le widget est désactivé par défaut. Son activation demande facultativement l'
 | `https://*/*` facultatif | Afficher uniquement le widget sur les pages HTTPS après activation explicite. |
 
 L'extension ne demande plus de Client ID Spotify, n'utilise pas la Web API Spotify et ne stocke aucun jeton OAuth.
+
+TuneDock ne télécharge, ne stocke et ne reproduit aucune parole protégée. Le bouton **Rechercher les paroles** ouvre simplement une recherche Google pour le titre et l'artiste, uniquement après une action volontaire de l'utilisateur.
 
 ## Confidentialité
 

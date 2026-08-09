@@ -38,6 +38,8 @@ L'utilisateur peut masquer le widget ou retirer l'autorisation depuis les régla
 
 TuneDock communique uniquement avec Spotify Web afin d'exécuter les actions demandées par l'utilisateur et d'afficher les informations du lecteur. L'utilisation de Spotify reste soumise aux conditions et à la politique de confidentialité de Spotify.
 
+La fonction facultative **Rechercher les paroles** ouvre une recherche Google contenant le titre et le nom de l'artiste uniquement après un clic explicite de l'utilisateur. TuneDock ne contacte pas Google en arrière-plan, ne récupère pas les résultats et ne stocke ni ne reproduit les paroles. L'utilisation de la page ouverte relève alors des règles de confidentialité de Google.
+
 ## Chrome Web Store Limited Use
 
 L'utilisation des informations accessibles via Chrome respecte la politique relative aux données utilisateur du Chrome Web Store, y compris les exigences de Limited Use. Les données sont utilisées uniquement pour fournir la fonctionnalité visible de contrôle de Spotify Web.

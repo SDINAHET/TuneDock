@@ -1,0 +1,221 @@
+{
+  "appName": {
+    "message": "TuneDock – Remote for Spotify"
+  },
+  "appDescription": {
+    "message": "Control Spotify Web from the side panel or an optional floating widget."
+  },
+  "actionTitle": {
+    "message": "Open TuneDock"
+  },
+  "tagline": {
+    "message": "Spotify 遥控器"
+  },
+  "statusConnecting": {
+    "message": "正在连接"
+  },
+  "statusWaiting": {
+    "message": "等待中"
+  },
+  "statusActive": {
+    "message": "活动"
+  },
+  "statusOffline": {
+    "message": "离线"
+  },
+  "welcomeTitle": {
+    "message": "音乐始终触手可及"
+  },
+  "welcomeBody": {
+    "message": "Control Spotify Web from Chrome's side panel or an optional floating widget."
+  },
+  "privacyTitle": {
+    "message": "隐私优先"
+  },
+  "privacyBody": {
+    "message": "No TuneDock account, no server and no personal data collection. Preferences stay in Chrome."
+  },
+  "continueSpotify": {
+    "message": "继续使用 Spotify"
+  },
+  "officialSpotifyHelp": {
+    "message": "Spotify opens on its official website."
+  },
+  "thisComputer": {
+    "message": "此计算机"
+  },
+  "changeDevice": {
+    "message": "更改"
+  },
+  "changeDeviceTitle": {
+    "message": "Change device in Spotify"
+  },
+  "reconnect": {
+    "message": "Reconnect Spotify Web"
+  },
+  "noTrack": {
+    "message": "无歌曲"
+  },
+  "noActiveTrack": {
+    "message": "没有正在播放的歌曲"
+  },
+  "openSpotifyToStart": {
+    "message": "Open Spotify Web to get started"
+  },
+  "startMusicSpotify": {
+    "message": "Start playing music in Spotify Web"
+  },
+  "previousTrack": {
+    "message": "上一首"
+  },
+  "playPause": {
+    "message": "Play or pause"
+  },
+  "nextTrack": {
+    "message": "下一首"
+  },
+  "play": {
+    "message": "播放"
+  },
+  "pause": {
+    "message": "暂停"
+  },
+  "shuffle": {
+    "message": "随机播放"
+  },
+  "repeat": {
+    "message": "重复播放"
+  },
+  "addLiked": {
+    "message": "添加到喜欢的音乐"
+  },
+  "removeLiked": {
+    "message": "从喜欢的音乐中移除"
+  },
+  "searchLyrics": {
+    "message": "搜索歌词"
+  },
+  "copyLink": {
+    "message": "复制链接"
+  },
+  "openSpotify": {
+    "message": "OPEN SPOTIFY"
+  },
+  "spotifyAuto": {
+    "message": "Spotify auto"
+  },
+  "widgetAuto": {
+    "message": "Widget auto"
+  },
+  "atStartup": {
+    "message": "启动时"
+  },
+  "showWidget": {
+    "message": "显示小组件"
+  },
+  "hideWidget": {
+    "message": "隐藏小组件"
+  },
+  "createdBy": {
+    "message": "Created by Stéphane Dinahet"
+  },
+  "privacy": {
+    "message": "隐私"
+  },
+  "notAffiliated": {
+    "message": "TuneDock is independent and not affiliated with Spotify."
+  },
+  "unknownArtist": {
+    "message": "Unknown artist"
+  },
+  "unknownTrack": {
+    "message": "Unknown track"
+  },
+  "connectingSpotify": {
+    "message": "Connecting to Spotify Web…"
+  },
+  "addedLiked": {
+    "message": "Added to Liked Songs."
+  },
+  "removedLiked": {
+    "message": "Removed from Liked Songs."
+  },
+  "linkCopied": {
+    "message": "Spotify link copied."
+  },
+  "copyFailed": {
+    "message": "Unable to copy the link."
+  },
+  "noTrackLink": {
+    "message": "No track link available."
+  },
+  "widgetPermissionDenied": {
+    "message": "Permission denied: the widget remains disabled."
+  },
+  "widgetShown": {
+    "message": "Widget shown on HTTPS pages."
+  },
+  "widgetHidden": {
+    "message": "Widget hidden."
+  },
+  "previousUnavailable": {
+    "message": "Previous track is unavailable for the current Spotify playback."
+  },
+  "nextUnavailable": {
+    "message": "Next track is unavailable for the current Spotify playback."
+  },
+  "shuffleUnavailable": {
+    "message": "Shuffle is unavailable for the current Spotify playback or account."
+  },
+  "repeatUnavailable": {
+    "message": "Repeat is unavailable for the current Spotify playback or account."
+  },
+  "devicesUnavailable": {
+    "message": "Spotify's device selector could not be found."
+  },
+  "favoriteUnavailable": {
+    "message": "The Liked Songs button could not be found in Spotify Web."
+  },
+  "commandUnavailable": {
+    "message": "This command is unavailable in Spotify Web."
+  },
+  "commandFailed": {
+    "message": "Command failed."
+  },
+  "controlUnavailable": {
+    "message": "Spotify Web control unavailable."
+  },
+  "seekUnavailable": {
+    "message": "Seeking is unavailable in Spotify Web."
+  },
+  "volumeUnavailable": {
+    "message": "Volume is unavailable in Spotify Web."
+  },
+  "spotifyUnavailable": {
+    "message": "Spotify Web is unavailable."
+  },
+  "spotifyStartupTimeout": {
+    "message": "Spotify Web is taking too long to start."
+  },
+  "spotifyOpenFailed": {
+    "message": "Unable to open Spotify Web."
+  },
+  "spotifyNotOpen": {
+    "message": "Spotify Web is not open."
+  },
+  "spotifyNotResponding": {
+    "message": "Spotify Web is not responding. Open Spotify and try again."
+  },
+  "unknownCommand": {
+    "message": "Unknown TuneDock command."
+  },
+  "tunedockUnavailable": {
+    "message": "TuneDock unavailable"
+  },
+  "expand": {
+    "message": "Expand"
+  },
+  "collapse": {
+    "message": "Collapse"
+  }
+}

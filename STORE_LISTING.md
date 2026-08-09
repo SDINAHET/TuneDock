@@ -1,4 +1,4 @@
-# Fiche Chrome Web Store — TuneDock 1.0.0
+# Fiche Chrome Web Store — TuneDock 2.0.0
 
 ## Nom
 
@@ -21,6 +21,11 @@ Fonctions principales :
 - accès au sélecteur d'appareils Spotify ;
 - widget flottant facultatif et déplaçable ;
 - ouverture automatique de Spotify Web.
+- recherche volontaire des paroles via Google, sans copie ni stockage dans TuneDock ;
+- copie du lien du morceau en cours ;
+- interface multilingue sélectionnée automatiquement selon Chrome.
+
+Selon le compte, le contenu et le contexte de lecture, Spotify peut désactiver les commandes Précédent, Lecture aléatoire ou Répétition. TuneDock respecte ces limitations et signale clairement les commandes indisponibles.
 
 TuneDock fonctionne directement avec le lecteur officiel open.spotify.com. Aucun Client ID n'est nécessaire. TuneDock ne diffuse pas la musique et ne contourne pas les restrictions du compte Spotify.
 

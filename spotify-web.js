@@ -2,6 +2,7 @@
   const artworkCache = new Map();
   const artworkPending = new Set();
   const favoriteOverrides = new Map();
+  const t = (key) => chrome.i18n.getMessage(key) || key;
 
   function first(selectors) {
     for (const selector of selectors) {
@@ -15,6 +16,16 @@
     return first(selectors)?.textContent?.trim() || "";
   }
 
+  function visibleControl(selectors) {
+    const candidates = selectors.flatMap((selector) => [...document.querySelectorAll(selector)]);
+    const visible = candidates.filter((element) => {
+      const rect = element.getBoundingClientRect();
+      const style = getComputedStyle(element);
+      return rect.width > 0 && rect.height > 0 && style.visibility !== "hidden" && style.display !== "none";
+    });
+    return visible.find((element) => isAvailable(element)) || visible[0] || candidates[0] || null;
+  }
+
   function parseClock(value) {
     if (!value) return 0;
     const parts = value.trim().split(":").map(Number);
@@ -26,32 +37,69 @@
 
   function controls() {
     return {
-      playPause: first([
+      playPause: visibleControl([
         'button[data-testid="control-button-playpause"]',
         'button[aria-label="Pause"]',
         'button[aria-label="Play"]'
       ]),
-      previous: first([
+      previous: visibleControl([
         'button[data-testid="control-button-skip-back"]',
         'button[aria-label*="Previous"]',
         'button[aria-label*="Précédent"]'
       ]),
-      next: first([
+      next: visibleControl([
         'button[data-testid="control-button-skip-forward"]',
         'button[aria-label*="Next"]',
         'button[aria-label*="Suivant"]'
       ]),
-      shuffle: first([
+      shuffle: visibleControl([
         'button[data-testid="control-button-shuffle"]',
+        'button[data-testid="control-button-smart-shuffle"]',
         'button[aria-label*="shuffle" i]',
-        'button[aria-label*="aléatoire" i]'
+        'button[aria-label*="aléatoire" i]',
+        'button[aria-label*="aleatoire" i]'
       ]),
-      repeat: first([
+      repeat: visibleControl([
         'button[data-testid="control-button-repeat"]',
+        'button[data-testid="control-button-repeat-one"]',
         'button[aria-label*="repeat" i]',
-        'button[aria-label*="répétition" i]'
+        'button[aria-label*="répétition" i]',
+        'button[aria-label*="répéter" i]',
+        'button[aria-label*="repeter" i]'
       ])
     };
+  }
+
+  function isAvailable(element) {
+    return Boolean(element)
+      && !element.disabled
+      && element.getAttribute("aria-disabled") !== "true"
+      && element.getAttribute("data-disabled") !== "true";
+  }
+
+  function isToggleEnabled(element) {
+    if (!element) return false;
+    const label = element.getAttribute("aria-label")?.toLowerCase() || "";
+    return element.getAttribute("aria-checked") === "true"
+      || element.getAttribute("aria-pressed") === "true"
+      || element.getAttribute("data-active") === "true"
+      || element.getAttribute("data-state") === "on"
+      || label.includes("disable")
+      || label.includes("désactiver")
+      || label.includes("desactiver");
+  }
+
+  function getRepeatState(element) {
+    if (!element) return "off";
+    const testId = element.getAttribute("data-testid") || "";
+    const label = element.getAttribute("aria-label")?.toLowerCase() || "";
+    const repeatOne = testId.includes("repeat-one")
+      || label.includes("repeat one")
+      || label.includes("repeat track")
+      || label.includes("répéter le titre")
+      || label.includes("répéter ce titre")
+      || label.includes("repeter le titre");
+    return repeatOne ? "track" : isToggleEnabled(element) ? "context" : "off";
   }
 
   function currentTrackKey() {
@@ -206,12 +254,14 @@
 
     const label = player.playPause?.getAttribute("aria-label")?.toLowerCase() || "";
     const isPlaying = label.includes("pause");
-    const shuffleLabel = player.shuffle?.getAttribute("aria-label")?.toLowerCase() || "";
-    const repeatLabel = player.repeat?.getAttribute("aria-label")?.toLowerCase() || "";
-    const shuffleState = player.shuffle?.getAttribute("aria-checked") === "true"
-      || shuffleLabel.includes("disable") || shuffleLabel.includes("désactiver");
-    const repeatState = player.repeat?.getAttribute("aria-checked") === "true"
-      || repeatLabel.includes("disable") || repeatLabel.includes("désactiver") ? "context" : "off";
+    const shuffleState = isToggleEnabled(player.shuffle);
+    const repeatState = getRepeatState(player.repeat);
+    const capabilities = {
+      previous: isAvailable(player.previous),
+      next: isAvailable(player.next),
+      shuffle: isAvailable(player.shuffle),
+      repeat: isAvailable(player.repeat)
+    };
     const durationMs = parseClock(durationText);
     let progressMs = parseClock(positionText);
     if (!progressMs && progressInput) {
@@ -241,7 +291,8 @@
         device: { name: "Cet ordinateur", type: "", volume_percent: Number.isFinite(volume) ? volume : 50 },
         item: null,
         _tunedock_mode: "web",
-        is_saved: saved
+        is_saved: saved,
+        capabilities
       };
     }
 
@@ -262,7 +313,8 @@
         external_urls: { spotify: trackUrl }
       },
       _tunedock_mode: "web",
-      is_saved: saved
+      is_saved: saved,
+      capabilities
     };
   }
 
@@ -274,13 +326,13 @@
         'button[aria-label*="Se connecter à un appareil"]',
         'button[aria-label*="Connecter à un appareil"]'
       ]);
-      if (!connect) throw new Error("Le sélecteur d’appareils Spotify est introuvable.");
+      if (!connect) throw new Error(t("devicesUnavailable"));
       connect.click();
       return { mode: "web", devicesOpened: true };
     }
     if (action === "favorite") {
       const favorite = favoriteControl();
-      if (!favorite.element) throw new Error("Le bouton Titres likés est introuvable dans Spotify Web.");
+      if (!favorite.element) throw new Error(t("favoriteUnavailable"));
       const trackKey = currentTrackKey();
       const current = resolvedFavoriteState(favorite, trackKey);
       const saved = !Boolean(current);
@@ -290,23 +342,36 @@
     }
     if (action === "shuffle" || action === "repeat") {
       const target = controls()[action];
-      if (!target) throw new Error(action === "shuffle"
-        ? "La lecture aléatoire n'est pas disponible dans Spotify Web."
-        : "La répétition n'est pas disponible dans Spotify Web.");
+      if (!isAvailable(target)) throw new Error(action === "shuffle"
+        ? t("shuffleUnavailable")
+        : t("repeatUnavailable"));
+      const shuffleBefore = action === "shuffle" ? isToggleEnabled(target) : false;
+      const repeatBefore = action === "repeat" ? getRepeatState(target) : "off";
+      target.focus({ preventScroll: true });
       target.click();
-      return { mode: "web" };
+      return action === "shuffle"
+        ? { mode: "web", shuffle_state: !shuffleBefore }
+        : {
+            mode: "web",
+            repeat_state: repeatBefore === "off" ? "context"
+              : repeatBefore === "context" ? "track" : "off"
+          };
     }
     const player = controls();
     const target = action === "previous" ? player.previous
       : action === "next" ? player.next
       : player.playPause;
-    if (!target) throw new Error("Commande introuvable dans Spotify Web.");
+    if (!isAvailable(target)) {
+      if (action === "previous") throw new Error(t("previousUnavailable"));
+      if (action === "next") throw new Error(t("nextUnavailable"));
+      throw new Error(t("commandUnavailable"));
+    }
     target.click();
     return { mode: "web" };
   }
 
   function setRange(input, value) {
-    if (!input) throw new Error("Contrôle Spotify Web introuvable.");
+    if (!input) throw new Error(t("controlUnavailable"));
     const descriptor = Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, "value");
     descriptor?.set?.call(input, String(value));
     input.dispatchEvent(new Event("input", { bubbles: true }));
@@ -319,7 +384,7 @@
       'input[data-testid="playback-progressbar"]'
     ]);
     const durationMs = parseClock(text(['[data-testid="playback-duration"]']));
-    if (!input || !durationMs) throw new Error("Déplacement non disponible dans Spotify Web.");
+    if (!input || !durationMs) throw new Error(t("seekUnavailable"));
     const max = Number(input.max) || 100;
     setRange(input, Math.round(Math.max(0, Math.min(positionMs, durationMs)) / durationMs * max));
     return { mode: "web" };
@@ -349,7 +414,7 @@
       } catch (_) {}
     }
 
-    if (!changed) throw new Error("Volume non disponible dans Spotify Web.");
+    if (!changed) throw new Error(t("volumeUnavailable"));
     return { mode: "web" };
   }
 

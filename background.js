@@ -2,6 +2,7 @@ const WEB_PLAYER_MATCH = "https://open.spotify.com/*";
 const WIDGET_SCRIPT_ID = "tunedock-floating-widget-v1";
 const WIDGET_ORIGINS = ["https://*/*"];
 const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+const t = (key) => chrome.i18n.getMessage(key) || key;
 
 async function syncWidgetRegistration() {
   const allowed = await chrome.permissions.contains({ origins: WIDGET_ORIGINS });
@@ -62,7 +63,7 @@ async function waitForWebPlayer(tabId) {
     }
     await wait(250);
   }
-  throw new Error(lastError ? "Spotify Web met trop de temps à démarrer." : "Spotify Web indisponible.");
+  throw new Error(lastError ? t("spotifyStartupTimeout") : t("spotifyUnavailable"));
 }
 
 async function ensureWebPlayer(activate = false) {
@@ -70,7 +71,7 @@ async function ensureWebPlayer(activate = false) {
   let tab = [...tabs].sort((a, b) => Number(b.audible) - Number(a.audible))[0];
   if (!tab?.id) {
     tab = await chrome.tabs.create({ url: "https://open.spotify.com/", active: activate });
-    if (!tab.id) throw new Error("Impossible d'ouvrir Spotify Web.");
+    if (!tab.id) throw new Error(t("spotifyOpenFailed"));
     return { opened: true, reloaded: false, playback: await waitForWebPlayer(tab.id) };
   }
   if (activate) await chrome.tabs.update(tab.id, { active: true });
@@ -84,7 +85,7 @@ async function ensureWebPlayer(activate = false) {
 
 async function sendToWebPlayer(message) {
   const tabs = await chrome.tabs.query({ url: WEB_PLAYER_MATCH });
-  if (!tabs.length) throw new Error("Spotify Web n'est pas ouvert.");
+  if (!tabs.length) throw new Error(t("spotifyNotOpen"));
   const ordered = [...tabs].sort((a, b) => Number(b.audible) - Number(a.audible));
   let lastError = null;
   for (const tab of ordered) {
@@ -101,7 +102,7 @@ async function sendToWebPlayer(message) {
   if (detail && !/receiving end|could not establish connection|message port closed/i.test(detail)) {
     throw new Error(detail);
   }
-  throw new Error("Spotify Web ne répond pas. Ouvrez Spotify puis réessayez.");
+  throw new Error(t("spotifyNotResponding"));
 }
 
 chrome.runtime.onMessage.addListener((request, _sender, sendResponse) => {
@@ -124,7 +125,7 @@ chrome.runtime.onMessage.addListener((request, _sender, sendResponse) => {
       if (tunedockWidgetVisible) await injectWidgetInActiveTab();
       return { synced: true };
     }
-    throw new Error("Commande TuneDock inconnue.");
+    throw new Error(t("unknownCommand"));
   })()
     .then((data) => sendResponse({ ok: true, data }))
     .catch((error) => sendResponse({ ok: false, error: error.message }));

@@ -29,6 +29,11 @@ button { cursor: pointer; }
 .status-pill.connected i { background: #1ed760; box-shadow: 0 0 9px rgba(30,215,96,.55); }
 .status-pill.waiting i { background: #f2b84b; }
 .status-pill.error i { background: #ff6b6b; }
+.header-button {
+  width: 30px; height: 30px; flex: 0 0 30px; padding: 0; border: 1px solid #282e2a;
+  border-radius: 9px; background: #121513; color: #aeb6b0; font-size: 14px;
+}
+.header-button:hover { border-color: #8b7cff; color: #fff; }
 
 .card { padding: 20px; border: 1px solid #252b27; border-radius: 18px; background: #141715; }
 .welcome { margin-top: 18px; text-align: center; }
@@ -78,9 +83,15 @@ input[type="range"] { margin: 0; accent-color: #8b7cff; }
 .smart-button { min-width: 34px; min-height: 32px; color: #879189; font-size: 18px; }
 .smart-button.heart { font-size: 23px; }
 .smart-button.active { background: rgba(30,215,96,.13); color: #1ed760; }
+.control:disabled, .smart-button:disabled { opacity: .3; cursor: not-allowed; transform: none; }
 .volume-row { max-width: 290px; margin: 0 auto; font-size: 10px; }
+.mute-button { width: 27px; height: 27px; padding: 0; border: 0; border-radius: 50%; background: transparent; color: #d7ddd8; font-size: 12px; }
+.mute-button:hover { background: rgba(255,255,255,.08); }
 .message { min-height: 12px; margin: 3px 0 0; color: #98a199; font-size: 9px; }
 .message.error { color: #ff8b8b; }
+.track-tools { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; margin-top: 3px; }
+.track-tool { min-height: 27px; padding: 6px 8px; border: 1px solid #252b27; border-radius: 9px; background: #111411; color: #cbd1cc; font-size: 8px; text-decoration: none; }
+.track-tool:hover { border-color: #8b7cff; color: #fff; }
 
 .open-spotify { display: flex; align-items: center; justify-content: center; gap: 9px; min-height: 32px; margin-top: 4px; border: 1px solid #29302b; border-radius: 10px; background: #121513; color: #f2f5f3; font-size: 9px; font-weight: 750; text-decoration: none; }
 .open-spotify:hover { border-color: #4b554e; background: #171b18; }
@@ -96,12 +107,58 @@ input[type="range"] { margin: 0; accent-color: #8b7cff; }
 .soft-button { border: 1px solid #2b312d; border-radius: 10px; background: #141815; color: #cbd1cc; font-size: 8px; }
 .soft-button:hover { border-color: #8b7cff; color: #fff; }
 
+.main-feedback { display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 30px; margin-top: 5px; border: 1px solid rgba(139,124,255,.38); border-radius: 9px; background: rgba(139,124,255,.08); color: #f3f1ff; font-size: 9px; }
+.interactive-stars { display: inline-flex; flex-direction: row-reverse; gap: 1px; }
+.interactive-stars a { color: #ffd54a; font-size: 17px; line-height: 1; text-decoration: none; transition: color .16s ease, transform .16s ease, text-shadow .16s ease; }
+.interactive-stars a:hover, .interactive-stars a:focus-visible, .interactive-stars a:hover ~ a, .interactive-stars a:focus-visible ~ a { color: #ffd54a; transform: translateY(-1px) scale(1.12); text-shadow: 0 0 8px rgba(255,213,74,.65); outline: none; }
+.main-feedback:has(.interactive-stars a:hover), .main-feedback:has(.interactive-stars a:focus-visible) { border-color: #a99eff; background: rgba(139,124,255,.16); }
+
 .about-footer { margin-top: 5px; padding-top: 5px; border-top: 1px solid #1e231f; color: #79827b; font-size: 8px; }
 .about-footer > span { color: #aeb6b0; }
 .about-footer nav { display: inline-flex; gap: 9px; margin-left: 8px; }
 .about-footer a { color: #a99eff; text-decoration: none; }
 .about-footer a:hover { text-decoration: underline; }
 .about-footer small { display: block; margin-top: 2px; color: #626a64; font-size: 7px; }
+
+.settings-panel { text-align: left; }
+.settings-heading { display: flex; align-items: center; gap: 10px; margin: 4px 0 12px; }
+.settings-heading h2 { margin: 0; font-size: 19px; letter-spacing: -.03em; }
+.settings-heading p { margin: 2px 0 0; color: #858f87; font-size: 10px; }
+.back-button {
+  width: 34px; height: 34px; flex: 0 0 34px; border: 1px solid #2b312d; border-radius: 10px;
+  background: #141815; color: #f1f4f2; font-size: 18px;
+}
+.back-button:hover { border-color: #8b7cff; }
+.settings-card { margin-bottom: 9px; padding: 13px; border: 1px solid #252b27; border-radius: 14px; background: #121513; }
+.settings-card h3 { margin: 0 0 4px; font-size: 12px; }
+.settings-card > p { margin: 0 0 10px; color: #8f9891; font-size: 9px; line-height: 1.5; }
+.field-label { display: block; margin-bottom: 7px; font-size: 11px; font-weight: 750; }
+.settings-select {
+  width: 100%; min-height: 38px; padding: 0 10px; border: 1px solid #333a35; border-radius: 10px;
+  background: #0c0f0d; color: #f4f6f4; font-size: 10px;
+}
+.settings-select:focus { outline: 2px solid #8b7cff; outline-offset: 2px; }
+.field-help { margin: 7px 0 0 !important; color: #737c75 !important; font-size: 8px !important; }
+.rating-link {
+  display: flex; align-items: center; justify-content: center; gap: 9px; min-height: 40px; margin-bottom: 7px;
+  border: 1px solid rgba(139,124,255,.38); border-radius: 11px; background: rgba(139,124,255,.09);
+  color: #fff; text-decoration: none; font-size: 10px;
+}
+.rating-link span { color: #ffd36a; letter-spacing: 2px; }
+.rating-link:hover { border-color: #a99eff; background: rgba(139,124,255,.15); }
+.support-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.support-grid a {
+  display: grid; place-items: center; min-height: 36px; padding: 7px; border: 1px solid #292f2b;
+  border-radius: 10px; background: #0d100e; color: #cdd2ce; text-align: center; text-decoration: none; font-size: 8px;
+}
+.support-grid a:hover { border-color: #8b7cff; color: #fff; }
+.danger-soft {
+  width: 100%; min-height: 36px; border: 1px solid rgba(255,107,107,.3); border-radius: 10px;
+  background: rgba(255,107,107,.06); color: #ffadad; font-size: 9px;
+}
+.danger-soft:hover { border-color: #ff6b6b; }
+.settings-message { min-height: 14px; margin: 0 0 7px; color: #98a199; text-align: center; font-size: 9px; }
+.settings-version { color: #687169; text-align: center; font-size: 8px; }
 
 @media (max-height: 820px) {
   .shell { padding-top: 6px; }
@@ -113,4 +170,5 @@ input[type="range"] { margin: 0; accent-color: #8b7cff; }
   .controls-zone { margin: 2px 0; }
   .play { width: 40px; height: 40px; }
   .open-spotify, .settings-row, .about-footer { margin-top: 3px; }
+  .settings-card { padding: 11px; margin-bottom: 7px; }
 }

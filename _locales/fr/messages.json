@@ -1,0 +1,262 @@
+{
+  "appName": {
+    "message": "TuneDock – Télécommande pour Spotify"
+  },
+  "appDescription": {
+    "message": "Contrôlez Spotify Web depuis le panneau latéral ou un widget flottant facultatif."
+  },
+  "actionTitle": {
+    "message": "Ouvrir TuneDock"
+  },
+  "tagline": {
+    "message": "Télécommande pour Spotify"
+  },
+  "statusConnecting": {
+    "message": "Connexion"
+  },
+  "statusWaiting": {
+    "message": "En attente"
+  },
+  "statusActive": {
+    "message": "Actif"
+  },
+  "statusOffline": {
+    "message": "Hors ligne"
+  },
+  "welcomeTitle": {
+    "message": "Votre musique, toujours à portée"
+  },
+  "welcomeBody": {
+    "message": "Contrôlez Spotify Web depuis le panneau Chrome ou avec un widget flottant facultatif."
+  },
+  "privacyTitle": {
+    "message": "Confidentialité simple"
+  },
+  "privacyBody": {
+    "message": "Aucun compte TuneDock, aucun serveur et aucune donnée personnelle collectée. Les préférences restent dans Chrome."
+  },
+  "continueSpotify": {
+    "message": "Continuer avec Spotify"
+  },
+  "officialSpotifyHelp": {
+    "message": "Spotify s'ouvre sur sa page officielle."
+  },
+  "thisComputer": {
+    "message": "Cet ordinateur"
+  },
+  "changeDevice": {
+    "message": "Changer"
+  },
+  "changeDeviceTitle": {
+    "message": "Changer d'appareil dans Spotify"
+  },
+  "reconnect": {
+    "message": "Reconnecter Spotify Web"
+  },
+  "noTrack": {
+    "message": "Aucun morceau"
+  },
+  "noActiveTrack": {
+    "message": "Aucun morceau actif"
+  },
+  "openSpotifyToStart": {
+    "message": "Ouvrez Spotify Web pour commencer"
+  },
+  "startMusicSpotify": {
+    "message": "Lancez une musique dans Spotify Web"
+  },
+  "previousTrack": {
+    "message": "Morceau précédent"
+  },
+  "playPause": {
+    "message": "Lecture ou pause"
+  },
+  "nextTrack": {
+    "message": "Morceau suivant"
+  },
+  "play": {
+    "message": "Lecture"
+  },
+  "pause": {
+    "message": "Pause"
+  },
+  "shuffle": {
+    "message": "Lecture aléatoire"
+  },
+  "repeat": {
+    "message": "Répétition"
+  },
+  "addLiked": {
+    "message": "Ajouter aux Titres likés"
+  },
+  "removeLiked": {
+    "message": "Retirer des Titres likés"
+  },
+  "searchLyrics": {
+    "message": "Rechercher les paroles"
+  },
+  "copyLink": {
+    "message": "Copier le lien"
+  },
+  "openSpotify": {
+    "message": "OUVRIR SPOTIFY"
+  },
+  "spotifyAuto": {
+    "message": "Spotify auto"
+  },
+  "widgetAuto": {
+    "message": "Widget auto"
+  },
+  "atStartup": {
+    "message": "Au démarrage"
+  },
+  "showWidget": {
+    "message": "Afficher le widget"
+  },
+  "hideWidget": {
+    "message": "Masquer le widget"
+  },
+  "createdBy": {
+    "message": "Créé par Stéphane Dinahet"
+  },
+  "privacy": {
+    "message": "Confidentialité"
+  },
+  "notAffiliated": {
+    "message": "TuneDock est indépendant et non affilié à Spotify."
+  },
+  "unknownArtist": {
+    "message": "Artiste inconnu"
+  },
+  "unknownTrack": {
+    "message": "Titre inconnu"
+  },
+  "connectingSpotify": {
+    "message": "Connexion à Spotify Web…"
+  },
+  "addedLiked": {
+    "message": "Ajouté aux Titres likés."
+  },
+  "removedLiked": {
+    "message": "Retiré des Titres likés."
+  },
+  "linkCopied": {
+    "message": "Lien Spotify copié."
+  },
+  "copyFailed": {
+    "message": "Impossible de copier le lien."
+  },
+  "noTrackLink": {
+    "message": "Aucun lien de morceau disponible."
+  },
+  "widgetPermissionDenied": {
+    "message": "Autorisation refusée : le widget reste désactivé."
+  },
+  "widgetShown": {
+    "message": "Widget affiché sur les pages HTTPS."
+  },
+  "widgetHidden": {
+    "message": "Widget masqué."
+  },
+  "previousUnavailable": {
+    "message": "Le morceau précédent n'est pas disponible pour cette lecture Spotify."
+  },
+  "nextUnavailable": {
+    "message": "Le morceau suivant n'est pas disponible pour cette lecture Spotify."
+  },
+  "shuffleUnavailable": {
+    "message": "La lecture aléatoire n'est pas disponible pour cette lecture ou ce compte Spotify."
+  },
+  "repeatUnavailable": {
+    "message": "La répétition n'est pas disponible pour cette lecture ou ce compte Spotify."
+  },
+  "devicesUnavailable": {
+    "message": "Le sélecteur d'appareils Spotify est introuvable."
+  },
+  "favoriteUnavailable": {
+    "message": "Le bouton Titres likés est introuvable dans Spotify Web."
+  },
+  "commandUnavailable": {
+    "message": "Cette commande n'est pas disponible dans Spotify Web."
+  },
+  "commandFailed": {
+    "message": "Commande impossible."
+  },
+  "controlUnavailable": {
+    "message": "Contrôle Spotify Web indisponible."
+  },
+  "seekUnavailable": {
+    "message": "Déplacement indisponible dans Spotify Web."
+  },
+  "volumeUnavailable": {
+    "message": "Volume indisponible dans Spotify Web."
+  },
+  "spotifyUnavailable": {
+    "message": "Spotify Web est indisponible."
+  },
+  "spotifyStartupTimeout": {
+    "message": "Spotify Web met trop de temps à démarrer."
+  },
+  "spotifyOpenFailed": {
+    "message": "Impossible d'ouvrir Spotify Web."
+  },
+  "spotifyNotOpen": {
+    "message": "Spotify Web n'est pas ouvert."
+  },
+  "spotifyNotResponding": {
+    "message": "Spotify Web ne répond pas. Ouvrez Spotify puis réessayez."
+  },
+  "unknownCommand": {
+    "message": "Commande TuneDock inconnue."
+  },
+  "tunedockUnavailable": {
+    "message": "TuneDock indisponible"
+  },
+  "expand": {
+    "message": "Agrandir"
+  },
+  "collapse": {
+    "message": "Réduire"
+  },
+  "settings": { "message": "Paramètres" },
+  "backToPlayer": { "message": "Retour au lecteur" },
+  "settingsSubtitle": { "message": "Personnalisez TuneDock et obtenez de l'aide." },
+  "languageTitle": { "message": "Langue de TuneDock" },
+  "languageHelp": { "message": "Par défaut, TuneDock suit automatiquement la langue de Chrome." },
+  "automaticLanguage": { "message": "Automatique — Chrome ($1)" },
+  "feedbackTitle": { "message": "Votre avis nous aide" },
+  "feedbackBody": { "message": "Une note ou un signalement permet d'améliorer les prochaines versions." },
+  "rateTuneDock": { "message": "Évaluez et notez TuneDock" },
+  "reportIssue": { "message": "Signaler un problème ↗" },
+  "contactSupport": { "message": "Contacter l'assistance" },
+  "followGithub": { "message": "Suivre sur GitHub ↗" },
+  "advancedSettings": { "message": "Réglages avancés" },
+  "advancedPrivacy": { "message": "Les préférences sont enregistrées uniquement dans Chrome. TuneDock ne collecte aucune donnée personnelle." },
+  "resetPreferences": { "message": "Réinitialiser les préférences" },
+  "resetConfirm": { "message": "Réinitialiser les préférences de TuneDock ?" },
+  "resetDone": { "message": "Préférences réinitialisées." },
+  "dragWidget": { "message": "Glisser pour déplacer TuneDock" },
+  "reduceWidget": { "message": "Réduire la taille du widget" },
+  "enlargeWidget": { "message": "Agrandir le widget" },
+  "resizeWidget": { "message": "Glisser pour redimensionner le widget" },
+  "playbackPosition": { "message": "Position dans le morceau" },
+  "volume": { "message": "Volume" },
+  "mute": { "message": "Couper le son" },
+  "unmute": { "message": "Rétablir le son" },
+  "playingOn": { "message": "Lecture sur $1" },
+  "privacyPageTitle": { "message": "Confidentialité de TuneDock" },
+  "privacyUpdated": { "message": "Dernière mise à jour : 9 août 2026" },
+  "privacyNotice": { "message": "TuneDock ne collecte, ne vend et ne partage aucune donnée personnelle. Il ne possède aucun serveur, n'affiche aucune publicité et n'utilise aucun outil d'analyse." },
+  "privacyLocalTitle": { "message": "Données utilisées localement" },
+  "privacyLocalBody": { "message": "TuneDock lit les informations visibles du lecteur Spotify Web — titre, artiste, pochette, lecture, position, volume et état des commandes — uniquement pour afficher et contrôler la lecture demandée par l'utilisateur." },
+  "privacyStorageTitle": { "message": "Stockage Chrome" },
+  "privacyStorageBody": { "message": "Les préférences, la position du widget et l'état de l'accueil sont conservés localement dans le profil Chrome. Aucun identifiant Spotify, mot de passe ou jeton OAuth n'est stocké." },
+  "privacyWidgetTitle": { "message": "Widget facultatif" },
+  "privacyWidgetBody": { "message": "L'accès aux pages HTTPS n'est demandé que si l'utilisateur active le widget. Le widget ne lit pas le contenu, les formulaires ou l'historique des pages ; il affiche uniquement les commandes TuneDock." },
+  "privacyThirdTitle": { "message": "Services tiers" },
+  "privacyThirdBody": { "message": "TuneDock communique uniquement avec Spotify Web en HTTPS pour exécuter les actions demandées. L'utilisation de Spotify reste soumise aux conditions de Spotify." },
+  "privacyLyricsTitle": { "message": "Recherche facultative des paroles" },
+  "privacyLyricsBody": { "message": "Après un clic explicite, TuneDock peut ouvrir une recherche Google contenant le titre et l'artiste. TuneDock ne contacte pas Google en arrière-plan, ne récupère pas les résultats et ne stocke ni ne reproduit les paroles." },
+  "privacyContactTitle": { "message": "Contact" },
+  "privacyDeveloper": { "message": "Développeur : Stéphane Dinahet" }
+}
