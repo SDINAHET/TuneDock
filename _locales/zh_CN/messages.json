@@ -1,6 +1,6 @@
 {
   "appName": {
-    "message": "TuneDock – Remote for Spotify"
+    "message": "TuneDock for Spotify"
   },
   "appDescription": {
     "message": "Control Spotify Web from the side panel or an optional floating widget."
@@ -27,13 +27,13 @@
     "message": "音乐始终触手可及"
   },
   "welcomeBody": {
-    "message": "Control Spotify Web from Firefox's sidebar or an optional floating widget."
+    "message": "Control Spotify Web from Chrome's side panel or an optional floating widget."
   },
   "privacyTitle": {
     "message": "隐私优先"
   },
   "privacyBody": {
-    "message": "No TuneDock account, no server and no personal data collection. Preferences stay in Firefox."
+    "message": "No TuneDock account, no server and no personal data collection. Preferences stay in Chrome."
   },
   "continueSpotify": {
     "message": "继续使用 Spotify"
@@ -217,5 +217,356 @@
   },
   "collapse": {
     "message": "Collapse"
+  },
+  "closeWidget": {
+    "message": "隐藏小组件"
+  },
+  "settings": {
+    "message": "设置"
+  },
+  "backToPlayer": {
+    "message": "返回到播放器"
+  },
+  "settingsSubtitle": {
+    "message": "自定义TuneDock并获取帮助。"
+  },
+  "languageTitle": {
+    "message": "TuneDock语言"
+  },
+  "languageHelp": {
+    "message": "默认情况下， TuneDock会自动遵循Chrome的语言。"
+  },
+  "automaticLanguage": {
+    "message": "自动— Chrome ($ 1)"
+  },
+  "feedbackTitle": {
+    "message": "您的反馈有助于"
+  },
+  "feedbackBody": {
+    "message": "评分或报告有助于改进未来版本。"
+  },
+  "rateTuneDock": {
+    "message": "为Spotify的TuneDock评分"
+  },
+  "contactSupport": {
+    "message": "联系客服"
+  },
+  "advancedSettings": {
+    "message": "高级设置"
+  },
+  "advancedPrivacy": {
+    "message": "偏好设置仅存储在Chrome浏览器中。TuneDock不会收集个人数据。"
+  },
+  "resetPreferences": {
+    "message": "重置首选项"
+  },
+  "resetConfirm": {
+    "message": "重置TuneDock首选项？"
+  },
+  "resetDone": {
+    "message": "首选项已重置"
+  },
+  "dragWidget": {
+    "message": "拖动以移动TuneDock"
+  },
+  "reduceWidget": {
+    "message": "减小小工具大小"
+  },
+  "enlargeWidget": {
+    "message": "增加小工具大小"
+  },
+  "resizeWidget": {
+    "message": "拖动 到."
+  },
+  "playbackPosition": {
+    "message": "回放位置"
+  },
+  "volume": {
+    "message": "音量键"
+  },
+  "mute": {
+    "message": "静音"
+  },
+  "unmute": {
+    "message": "还原声音"
+  },
+  "playingOn": {
+    "message": "在$ 1上玩游戏"
+  },
+  "privacyPageTitle": {
+    "message": "Spotify隐私保护的TuneDock"
+  },
+  "privacyUpdated": {
+    "message": "最后更新日期： 2026年8月9日"
+  },
+  "privacyNotice": {
+    "message": "TuneDock不会收集、出售或共享个人数据。它没有服务器、广告或分析。"
+  },
+  "privacyLocalTitle": {
+    "message": "本地使用的数据"
+  },
+  "privacyLocalBody": {
+    "message": "TuneDock读取可见的Spotify Web播放器信息（标题、艺术家、插图、播放、位置、音量和控制状态） ，仅用于显示和控制用户请求的播放。"
+  },
+  "privacyStorageTitle": {
+    "message": "Chrome存储空间"
+  },
+  "privacyStorageBody": {
+    "message": "偏好设置、小部件位置和启用状态存储在Chrome配置文件的本地。未存储Spotify标识符、密码或OAuth令牌。"
+  },
+  "privacyWidgetTitle": {
+    "message": "可选小部件"
+  },
+  "privacyWidgetBody": {
+    "message": "仅当用户启用小部件时，才会请求HTTPS页面访问权限。小部件不读取页面内容、表单或浏览历史记录；它只显示TuneDock控件。"
+  },
+  "privacyThirdTitle": {
+    "message": "第三方服务"
+  },
+  "privacyThirdBody": {
+    "message": "TuneDock仅通过HTTPS与Spotify Web通信，以执行请求的操作。Spotify的使用仍受Spotify条款的约束。"
+  },
+  "privacyLyricsTitle": {
+    "message": "可选歌词搜索"
+  },
+  "privacyLyricsBody": {
+    "message": "在显式单击后， TuneDock可以打开包含标题和艺术家的Google搜索。TuneDock不会在后台联系Google、检索结果、存储或复制歌词。"
+  },
+  "privacyContactTitle": {
+    "message": "联系方式"
+  },
+  "privacyDeveloper": {
+    "message": "开发者： Stéphane Dinahet"
+  },
+  "toggleAmbience": {
+    "message": "切换光线氛围"
+  },
+  "ambienceTitle": {
+    "message": "光线氛围"
+  },
+  "ambienceHelp": {
+    "message": "立即预览和调整效果。"
+  },
+  "ambienceEnabled": {
+    "message": "LED霓虹灯"
+  },
+  "lightEffect": {
+    "message": "效果"
+  },
+  "lightColor": {
+    "message": "Color"
+  },
+  "brightness": {
+    "message": "亮度"
+  },
+  "animationSpeed": {
+    "message": "速度"
+  },
+  "movingHeads": {
+    "message": "移动灯"
+  },
+  "randomAmbience": {
+    "message": "给我惊喜"
+  },
+  "resetAmbience": {
+    "message": "重置灯光"
+  },
+  "effectStatic": {
+    "message": "稳定"
+  },
+  "effectBreathe": {
+    "message": "呼吸"
+  },
+  "effectPulse": {
+    "message": "脉冲"
+  },
+  "effectWave": {
+    "message": "光波"
+  },
+  "effectChase": {
+    "message": "LED追逐"
+  },
+  "effectGradient": {
+    "message": "渐变"
+  },
+  "effectRainbow": {
+    "message": "终极"
+  },
+  "effectAurora": {
+    "message": "极光"
+  },
+  "effectSparkle": {
+    "message": "闪光"
+  },
+  "effectClub": {
+    "message": "夜總會"
+  },
+  "effectSlowBeat": {
+    "message": "慢节拍"
+  },
+  "effectStrobeSoft": {
+    "message": "软闪光灯"
+  },
+  "colorViolet": {
+    "message": "紫罗兰色"
+  },
+  "colorBlue": {
+    "message": "标准"
+  },
+  "colorCyan": {
+    "message": "青"
+  },
+  "colorGreen": {
+    "message": "绿"
+  },
+  "colorRed": {
+    "message": "红色"
+  },
+  "colorPink": {
+    "message": "粉"
+  },
+  "colorOrange": {
+    "message": "精锐"
+  },
+  "colorGold": {
+    "message": "提纯金材"
+  },
+  "colorWhite": {
+    "message": "白色"
+  },
+  "colorRainbow": {
+    "message": "多色"
+  },
+  "lyreSweep": {
+    "message": "扫雷"
+  },
+  "lyreCross": {
+    "message": "横梁"
+  },
+  "lyreFan": {
+    "message": "神秘折扇"
+  },
+  "lyreSlow": {
+    "message": "慢"
+  },
+  "lyreClub": {
+    "message": "俱樂部"
+  },
+  "discoBall": {
+    "message": "迪斯科球"
+  },
+  "autoSurprise": {
+    "message": "惊喜序列"
+  },
+  "changeEvery": {
+    "message": "每250h更换一次"
+  },
+  "effectLedSnake": {
+    "message": "LED蛇形灯"
+  },
+  "effectComet": {
+    "message": "彗星"
+  },
+  "effectPrism": {
+    "message": "棱柱"
+  },
+  "effectLaser": {
+    "message": "激光炮"
+  },
+  "effectColorFlow": {
+    "message": "颜色流"
+  },
+  "effectDoubleChase": {
+    "message": "双重追逐"
+  },
+  "effectElectric": {
+    "message": "电子"
+  },
+  "effectVelvet": {
+    "message": "天鹅绒光泽"
+  },
+  "lasers": {
+    "message": "激光"
+  },
+  "laserScan": {
+    "message": "扫描中"
+  },
+  "laserCross": {
+    "message": "交叉激光"
+  },
+  "laserFan": {
+    "message": "激光风扇"
+  },
+  "laserTunnel": {
+    "message": "隧道腐蚀"
+  },
+  "laserRandom": {
+    "message": "随机激光"
+  },
+  "beatIntensity": {
+    "message": "强度"
+  },
+  "beatSpeed": {
+    "message": "速度"
+  },
+  "coverBeat": {
+    "message": "柔和的封面光晕"
+  },
+  "coverBeatHelp": {
+    "message": "无缩放或移动。"
+  },
+  "generalSection": {
+    "message": "常规"
+  },
+  "widgetSection": {
+    "message": "悬浮小组件"
+  },
+  "appearanceSection": {
+    "message": "应用外观"
+  },
+  "youtubePromoTitle": {
+    "message": "了解 TuneDock for YouTube"
+  },
+  "youtubePromoBody": {
+    "message": "TuneDock YouTube 遥控器即将登陆 Chrome 和 Firefox。"
+  },
+  "comingSoonChrome": {
+    "message": "Chrome Web Store · 即将推出"
+  },
+  "comingSoonFirefox": {
+    "message": "Firefox Add-ons · 即将推出"
+  },
+  "discoverChrome": {
+    "message": "Chrome Web Store ↗"
+  },
+  "discoverFirefox": {
+    "message": "Firefox Add-ons ↗"
+  },
+  "supportSection": {
+    "message": "支持与关于"
+  },
+  "advancedLights": {
+    "message": "高级灯光效果"
+  },
+  "widgetLed": {
+    "message": "小组件 LED 边框"
+  },
+  "widgetLedHelp": {
+    "message": "可选边框灯光，小组件本身不会移动。"
+  },
+  "ledMode": {
+    "message": "LED 模式"
+  },
+  "ledStatic": {
+    "message": "静态"
+  },
+  "ledFlow": {
+    "message": "色彩流动"
+  },
+  "ledBreathe": {
+    "message": "柔和呼吸"
+  },
+  "showEmail": {
+    "message": "显示电子邮件地址"
   }
 }

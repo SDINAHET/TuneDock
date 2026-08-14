@@ -3,28 +3,46 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>TuneDock</title>
+    <title>TuneDock for Spotify</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div class="ambient-stage" aria-hidden="true">
+      <i class="led-snake snake-a"></i><i class="led-snake snake-b"></i>
+      <i class="ambient-beam beam-1"></i><i class="ambient-beam beam-2"></i><i class="ambient-beam beam-3"></i><i class="ambient-beam beam-4"></i>
+      <i class="laser laser-1"></i><i class="laser laser-2"></i><i class="laser laser-3"></i><i class="laser laser-4"></i><i class="laser laser-5"></i><i class="laser laser-6"></i><i class="laser laser-7"></i><i class="laser laser-8"></i><i class="laser laser-9"></i><i class="laser laser-10"></i><i class="laser laser-11"></i><i class="laser laser-12"></i><i class="laser laser-13"></i><i class="laser laser-14"></i><i class="laser laser-15"></i>
+    </div>
     <main class="shell">
       <header class="brand app-header">
         <img class="app-logo" src="icons/tunedock-48.png" alt="" />
         <div class="brand-copy">
-          <h1>TuneDock</h1>
+          <h1>TuneDock for Spotify</h1>
           <p data-i18n="tagline">Remote for Spotify</p>
         </div>
         <span id="connectionStatus" class="status-pill connecting"><i></i><span data-i18n="statusConnecting">Connecting</span></span>
+        <button id="toggleAmbience" class="header-button ambience-button"
+                type="button"
+                data-i18n-aria="toggleAmbience"
+                data-i18n-title="toggleAmbience">
+          <svg class="ambience-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 12h3l2-7 4 14 3-10 2 3h4"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"/>
+          </svg>
+        </button>
         <button id="openSettings" class="header-button" type="button" data-i18n-aria="settings" data-i18n-title="settings">⚙</button>
       </header>
 
       <section id="welcome" class="card welcome hidden">
-        <img class="welcome-logo" src="icons/tunedock-128.png" alt="Logo TuneDock" />
+        <img class="welcome-logo" src="icons/tunedock-128.png" alt="Logo TuneDock for Spotify" />
         <h2 data-i18n="welcomeTitle">Your music, always within reach</h2>
-        <p data-i18n="welcomeBody">Control Spotify Web from Firefox's sidebar or an optional floating widget.</p>
+        <p data-i18n="welcomeBody">Control Spotify Web from Chrome's side panel or an optional floating widget.</p>
         <div class="privacy-note">
           <strong data-i18n="privacyTitle">Privacy first</strong>
-          <span data-i18n="privacyBody">No TuneDock account, no server and no personal data collection. Preferences stay in Firefox.</span>
+          <span data-i18n="privacyBody">No TuneDock account, no server and no personal data collection. Preferences stay in Chrome.</span>
         </div>
         <button id="startTuneDock" class="primary" type="button" data-i18n="continueSpotify">Continue with Spotify</button>
         <small class="welcome-help" data-i18n="officialSpotifyHelp">Spotify opens on its official website.</small>
@@ -85,37 +103,19 @@
           <span data-i18n="openSpotify">OPEN SPOTIFY</span>
         </a>
 
-        <div class="settings-row">
-          <label class="preference" for="autoOpenSpotify" title="Ouvrir Spotify Web au démarrage de Firefox">
-            <span><strong data-i18n="spotifyAuto">Spotify auto</strong><small data-i18n="atStartup">At startup</small></span>
-            <input id="autoOpenSpotify" type="checkbox" />
-          </label>
-          <button id="toggleWidget" class="soft-button widget-toggle" type="button" data-i18n="showWidget">Show widget</button>
-          <label class="widget-startup" for="widgetOnStartup" title="Afficher le widget au démarrage de Firefox">
-            <span><strong data-i18n="widgetAuto">Widget auto</strong><small data-i18n="atStartup">At startup</small></span>
-            <input id="widgetOnStartup" type="checkbox" />
-          </label>
-        </div>
+        <button id="toggleWidget" class="soft-button widget-toggle main-widget-toggle" type="button" data-i18n="showWidget">Show widget</button>
 
         <div class="main-feedback" aria-labelledby="ratingPrompt">
-          <strong id="ratingPrompt" data-i18n="rateTuneDock">Rate and review TuneDock</strong>
+          <strong id="ratingPrompt" data-i18n="rateTuneDock">Rate TuneDock for Spotify</strong>
           <div class="interactive-stars" role="group" aria-labelledby="ratingPrompt">
-            <a href="https://github.com/SDINAHET/TuneDock/issues/new" target="_blank" rel="noreferrer" aria-label="5/5" title="5/5">★</a>
-            <a href="https://github.com/SDINAHET/TuneDock/issues/new" target="_blank" rel="noreferrer" aria-label="4/5" title="4/5">★</a>
-            <a href="https://github.com/SDINAHET/TuneDock/issues/new" target="_blank" rel="noreferrer" aria-label="3/5" title="3/5">★</a>
-            <a href="https://github.com/SDINAHET/TuneDock/issues/new" target="_blank" rel="noreferrer" aria-label="2/5" title="2/5">★</a>
-            <a href="https://github.com/SDINAHET/TuneDock/issues/new" target="_blank" rel="noreferrer" aria-label="1/5" title="1/5">★</a>
+            <a href="https://chromewebstore.google.com/detail/tunedock-remote-for-spotify/ehemggpdajfcghfhbdcebcflcgndmcaj/reviews" target="_blank" rel="noreferrer" aria-label="5/5" title="5/5">★</a>
+            <a href="https://chromewebstore.google.com/detail/tunedock-remote-for-spotify/ehemggpdajfcghfhbdcebcflcgndmcaj/reviews" target="_blank" rel="noreferrer" aria-label="4/5" title="4/5">★</a>
+            <a href="https://chromewebstore.google.com/detail/tunedock-remote-for-spotify/ehemggpdajfcghfhbdcebcflcgndmcaj/reviews" target="_blank" rel="noreferrer" aria-label="3/5" title="3/5">★</a>
+            <a href="https://chromewebstore.google.com/detail/tunedock-remote-for-spotify/ehemggpdajfcghfhbdcebcflcgndmcaj/reviews" target="_blank" rel="noreferrer" aria-label="2/5" title="2/5">★</a>
+            <a href="https://chromewebstore.google.com/detail/tunedock-remote-for-spotify/ehemggpdajfcghfhbdcebcflcgndmcaj/reviews" target="_blank" rel="noreferrer" aria-label="1/5" title="1/5">★</a>
           </div>
         </div>
 
-        <footer class="about-footer">
-          <span data-i18n="createdBy">Created by Stéphane Dinahet</span>
-          <nav aria-label="Informations TuneDock">
-            <a href="https://github.com/SDINAHET/TuneDock" target="_blank" rel="noreferrer">GitHub</a>
-            <a href="privacy.html" target="_blank" data-i18n="privacy">Privacy</a>
-          </nav>
-          <small data-i18n="notAffiliated">TuneDock is independent and not affiliated with Spotify.</small>
-        </footer>
       </section>
 
       <section id="settingsPanel" class="settings-panel hidden" aria-labelledby="settingsTitle">
@@ -126,34 +126,151 @@
           </div>
         </div>
 
+        <h3 class="settings-rubric" data-i18n="generalSection">Général</h3>
         <section class="settings-card">
           <label class="field-label" for="languageOverride" data-i18n="languageTitle">TuneDock language</label>
           <select id="languageOverride" class="settings-select"></select>
-          <p class="field-help" data-i18n="languageHelp">By default, TuneDock automatically follows Firefox's language.</p>
+          <p class="field-help" data-i18n="languageHelp">By default, TuneDock automatically follows Chrome's language.</p>
+          <label class="settings-toggle-row" for="autoOpenSpotify">
+            <span><strong data-i18n="spotifyAuto">Spotify auto</strong><small data-i18n="atStartup">At startup</small></span>
+            <input id="autoOpenSpotify" type="checkbox" />
+          </label>
         </section>
 
+        <h3 class="settings-rubric" data-i18n="widgetSection">Widget flottant</h3>
+        <section class="settings-card widget-settings-section">
+          <label class="settings-toggle-row" for="widgetOnStartup">
+            <span><strong data-i18n="widgetAuto">Widget auto</strong><small data-i18n="atStartup">At startup</small></span>
+            <input id="widgetOnStartup" type="checkbox" />
+          </label>
+          <div class="ambience-title-row"><div><h3 data-i18n="widgetLed">Ruban LED du widget</h3><p data-i18n="widgetLedHelp">Seule animation facultative du widget.</p></div><label class="switch-line"><input id="widgetLedEnabled" type="checkbox" /></label></div>
+          <div class="widget-effects-controls">
+            <label><span data-i18n="ledMode">Mode</span><select id="widgetLedMode" class="settings-select"><option value="static" data-i18n="ledStatic">Fixe</option><option value="flow" data-i18n="ledFlow">Défilement</option><option value="breathe" data-i18n="ledBreathe">Respiration douce</option></select></label>
+          </div>
+          <label class="range-setting"><span data-i18n="beatIntensity">Intensité</span><input id="widgetLedIntensity" type="range" min="10" max="100" value="40" /><output id="widgetLedIntensityValue">40%</output></label>
+          <label class="range-setting"><span data-i18n="beatSpeed">Vitesse</span><input id="widgetLedSpeed" type="range" min="10" max="100" value="35" /><output id="widgetLedSpeedValue">35%</output></label>
+        </section>
+
+        <h3 class="settings-rubric" data-i18n="appearanceSection">Ambiance de l’application</h3>
+        <section class="settings-card ambience-settings">
+          <div class="ambience-title-row">
+            <div><h3 data-i18n="ambienceTitle">Light ambience</h3><p data-i18n="ambienceHelp">Preview and adjust the effect instantly.</p></div>
+            <label class="switch-line"><span data-i18n="ambienceEnabled">LED neon</span><input id="ambienceEnabled" type="checkbox" /></label>
+          </div>
+          <div id="ambiencePreview" class="ambience-preview"><span>TuneDock for Spotify</span><i></i><i></i></div>
+          <div class="ambience-grid">
+            <label><span data-i18n="lightEffect">Effect</span><select id="ambienceEffect" class="settings-select"></select></label>
+            <label><span data-i18n="lightColor">Color</span><select id="ambienceColor" class="settings-select"></select></label>
+          </div>
+          <label class="range-setting"><span data-i18n="brightness">Brightness</span><input id="ambienceBrightness" type="range" min="20" max="100" value="70" /><output id="brightnessValue">70%</output></label>
+          <label class="range-setting"><span data-i18n="animationSpeed">Speed</span><input id="ambienceSpeed" type="range" min="1" max="100" value="45" /><output id="speedValue">45%</output></label>
+          <div class="widget-effects-card cover-effects-card">
+            <div class="ambience-title-row"><div><strong data-i18n="coverBeat">Lueur discrète de la pochette</strong><small data-i18n="coverBeatHelp">Sans zoom ni déplacement.</small></div><label class="switch-line"><input id="coverBeatEnabled" type="checkbox" /></label></div>
+            <label class="range-setting"><span data-i18n="beatIntensity">Intensité</span><input id="coverBeatIntensity" type="range" min="5" max="60" value="20" /><output id="coverBeatIntensityValue">20%</output></label>
+            <label class="range-setting"><span data-i18n="beatSpeed">Vitesse</span><input id="coverBeatSpeed" type="range" min="10" max="80" value="30" /><output id="coverBeatSpeedValue">30%</output></label>
+          </div>
+          <details class="settings-details">
+            <summary data-i18n="advancedLights">Effets lumineux avancés</summary>
+            <div class="lyre-row">
+              <label class="switch-line"><span data-i18n="movingHeads">Moving lights</span><input id="lyreEnabled" type="checkbox" /></label>
+              <select id="lyreMode" class="settings-select"></select>
+            </div>
+            <div class="lyre-row laser-row">
+              <label class="switch-line"><span data-i18n="lasers">Lasers</span><input id="laserEnabled" type="checkbox" /></label>
+              <select id="laserMode" class="settings-select"></select>
+            </div>
+            <div class="pro-options">
+              <label class="switch-line"><span data-i18n="autoSurprise">Surprise sequence</span><input id="autoSurpriseEnabled" type="checkbox" /></label>
+            </div>
+            <label class="interval-setting"><span data-i18n="changeEvery">Change every</span><select id="surpriseInterval" class="settings-select"><option value="8">8 s</option><option value="15">15 s</option><option value="30">30 s</option><option value="60">60 s</option></select></label>
+          </details>
+          <div class="ambience-actions">
+            <button id="randomAmbience" class="soft-action" type="button" data-i18n="randomAmbience">Surprise me</button>
+            <button id="resetAmbience" class="soft-action" type="button" data-i18n="resetAmbience">Reset lights</button>
+          </div>
+        </section>
+
+        <h3 class="settings-rubric" data-i18n="supportSection">Assistance et à propos</h3>
         <section class="settings-card">
           <h3 data-i18n="feedbackTitle">Your feedback helps</h3>
           <p data-i18n="feedbackBody">A rating or report helps improve future versions.</p>
-          <a class="rating-link" href="https://github.com/SDINAHET/TuneDock/issues/new" target="_blank" rel="noreferrer">
-            <span aria-hidden="true">★★★★★</span><strong data-i18n="rateTuneDock">Rate TuneDock</strong>
+          <a class="rating-link" href="https://chromewebstore.google.com/detail/tunedock-remote-for-spotify/ehemggpdajfcghfhbdcebcflcgndmcaj/reviews" target="_blank" rel="noreferrer">
+            <span aria-hidden="true">★★★★★</span><strong data-i18n="rateTuneDock">Rate TuneDock for Spotify</strong>
           </a>
           <div class="support-grid">
-            <a href="https://github.com/SDINAHET/TuneDock/issues/new" target="_blank" rel="noreferrer" data-i18n="reportIssue">Report a problem ↗</a>
-            <a href="mailto:contact@loto-tracker.fr?subject=TuneDock%20-%20Support" data-i18n="contactSupport">Contact support</a>
-            <a href="https://github.com/SDINAHET/TuneDock" target="_blank" rel="noreferrer" data-i18n="followGithub">Follow on GitHub ↗</a>
+            <a href="mailto:stephane.dinahet@gmail.com?subject=TuneDock%20for%20Spotify%20-%20Assistance" data-i18n="contactSupport">Contact support</a>
             <a href="privacy.html" target="_blank" data-i18n="privacy">Privacy</a>
+          </div>
+        </section>
+
+        <!-- <section class="youtube-promo" aria-label="TuneDock for YouTube">
+          <img class="youtube-promo-icon" src="assets/tunedock-youtube-logo.png" alt="" aria-hidden="true">
+          <div class="youtube-promo-copy">
+            <strong data-i18n="youtubePromoTitle">Découvrez TuneDock for YouTube</strong>
+          </div>
+          <div class="youtube-promo-stores">
+            <span id="youtubeChromeSoon" class="youtube-promo-soon"><img src="assets/chrome-store.svg" alt="" aria-hidden="true"><span data-i18n="comingSoonChrome">Chrome Web Store</span></span>
+            <a id="youtubeChromeStoreLink" class="youtube-promo-link hidden" target="_blank" rel="noreferrer"><img src="assets/chrome-store.svg" alt="" aria-hidden="true"><span data-i18n="discoverChrome">Chrome Web Store ↗</span></a>
+            <span id="youtubeFirefoxSoon" class="youtube-promo-soon firefox"><img src="assets/firefox-addons.svg" alt="" aria-hidden="true"><span data-i18n="comingSoonFirefox">Firefox Add-ons</span></span>
+            <a id="youtubeFirefoxStoreLink" class="youtube-promo-link firefox hidden" target="_blank" rel="noreferrer"><img src="assets/firefox-addons.svg" alt="" aria-hidden="true"><span data-i18n="discoverFirefox">Firefox Add-ons ↗</span></a>
+          </div>
+        </section> -->
+        
+        <section class="youtube-promo" aria-label="TuneDock for YouTube">
+          <img
+            class="youtube-promo-icon"
+            src="assets/tunedock-youtube-logo.png"
+            alt="Logo TuneDock for YouTube"
+          >
+
+          <div class="youtube-promo-copy">
+            <strong data-i18n="youtubePromoTitle">
+              Découvrez TuneDock for YouTube
+            </strong>
+          </div>
+
+          <div class="youtube-promo-stores">
+            <a
+              id="youtubeChromeStoreLink"
+              class="youtube-promo-link"
+              href="https://chromewebstore.google.com/detail/hcibioipljggicfgfacjjjcojjkjgbjj"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="assets/chrome-store.svg" alt="">
+              <span data-i18n="discoverChrome">Chrome Web Store ↗</span>
+            </a>
+
+            <span
+              id="youtubeFirefoxSoon"
+              class="youtube-promo-soon firefox"
+            >
+              <img src="assets/firefox-addons.svg" alt="">
+              <span data-i18n="comingSoonFirefox">
+                Firefox Add-ons · Bientôt
+              </span>
+            </span>
+
+            <a
+              id="youtubeFirefoxStoreLink"
+              class="youtube-promo-link firefox hidden"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="assets/firefox-addons.svg" alt="">
+              <span data-i18n="discoverFirefox">Firefox Add-ons ↗</span>
+            </a>
           </div>
         </section>
 
         <section class="settings-card">
           <h3 data-i18n="advancedSettings">Advanced settings</h3>
-          <p data-i18n="advancedPrivacy">Preferences are stored only in Firefox. TuneDock does not collect personal data.</p>
+          <p data-i18n="advancedPrivacy">Preferences are stored only in Chrome. TuneDock does not collect personal data.</p>
           <button id="resetSettings" class="danger-soft" type="button" data-i18n="resetPreferences">Reset preferences</button>
         </section>
 
         <p id="settingsMessage" class="settings-message" role="status"></p>
-        <footer class="settings-version">TuneDock <span id="extensionVersion"></span> · <span data-i18n="createdBy">Created by Stéphane Dinahet</span></footer>
+        <footer class="settings-version">TuneDock for Spotify <span id="extensionVersion"></span> · <span data-i18n="createdBy">Created by Stéphane Dinahet</span></footer>
       </section>
     </main>
     <script src="i18n.js"></script>

@@ -1,6 +1,6 @@
 {
   "appName": {
-    "message": "TuneDock – Remote for Spotify"
+    "message": "TuneDock for Spotify"
   },
   "appDescription": {
     "message": "Control Spotify Web from the side panel or an optional floating widget."
@@ -27,13 +27,13 @@
     "message": "Âm nhạc luôn trong tầm tay"
   },
   "welcomeBody": {
-    "message": "Control Spotify Web from Firefox's sidebar or an optional floating widget."
+    "message": "Control Spotify Web from Chrome's side panel or an optional floating widget."
   },
   "privacyTitle": {
     "message": "Ưu tiên quyền riêng tư"
   },
   "privacyBody": {
-    "message": "No TuneDock account, no server and no personal data collection. Preferences stay in Firefox."
+    "message": "No TuneDock account, no server and no personal data collection. Preferences stay in Chrome."
   },
   "continueSpotify": {
     "message": "Tiếp tục với Spotify"
@@ -217,5 +217,356 @@
   },
   "collapse": {
     "message": "Collapse"
+  },
+  "closeWidget": {
+    "message": "Ẩn tiện ích"
+  },
+  "settings": {
+    "message": "Cài đặt"
+  },
+  "backToPlayer": {
+    "message": "Quay lại trình phát"
+  },
+  "settingsSubtitle": {
+    "message": "Tùy chỉnh TuneDock và nhận trợ giúp."
+  },
+  "languageTitle": {
+    "message": "Ngôn ngữ TuneDock"
+  },
+  "languageHelp": {
+    "message": "Theo mặc định, TuneDock tự động theo dõi ngôn ngữ của Chrome."
+  },
+  "automaticLanguage": {
+    "message": "Tự động — Chrome ($ 1)"
+  },
+  "feedbackTitle": {
+    "message": "Phản hồi của bạn giúp"
+  },
+  "feedbackBody": {
+    "message": "Xếp hạng hoặc báo cáo giúp cải thiện các phiên bản trong tương lai."
+  },
+  "rateTuneDock": {
+    "message": "Xếp hạng TuneDock cho Spotify"
+  },
+  "contactSupport": {
+    "message": "Liên hệ hỗ trợ"
+  },
+  "advancedSettings": {
+    "message": "Cài đặt nâng cao"
+  },
+  "advancedPrivacy": {
+    "message": "Tùy chọn chỉ được lưu trữ trong Chrome. TuneDock không thu thập dữ liệu cá nhân."
+  },
+  "resetPreferences": {
+    "message": "Đặt lại tùy chọn"
+  },
+  "resetConfirm": {
+    "message": "Đặt lại tùy chọn TuneDock?"
+  },
+  "resetDone": {
+    "message": "Đặt lại tùy chọn."
+  },
+  "dragWidget": {
+    "message": "Kéo để di chuyển TuneDock"
+  },
+  "reduceWidget": {
+    "message": "Giảm kích thước tiện ích"
+  },
+  "enlargeWidget": {
+    "message": "Tăng kích thước tiện ích"
+  },
+  "resizeWidget": {
+    "message": "Kéo để thay đổi kích thước tiện ích"
+  },
+  "playbackPosition": {
+    "message": "Vị trí phát"
+  },
+  "volume": {
+    "message": "Âm lượng"
+  },
+  "mute": {
+    "message": "Tắt tiếng"
+  },
+  "unmute": {
+    "message": "Khôi phục âm thanh"
+  },
+  "playingOn": {
+    "message": "Phát trên %1$s"
+  },
+  "privacyPageTitle": {
+    "message": "TuneDock cho quyền riêng tư của Spotify"
+  },
+  "privacyUpdated": {
+    "message": "Cập nhật lần cuối: ngày 9 tháng 8 năm 2026"
+  },
+  "privacyNotice": {
+    "message": "TuneDock không thu thập, bán hoặc chia sẻ dữ liệu cá nhân. Nó không có máy chủ, quảng cáo hoặc phân tích."
+  },
+  "privacyLocalTitle": {
+    "message": "Dữ liệu được sử dụng cục bộ"
+  },
+  "privacyLocalBody": {
+    "message": "TuneDock đọc thông tin trình phát web Spotify hiển thị — tiêu đề, nghệ sĩ, tác phẩm nghệ thuật, phát lại, vị trí, âm lượng và trạng thái điều khiển — chỉ để hiển thị và điều khiển phát lại theo yêu cầu của người dùng."
+  },
+  "privacyStorageTitle": {
+    "message": "Bộ nhớ Chrome"
+  },
+  "privacyStorageBody": {
+    "message": "Tùy chọn, vị trí tiện ích và trạng thái đào tạo nhập môn được lưu trữ cục bộ trong hồ sơ Chrome. Không có mã định danh Spotify, mật khẩu hoặc mã thông báo OAuth nào được lưu trữ."
+  },
+  "privacyWidgetTitle": {
+    "message": "Tiện ích tùy chọn"
+  },
+  "privacyWidgetBody": {
+    "message": "Truy cập trang https chỉ được yêu cầu khi người dùng bật tiện ích. Tiện ích không đọc nội dung trang, biểu mẫu hoặc lịch sử duyệt web; nó chỉ hiển thị các điều khiển TuneDock."
+  },
+  "privacyThirdTitle": {
+    "message": "Dịch vụ của bên thứ ba"
+  },
+  "privacyThirdBody": {
+    "message": "TuneDock chỉ giao tiếp với Spotify Web qua https để thực hiện các hành động được yêu cầu. Việc sử dụng Spotify vẫn phải tuân theo các điều khoản của Spotify."
+  },
+  "privacyLyricsTitle": {
+    "message": "Tìm kiếm lời bài hát tùy chọn"
+  },
+  "privacyLyricsBody": {
+    "message": "Sau khi nhấp chuột rõ ràng, TuneDock có thể mở một tìm kiếm Google có chứa tiêu đề và nghệ sĩ. TuneDock không liên hệ với Google ở chế độ nền, truy xuất kết quả, lưu trữ hoặc sao chép lời bài hát."
+  },
+  "privacyContactTitle": {
+    "message": "Danh bạ"
+  },
+  "privacyDeveloper": {
+    "message": "Nhà phát triển: Stéphane Dinahet"
+  },
+  "toggleAmbience": {
+    "message": "Chuyển đổi môi trường ánh sáng"
+  },
+  "ambienceTitle": {
+    "message": "Không khí trong lành"
+  },
+  "ambienceHelp": {
+    "message": "Xem trước và điều chỉnh hiệu ứng ngay lập tức."
+  },
+  "ambienceEnabled": {
+    "message": "LED NEON"
+  },
+  "lightEffect": {
+    "message": "Ảnh hưởng"
+  },
+  "lightColor": {
+    "message": "Màu sắc"
+  },
+  "brightness": {
+    "message": "Độ sáng"
+  },
+  "animationSpeed": {
+    "message": "Tốc độ"
+  },
+  "movingHeads": {
+    "message": "Đèn di chuyển"
+  },
+  "randomAmbience": {
+    "message": "Cứ làm em ngạc nhiên."
+  },
+  "resetAmbience": {
+    "message": "Đặt lại đèn"
+  },
+  "effectStatic": {
+    "message": "Đều"
+  },
+  "effectBreathe": {
+    "message": "Xả khí"
+  },
+  "effectPulse": {
+    "message": "Mạch"
+  },
+  "effectWave": {
+    "message": "Sóng"
+  },
+  "effectChase": {
+    "message": "LED CHASE"
+  },
+  "effectGradient": {
+    "message": "Dốc Màu"
+  },
+  "effectRainbow": {
+    "message": ":abbr:`Rainbow (Cầu Vồng)`"
+  },
+  "effectAurora": {
+    "message": "Rạng Đông"
+  },
+  "effectSparkle": {
+    "message": "Lấp lánh"
+  },
+  "effectClub": {
+    "message": "Câu lạc bộ giải trí"
+  },
+  "effectSlowBeat": {
+    "message": "Nhịp chậm"
+  },
+  "effectStrobeSoft": {
+    "message": "Đèn nhấp nháy mềm"
+  },
+  "colorViolet": {
+    "message": "Violet"
+  },
+  "colorBlue": {
+    "message": "Xanh dương"
+  },
+  "colorCyan": {
+    "message": "Xanh lơ"
+  },
+  "colorGreen": {
+    "message": "Màu xanh lá"
+  },
+  "colorRed": {
+    "message": "Màu đỏ"
+  },
+  "colorPink": {
+    "message": "Hồng"
+  },
+  "colorOrange": {
+    "message": "Màu cam"
+  },
+  "colorGold": {
+    "message": "Vàng"
+  },
+  "colorWhite": {
+    "message": "Da Trắng"
+  },
+  "colorRainbow": {
+    "message": "Nhiều màu"
+  },
+  "lyreSweep": {
+    "message": "Quét"
+  },
+  "lyreCross": {
+    "message": "Dầm ngang"
+  },
+  "lyreFan": {
+    "message": "Quạt"
+  },
+  "lyreSlow": {
+    "message": "Chậm"
+  },
+  "lyreClub": {
+    "message": "CLB"
+  },
+  "discoBall": {
+    "message": "Quả cầu Disco"
+  },
+  "autoSurprise": {
+    "message": "Trình tự bất ngờ"
+  },
+  "changeEvery": {
+    "message": "Thay đổi mỗi"
+  },
+  "effectLedSnake": {
+    "message": "Rắn LED"
+  },
+  "effectComet": {
+    "message": "Comet"
+  },
+  "effectPrism": {
+    "message": "Lăng trụ"
+  },
+  "effectLaser": {
+    "message": "Tia laser"
+  },
+  "effectColorFlow": {
+    "message": "Lưu lượng màu"
+  },
+  "effectDoubleChase": {
+    "message": "Đuổi bắt hai lần"
+  },
+  "effectElectric": {
+    "message": "Điện"
+  },
+  "effectVelvet": {
+    "message": "Ánh sáng nhung"
+  },
+  "lasers": {
+    "message": "Laser"
+  },
+  "laserScan": {
+    "message": "Đang quét"
+  },
+  "laserCross": {
+    "message": "Laser chéo"
+  },
+  "laserFan": {
+    "message": "Quạt laser"
+  },
+  "laserTunnel": {
+    "message": "Tunnel"
+  },
+  "laserRandom": {
+    "message": "Laser ngẫu nhiên"
+  },
+  "beatIntensity": {
+    "message": "Cường độ"
+  },
+  "beatSpeed": {
+    "message": "Tốc độ"
+  },
+  "coverBeat": {
+    "message": "Ánh sáng bìa tinh tế"
+  },
+  "coverBeatHelp": {
+    "message": "Không thu phóng hoặc chuyển động."
+  },
+  "generalSection": {
+    "message": "Chung"
+  },
+  "widgetSection": {
+    "message": "Tiện ích nổi"
+  },
+  "appearanceSection": {
+    "message": "Giao diện ứng dụng"
+  },
+  "youtubePromoTitle": {
+    "message": "Khám phá TuneDock for YouTube"
+  },
+  "youtubePromoBody": {
+    "message": "Điều khiển TuneDock cho YouTube sắp có trên Chrome và Firefox."
+  },
+  "comingSoonChrome": {
+    "message": "Chrome Web Store · Sắp ra mắt"
+  },
+  "comingSoonFirefox": {
+    "message": "Firefox Add-ons · Sắp ra mắt"
+  },
+  "discoverChrome": {
+    "message": "Chrome Web Store ↗"
+  },
+  "discoverFirefox": {
+    "message": "Firefox Add-ons ↗"
+  },
+  "supportSection": {
+    "message": "Hỗ trợ và giới thiệu"
+  },
+  "advancedLights": {
+    "message": "Hiệu ứng ánh sáng nâng cao"
+  },
+  "widgetLed": {
+    "message": "Viền LED quanh tiện ích"
+  },
+  "widgetLedHelp": {
+    "message": "Ánh sáng viền tùy chọn, không làm tiện ích chuyển động."
+  },
+  "ledMode": {
+    "message": "Chế độ LED"
+  },
+  "ledStatic": {
+    "message": "Tĩnh"
+  },
+  "ledFlow": {
+    "message": "Dòng màu"
+  },
+  "ledBreathe": {
+    "message": "Nhịp thở nhẹ"
+  },
+  "showEmail": {
+    "message": "Hiển thị địa chỉ email"
   }
 }

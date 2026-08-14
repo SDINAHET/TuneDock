@@ -1,15 +1,17 @@
+[![Installer depuis le Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Installer-4285F4?logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/tunedock-remote-for-spotify/ehemggpdajfcghfhbdcebcflcgndmcaj)
+
 # ![alt text](icons/tunedock-32.png) TuneDock Spotify
 
-TuneDock est une extension Firefox Manifest V3 qui contrôle **Spotify Web** depuis le panneau latéral de Firefox ou depuis un widget flottant facultatif.
+TuneDock est une extension Chrome Manifest V3 qui contrôle **Spotify Web** depuis le panneau latéral de Chrome ou depuis un widget flottant facultatif.
 
-La version 2.0 ajoute la sélection automatique de la langue de Firefox, une détection claire des commandes indisponibles avec Spotify Free, la recherche volontaire des paroles et la copie du lien du morceau.
+La version 2.0 ajoute la sélection automatique de la langue de Chrome, une détection claire des commandes indisponibles avec Spotify Free, la recherche volontaire des paroles et la copie du lien du morceau.
 
 Projet créé par **Stéphane Dinahet**. TuneDock est un projet indépendant, non affilié, non approuvé et non sponsorisé par Spotify AB.
 
 
 ## Installation
 
-La fiche Firefox Add-ons sera ajoutée ici après la première publication sur AMO.
+[Installer TuneDock depuis le Chrome Web Store](https://chromewebstore.google.com/detail/tunedock-remote-for-spotify/ehemggpdajfcghfhbdcebcflcgndmcaj)
 
 ## Fonctionnalités
 
@@ -23,7 +25,7 @@ La fiche Firefox Add-ons sera ajoutée ici après la première publication sur A
 - lien direct vers le contenu dans Spotify ;
 - recherche des paroles via Google après un clic explicite ;
 - copie du lien Spotify du morceau ;
-- interface automatiquement adaptée à la langue de Firefox (20 langues) ;
+- interface automatiquement adaptée à la langue de Chrome (20 langues) ;
 - widget flottant compact ou agrandi, déplaçable et facultatif ;
 - mémorisation locale des préférences.
 
@@ -31,7 +33,7 @@ TuneDock ne diffuse aucun son : la lecture reste assurée par le lecteur officie
 
 ## Compatibilité
 
-- Google Firefox 116 ou version ultérieure ;
+- Google Chrome 116 ou version ultérieure ;
 - Spotify Web ouvert et connecté ;
 - compte Spotify Free ou Premium, dans la limite des actions autorisées par Spotify pour le compte et le contenu concernés.
 
@@ -56,12 +58,12 @@ Au premier lancement, cliquez sur **Continuer avec Spotify**. Spotify Web s'ouvr
 
 Le widget est désactivé par défaut. Son activation demande facultativement l'accès aux pages HTTPS afin de pouvoir afficher le mini-lecteur au-dessus de la page courante. TuneDock ne lit ni ne transmet le contenu de ces pages.
 
-## Permissions Firefox
+## Permissions Chrome
 
 | Permission | Utilisation |
 | --- | --- |
 | `storage` | Conserver localement les préférences, la position et l'état du widget. |
-| `sidebar_action` | Afficher TuneDock dans la barre latérale de Firefox. |
+| `sidePanel` | Afficher TuneDock dans le panneau latéral de Chrome. |
 | `scripting` | Enregistrer et afficher le widget flottant après accord de l'utilisateur. |
 | `https://open.spotify.com/*` | Lire l'état visible du lecteur Spotify Web et déclencher ses commandes. |
 | `https://*/*` facultatif | Afficher uniquement le widget sur les pages HTTPS après activation explicite. |
@@ -76,7 +78,7 @@ TuneDock ne télécharge, ne stocke et ne reproduit aucune parole protégée. Le
 - aucun serveur TuneDock ;
 - aucune publicité ni analyse d'audience ;
 - aucune vente ou transmission de données personnelles ;
-- préférences stockées localement par Firefox ;
+- préférences stockées localement par Chrome ;
 - données musicales lues uniquement depuis l'onglet Spotify Web afin d'afficher et contrôler la lecture.
 
 Consultez [PRIVACY.md](PRIVACY.md) pour la politique complète.
@@ -88,7 +90,7 @@ sidepanel.html / sidepanel.js
         │
         ▼
 background.js (service worker)
-        │ messages Firefox
+        │ messages Chrome
         ▼
 spotify-web.js dans open.spotify.com
         │
@@ -114,9 +116,9 @@ node --check widget.js
 
 ## Signaler un problème
 
-Ouvrez une issue GitHub avec :
+Écrivez à `stephane.dinahet@gmail.com` avec :
 
-- la version de Firefox ;
+- la version de Chrome ;
 - la langue de Spotify Web ;
 - l'action concernée ;
 - une capture sans information personnelle ;

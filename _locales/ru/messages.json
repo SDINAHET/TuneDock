@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "TuneDock – Remote for Spotify"
+    "message": "TuneDock for Spotify"
   },
   "appDescription": {
-    "message": "Control Spotify Web from the side panel or an optional floating widget."
+    "message": "Управляйте Spotify Web с боковой панели или с помощью дополнительного плавающего виджета."
   },
   "actionTitle": {
-    "message": "Open TuneDock"
+    "message": "Открыть TuneDock"
   },
   "tagline": {
     "message": "Пульт для Spotify"
@@ -27,19 +27,19 @@
     "message": "Музыка всегда под рукой"
   },
   "welcomeBody": {
-    "message": "Control Spotify Web from Firefox's sidebar or an optional floating widget."
+    "message": "Управляйте Spotify Web с боковой панели Chrome или с помощью дополнительного плавающего виджета."
   },
   "privacyTitle": {
     "message": "Конфиденциальность прежде всего"
   },
   "privacyBody": {
-    "message": "No TuneDock account, no server and no personal data collection. Preferences stay in Firefox."
+    "message": "Никакой учетной записи TuneDock, никакого сервера и никакого сбора личных данных. Настройки остаются в Chrome."
   },
   "continueSpotify": {
     "message": "Продолжить со Spotify"
   },
   "officialSpotifyHelp": {
-    "message": "Spotify opens on its official website."
+    "message": "Spotify открывается на своем официальном сайте."
   },
   "thisComputer": {
     "message": "Этот компьютер"
@@ -48,10 +48,10 @@
     "message": "Сменить"
   },
   "changeDeviceTitle": {
-    "message": "Change device in Spotify"
+    "message": "Сменить устройство в Spotify"
   },
   "reconnect": {
-    "message": "Reconnect Spotify Web"
+    "message": "Повторно подключить Spotify Web"
   },
   "noTrack": {
     "message": "Нет трека"
@@ -60,16 +60,16 @@
     "message": "Нет активного трека"
   },
   "openSpotifyToStart": {
-    "message": "Open Spotify Web to get started"
+    "message": "Откройте Spotify Web, чтобы начать работу."
   },
   "startMusicSpotify": {
-    "message": "Start playing music in Spotify Web"
+    "message": "Начните воспроизводить музыку в Spotify Web"
   },
   "previousTrack": {
     "message": "Предыдущий трек"
   },
   "playPause": {
-    "message": "Play or pause"
+    "message": "Воспроизвести или поставить на паузу"
   },
   "nextTrack": {
     "message": "Следующий трек"
@@ -99,13 +99,13 @@
     "message": "Копировать ссылку"
   },
   "openSpotify": {
-    "message": "OPEN SPOTIFY"
+    "message": "ОТКРЫТЬ СПОТИФ"
   },
   "spotifyAuto": {
-    "message": "Spotify auto"
+    "message": "Spotify авто"
   },
   "widgetAuto": {
-    "message": "Widget auto"
+    "message": "Виджет авто"
   },
   "atStartup": {
     "message": "При запуске"
@@ -117,105 +117,456 @@
     "message": "Скрыть виджет"
   },
   "createdBy": {
-    "message": "Created by Stéphane Dinahet"
+    "message": "Создано Стефаном Динаэ"
   },
   "privacy": {
     "message": "Конфиденциальность"
   },
   "notAffiliated": {
-    "message": "TuneDock is independent and not affiliated with Spotify."
+    "message": "TuneDock независим и не связан с Spotify."
   },
   "unknownArtist": {
-    "message": "Unknown artist"
+    "message": "Неизвестный художник"
   },
   "unknownTrack": {
-    "message": "Unknown track"
+    "message": "Неизвестный трек"
   },
   "connectingSpotify": {
-    "message": "Connecting to Spotify Web…"
+    "message": "Подключение к Spotify Web…"
   },
   "addedLiked": {
-    "message": "Added to Liked Songs."
+    "message": "Добавлен в список понравившихся песен."
   },
   "removedLiked": {
-    "message": "Removed from Liked Songs."
+    "message": "Удален из списка понравившихся песен."
   },
   "linkCopied": {
-    "message": "Spotify link copied."
+    "message": "Ссылка Spotify скопирована."
   },
   "copyFailed": {
-    "message": "Unable to copy the link."
+    "message": "Не удалось скопировать ссылку."
   },
   "noTrackLink": {
-    "message": "No track link available."
+    "message": "Ссылка на трек недоступна."
   },
   "widgetPermissionDenied": {
-    "message": "Permission denied: the widget remains disabled."
+    "message": "Разрешение отклонено: виджет остается отключенным."
   },
   "widgetShown": {
-    "message": "Widget shown on HTTPS pages."
+    "message": "Виджет, отображаемый на страницах ZXQHTPSQXZ."
   },
   "widgetHidden": {
-    "message": "Widget hidden."
+    "message": "Виджет скрыт."
   },
   "previousUnavailable": {
-    "message": "Previous track is unavailable for the current Spotify playback."
+    "message": "Предыдущий трек недоступен для текущего воспроизведения Spotify."
   },
   "nextUnavailable": {
-    "message": "Next track is unavailable for the current Spotify playback."
+    "message": "Следующий трек недоступен для текущего воспроизведения Spotify."
   },
   "shuffleUnavailable": {
-    "message": "Shuffle is unavailable for the current Spotify playback or account."
+    "message": "Перемешивание недоступно для текущего воспроизведения или учетной записи Spotify."
   },
   "repeatUnavailable": {
-    "message": "Repeat is unavailable for the current Spotify playback or account."
+    "message": "Повтор недоступен для текущего воспроизведения или учетной записи Spotify."
   },
   "devicesUnavailable": {
-    "message": "Spotify's device selector could not be found."
+    "message": "Не удалось найти селектор устройств Spotify."
   },
   "favoriteUnavailable": {
-    "message": "The Liked Songs button could not be found in Spotify Web."
+    "message": "Кнопку «Понравившиеся песни» не удалось найти в Spotify Web."
   },
   "commandUnavailable": {
-    "message": "This command is unavailable in Spotify Web."
+    "message": "Эта команда недоступна в Spotify Web."
   },
   "commandFailed": {
-    "message": "Command failed."
+    "message": "Команда не удалась."
   },
   "controlUnavailable": {
-    "message": "Spotify Web control unavailable."
+    "message": "Элемент управления Spotify Web недоступен."
   },
   "seekUnavailable": {
-    "message": "Seeking is unavailable in Spotify Web."
+    "message": "Поиск недоступен в Spotify Web."
   },
   "volumeUnavailable": {
-    "message": "Volume is unavailable in Spotify Web."
+    "message": "Том недоступен в Spotify Web."
   },
   "spotifyUnavailable": {
-    "message": "Spotify Web is unavailable."
+    "message": "Spotify Web недоступен."
   },
   "spotifyStartupTimeout": {
-    "message": "Spotify Web is taking too long to start."
+    "message": "Spotify Web запускается слишком долго."
   },
   "spotifyOpenFailed": {
-    "message": "Unable to open Spotify Web."
+    "message": "Невозможно открыть Spotify Web."
   },
   "spotifyNotOpen": {
-    "message": "Spotify Web is not open."
+    "message": "Spotify Web не открыт."
   },
   "spotifyNotResponding": {
-    "message": "Spotify Web is not responding. Open Spotify and try again."
+    "message": "Spotify Web не отвечает. Откройте Spotify и повторите попытку."
   },
   "unknownCommand": {
-    "message": "Unknown TuneDock command."
+    "message": "Неизвестная команда TuneDock."
   },
   "tunedockUnavailable": {
-    "message": "TuneDock unavailable"
+    "message": "TuneDock недоступен."
   },
   "expand": {
-    "message": "Expand"
+    "message": "Развернуть"
   },
   "collapse": {
-    "message": "Collapse"
+    "message": "Свернуть"
+  },
+  "settings": {
+    "message": "Настройки"
+  },
+  "backToPlayer": {
+    "message": "Вернуться к игроку"
+  },
+  "settingsSubtitle": {
+    "message": "Настройте TuneDock и получите помощь."
+  },
+  "languageTitle": {
+    "message": "TuneDock язык"
+  },
+  "languageHelp": {
+    "message": "По умолчанию TuneDock автоматически следует языку Chrome."
+  },
+  "automaticLanguage": {
+    "message": "Автоматический — Chrome (1 доллар США)"
+  },
+  "feedbackTitle": {
+    "message": "Ваш отзыв помогает"
+  },
+  "feedbackBody": {
+    "message": "Оценка или отчет помогают улучшить будущие версии."
+  },
+  "rateTuneDock": {
+    "message": "Оценить"
+  },
+  "contactSupport": {
+    "message": "Связаться со службой поддержки"
+  },
+  "advancedSettings": {
+    "message": "Расширенные настройки"
+  },
+  "advancedPrivacy": {
+    "message": "Настройки хранятся только в Chrome. TuneDock не собирает персональные данные."
+  },
+  "resetPreferences": {
+    "message": "Сбросить настройки"
+  },
+  "resetConfirm": {
+    "message": "Сбросить настройки TuneDock?"
+  },
+  "resetDone": {
+    "message": "Настройки сброшены."
+  },
+  "dragWidget": {
+    "message": "Перетащите, чтобы переместить TuneDock"
+  },
+  "reduceWidget": {
+    "message": "Уменьшить размер виджета"
+  },
+  "enlargeWidget": {
+    "message": "Увеличить размер виджета"
+  },
+  "resizeWidget": {
+    "message": "Перетащите, чтобы изменить размер виджета"
+  },
+  "playbackPosition": {
+    "message": "Позиция воспроизведения"
+  },
+  "volume": {
+    "message": "Объем"
+  },
+  "mute": {
+    "message": "Отключить звук"
+  },
+  "unmute": {
+    "message": "Восстановить звук"
+  },
+  "playingOn": {
+    "message": "Игра на 1 доллар"
+  },
+  "privacyPageTitle": {
+    "message": "TuneDock for Spotify Конфиденциальность"
+  },
+  "privacyUpdated": {
+    "message": "Последнее обновление: 9 августа 2026 г."
+  },
+  "privacyNotice": {
+    "message": "TuneDock не собирает, не продает и не передает личные данные. У него нет сервера, рекламы и аналитики."
+  },
+  "privacyLocalTitle": {
+    "message": "Данные используются локально"
+  },
+  "privacyLocalBody": {
+    "message": "TuneDock считывает видимую информацию о проигрывателе Spotify Web — название, исполнителя, обложку, воспроизведение, положение, громкость и состояние управления — только для отображения и управления воспроизведением, запрошенного пользователем."
+  },
+  "privacyStorageTitle": {
+    "message": "Chrome хранилище"
+  },
+  "privacyStorageBody": {
+    "message": "Настройки, положение виджета и статус подключения хранятся локально в профиле Chrome. Идентификатор Spotify, пароль или токен OAuth не сохраняются."
+  },
+  "privacyWidgetTitle": {
+    "message": "Дополнительный виджет"
+  },
+  "privacyWidgetBody": {
+    "message": "Доступ к странице ZXQHTPSQXZ запрашивается только тогда, когда пользователь включает виджет. Виджет не читает содержимое страниц, формы и историю посещений; он отображает только элементы управления TuneDock."
+  },
+  "privacyThirdTitle": {
+    "message": "Сторонние сервисы"
+  },
+  "privacyThirdBody": {
+    "message": "TuneDock взаимодействует только с Spotify Web через HTTPS для выполнения запрошенных действий. Использование Spotify регулируется условиями Spotify."
+  },
+  "privacyLyricsTitle": {
+    "message": "Дополнительный поиск текстов песен"
+  },
+  "privacyLyricsBody": {
+    "message": "После явного щелчка TuneDock может открыть поиск Google, содержащий название и исполнителя. TuneDock не связывается с Google в фоновом режиме, не получает результаты, не сохраняет и не воспроизводит тексты песен."
+  },
+  "privacyContactTitle": {
+    "message": "Контакт"
+  },
+  "privacyDeveloper": {
+    "message": "Разработчик: Стефан Динаэ"
+  },
+  "toggleAmbience": {
+    "message": "Переключить световую атмосферу"
+  },
+  "ambienceTitle": {
+    "message": "Легкая атмосфера"
+  },
+  "ambienceHelp": {
+    "message": "Предварительный просмотр и мгновенная настройка эффекта."
+  },
+  "ambienceEnabled": {
+    "message": "светодиодный неон"
+  },
+  "lightEffect": {
+    "message": "Эффект"
+  },
+  "lightColor": {
+    "message": "Цвет"
+  },
+  "brightness": {
+    "message": "Яркость"
+  },
+  "animationSpeed": {
+    "message": "Скорость"
+  },
+  "movingHeads": {
+    "message": "Движущиеся огни"
+  },
+  "randomAmbience": {
+    "message": "Удиви меня"
+  },
+  "resetAmbience": {
+    "message": "Сбросить освещение"
+  },
+  "effectStatic": {
+    "message": "Устойчивый"
+  },
+  "effectBreathe": {
+    "message": "Дыхание"
+  },
+  "effectPulse": {
+    "message": "Пульс"
+  },
+  "effectWave": {
+    "message": "Волна"
+  },
+  "effectChase": {
+    "message": "Светодиодная погоня"
+  },
+  "effectGradient": {
+    "message": "Градиент"
+  },
+  "effectRainbow": {
+    "message": "Радуга"
+  },
+  "effectAurora": {
+    "message": "Аврора"
+  },
+  "effectSparkle": {
+    "message": "Блеск"
+  },
+  "effectClub": {
+    "message": "Ночной клуб"
+  },
+  "effectSlowBeat": {
+    "message": "Медленный ритм"
+  },
+  "effectStrobeSoft": {
+    "message": "Мягкий стробоскоп"
+  },
+  "colorViolet": {
+    "message": "Фиолетовый"
+  },
+  "colorBlue": {
+    "message": "Синий"
+  },
+  "colorCyan": {
+    "message": "Голубой"
+  },
+  "colorGreen": {
+    "message": "Зеленый"
+  },
+  "colorRed": {
+    "message": "Красный"
+  },
+  "colorPink": {
+    "message": "Розовый"
+  },
+  "colorOrange": {
+    "message": "Оранжевый"
+  },
+  "colorGold": {
+    "message": "Золото"
+  },
+  "colorWhite": {
+    "message": "Белый"
+  },
+  "colorRainbow": {
+    "message": "Многоцветный"
+  },
+  "lyreSweep": {
+    "message": "Развертка"
+  },
+  "lyreCross": {
+    "message": "Перекрещенные балки"
+  },
+  "lyreFan": {
+    "message": "Вентилятор"
+  },
+  "lyreSlow": {
+    "message": "Медленно"
+  },
+  "lyreClub": {
+    "message": "Клуб"
+  },
+  "discoBall": {
+    "message": "Диско-шар"
+  },
+  "autoSurprise": {
+    "message": "Неожиданная последовательность"
+  },
+  "changeEvery": {
+    "message": "Меняйте каждые"
+  },
+  "effectLedSnake": {
+    "message": "светодиодная змея"
+  },
+  "effectComet": {
+    "message": "Комета"
+  },
+  "effectPrism": {
+    "message": "Призма"
+  },
+  "effectLaser": {
+    "message": "Лазер"
+  },
+  "effectColorFlow": {
+    "message": "Цветовой поток"
+  },
+  "effectDoubleChase": {
+    "message": "Двойная погоня"
+  },
+  "effectElectric": {
+    "message": "Электрический"
+  },
+  "effectVelvet": {
+    "message": "Бархатное сияние"
+  },
+  "lasers": {
+    "message": "Лазеры"
+  },
+  "laserScan": {
+    "message": "Сканирование"
+  },
+  "laserCross": {
+    "message": "Скрещенные лазеры"
+  },
+  "laserFan": {
+    "message": "Лазерный вентилятор"
+  },
+  "laserTunnel": {
+    "message": "Туннель"
+  },
+  "laserRandom": {
+    "message": "Случайные лазеры"
+  },
+  "closeWidget": {
+    "message": "Скрыть виджет"
+  },
+  "beatIntensity": {
+    "message": "Интенсивность"
+  },
+  "beatSpeed": {
+    "message": "Скорость"
+  },
+  "coverBeat": {
+    "message": "Мягкое свечение обложки"
+  },
+  "coverBeatHelp": {
+    "message": "Без масштабирования и движения."
+  },
+  "generalSection": {
+    "message": "Общие"
+  },
+  "widgetSection": {
+    "message": "Плавающий виджет"
+  },
+  "appearanceSection": {
+    "message": "Внешний вид приложения"
+  },
+  "youtubePromoTitle": {
+    "message": "Откройте TuneDock for YouTube"
+  },
+  "youtubePromoBody": {
+    "message": "Пульт TuneDock для YouTube скоро появится в Chrome и Firefox."
+  },
+  "comingSoonChrome": {
+    "message": "Chrome Web Store · Скоро"
+  },
+  "comingSoonFirefox": {
+    "message": "Firefox Add-ons · Скоро"
+  },
+  "discoverChrome": {
+    "message": "Chrome Web Store ↗"
+  },
+  "discoverFirefox": {
+    "message": "Firefox Add-ons ↗"
+  },
+  "supportSection": {
+    "message": "Поддержка и сведения"
+  },
+  "advancedLights": {
+    "message": "Расширенные световые эффекты"
+  },
+  "widgetLed": {
+    "message": "LED-рамка виджета"
+  },
+  "widgetLedHelp": {
+    "message": "Дополнительная подсветка рамки без движения виджета."
+  },
+  "ledMode": {
+    "message": "Режим LED"
+  },
+  "ledStatic": {
+    "message": "Статичный"
+  },
+  "ledFlow": {
+    "message": "Перелив цветов"
+  },
+  "ledBreathe": {
+    "message": "Мягкое дыхание"
+  },
+  "showEmail": {
+    "message": "Показать адрес электронной почты"
   }
 }

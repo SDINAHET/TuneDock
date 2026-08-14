@@ -245,7 +245,18 @@
     ]);
 
     let trackName = titleElement?.textContent?.trim() || "";
-    let artistName = artistElement?.textContent?.trim() || "";
+    const artistCandidates = [
+      ...document.querySelectorAll('[data-testid="now-playing-widget"] a[href*="/artist/"]'),
+      ...document.querySelectorAll('[data-testid="context-item-info-artist"] a[href*="/artist/"]'),
+      ...document.querySelectorAll('a[data-testid="context-item-info-artist"][href*="/artist/"]')
+    ];
+    const artistNames = artistCandidates
+      .map((element) => element.textContent?.trim())
+      .filter((name, index, names) => name && names.indexOf(name) === index);
+    let artistName = artistNames.join(", ") || artistElement?.textContent?.trim() || "";
+    if (!artistName) {
+      try { artistName = navigator.mediaSession?.metadata?.artist?.trim() || ""; } catch (_) {}
+    }
     if (!trackName && document.title.includes("•")) {
       const parts = document.title.replace(/\s*\|\s*Spotify\s*$/i, "").split("•").map((part) => part.trim());
       trackName = parts[0] || "";
@@ -308,7 +319,9 @@
       item: {
         name: trackName,
         duration_ms: durationMs,
-        artists: artistName ? [{ name: artistName }] : [],
+        artists: artistNames.length
+          ? artistNames.map((name) => ({ name }))
+          : (artistName ? artistName.split(/\s*(?:,|&| feat\.? | ft\.? | x )\s*/i).filter(Boolean).map((name) => ({ name })) : []),
         album: { images: artworkUrl ? [{ url: artworkUrl }] : [] },
         external_urls: { spotify: trackUrl }
       },

@@ -1,26 +1,15 @@
 {
   "manifest_version": 3,
-  "name": "__MSG_appName__",
+  "name": "TuneDock for Spotify",
   "description": "__MSG_appDescription__",
-  "version": "2.1.6",
+  "version": "2.3.6",
   "default_locale": "en",
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "tunedock@loto-tracker.fr",
-      "strict_min_version": "140.0",
-      "data_collection_permissions": {
-        "required": ["none"]
-      }
-    },
-    "gecko_android": {
-      "strict_min_version": "142.0"
-    }
-  },
-  "permissions": ["storage", "scripting"],
+  "minimum_chrome_version": "116",
+  "permissions": ["storage", "sidePanel", "scripting"],
   "host_permissions": ["https://open.spotify.com/*"],
   "optional_host_permissions": ["https://*/*"],
   "background": {
-    "scripts": ["background.js"]
+    "service_worker": "background.js"
   },
   "icons": {
     "16": "icons/tunedock-16.png",
@@ -42,11 +31,8 @@
       "32": "icons/tunedock-32.png"
     }
   },
-  "sidebar_action": {
-    "default_title": "__MSG_actionTitle__",
-    "default_panel": "sidepanel.html",
-    "default_icon": "icons/tunedock-48.png",
-    "open_at_install": false
+  "side_panel": {
+    "default_path": "sidepanel.html"
   },
   "web_accessible_resources": [{
     "resources": ["assets/spotify-full-logo-white.svg", "_locales/*/messages.json"],

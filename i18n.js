@@ -20,6 +20,7 @@
 
   function applyTranslations() {
     document.documentElement.lang = activeLocale.replace("_", "-");
+    document.documentElement.dir = activeLocale === "ar" ? "rtl" : "ltr";
     document.querySelectorAll("[data-i18n]").forEach((element) => {
       element.textContent = msg(element.dataset.i18n);
     });

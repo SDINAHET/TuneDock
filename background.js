@@ -27,6 +27,7 @@ async function injectWidgetInActiveTab() {
 }
 
 chrome.runtime.onInstalled.addListener(async () => {
+  await chrome.sidePanel.setPanelBehavior({ openPanelOnActionClick: true });
   const settings = await chrome.storage.local.get([
     "tunedockWidgetVisible",
     "tunedockWidgetOnStartup",
@@ -41,6 +42,7 @@ chrome.runtime.onInstalled.addListener(async () => {
 });
 
 chrome.runtime.onStartup.addListener(async () => {
+  await chrome.sidePanel.setPanelBehavior({ openPanelOnActionClick: true });
   const { tunedockAutoOpenSpotify = true, tunedockWidgetOnStartup = false } =
     await chrome.storage.local.get(["tunedockAutoOpenSpotify", "tunedockWidgetOnStartup"]);
   await chrome.storage.local.set({ tunedockWidgetVisible: tunedockWidgetOnStartup });
@@ -48,14 +50,6 @@ chrome.runtime.onStartup.addListener(async () => {
   if (!tunedockAutoOpenSpotify) return;
   const tabs = await chrome.tabs.query({ url: WEB_PLAYER_MATCH });
   if (!tabs.length) await chrome.tabs.create({ url: "https://open.spotify.com/", active: false });
-});
-
-// Firefox exposes extension sidebars through sidebarAction. Opening it from
-// the toolbar click keeps the same one-click behavior as TuneDock on Chrome.
-chrome.action.onClicked.addListener(() => {
-  if (globalThis.browser?.sidebarAction?.open) {
-    globalThis.browser.sidebarAction.open().catch(() => {});
-  }
 });
 
 async function waitForWebPlayer(tabId) {

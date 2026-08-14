@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "TuneDock – Remote for Spotify"
+    "message": "TuneDock for Spotify"
   },
   "appDescription": {
-    "message": "Control Spotify Web from the side panel or an optional floating widget."
+    "message": "Spotify Web'yi yan panelden veya isteğe bağlı kayan widget'tan kontrol edin."
   },
   "actionTitle": {
-    "message": "Open TuneDock"
+    "message": "TuneDock'yi açın"
   },
   "tagline": {
     "message": "Spotify için uzaktan kumanda"
@@ -27,19 +27,19 @@
     "message": "Müziğiniz her zaman elinizin altında"
   },
   "welcomeBody": {
-    "message": "Control Spotify Web from Firefox's sidebar or an optional floating widget."
+    "message": "Spotify Web'yi Chrome'nin yan panelinden veya isteğe bağlı kayan widget'tan kontrol edin."
   },
   "privacyTitle": {
     "message": "Önce gizlilik"
   },
   "privacyBody": {
-    "message": "No TuneDock account, no server and no personal data collection. Preferences stay in Firefox."
+    "message": "TuneDock hesabı yok, sunucu yok ve kişisel veri toplama yok. Tercihler Chrome'de kalır."
   },
   "continueSpotify": {
     "message": "Spotify ile devam et"
   },
   "officialSpotifyHelp": {
-    "message": "Spotify opens on its official website."
+    "message": "Spotify resmi web sitesinde açılır."
   },
   "thisComputer": {
     "message": "Bu bilgisayar"
@@ -48,10 +48,10 @@
     "message": "Değiştir"
   },
   "changeDeviceTitle": {
-    "message": "Change device in Spotify"
+    "message": "Spotify'de cihazı değiştirin"
   },
   "reconnect": {
-    "message": "Reconnect Spotify Web"
+    "message": "Spotify Web'yi yeniden bağlayın"
   },
   "noTrack": {
     "message": "Parça yok"
@@ -60,16 +60,16 @@
     "message": "Etkin parça yok"
   },
   "openSpotifyToStart": {
-    "message": "Open Spotify Web to get started"
+    "message": "Başlamak için Spotify Web'yi açın"
   },
   "startMusicSpotify": {
-    "message": "Start playing music in Spotify Web"
+    "message": "Spotify Web'de müzik çalmaya başlayın"
   },
   "previousTrack": {
     "message": "Önceki parça"
   },
   "playPause": {
-    "message": "Play or pause"
+    "message": "Oynat veya duraklat"
   },
   "nextTrack": {
     "message": "Sonraki parça"
@@ -99,13 +99,13 @@
     "message": "Bağlantıyı kopyala"
   },
   "openSpotify": {
-    "message": "OPEN SPOTIFY"
+    "message": "SPOTIFY'I AÇ"
   },
   "spotifyAuto": {
-    "message": "Spotify auto"
+    "message": "Spotify otomatik"
   },
   "widgetAuto": {
-    "message": "Widget auto"
+    "message": "Widget otomatik"
   },
   "atStartup": {
     "message": "Başlangıçta"
@@ -117,105 +117,456 @@
     "message": "Widget'ı gizle"
   },
   "createdBy": {
-    "message": "Created by Stéphane Dinahet"
+    "message": "Oluşturan Stéphane Dinahet"
   },
   "privacy": {
     "message": "Gizlilik"
   },
   "notAffiliated": {
-    "message": "TuneDock is independent and not affiliated with Spotify."
+    "message": "TuneDock bağımsızdır ve Spotify'ye bağlı değildir."
   },
   "unknownArtist": {
-    "message": "Unknown artist"
+    "message": "Bilinmeyen sanatçı"
   },
   "unknownTrack": {
-    "message": "Unknown track"
+    "message": "Bilinmeyen parça"
   },
   "connectingSpotify": {
-    "message": "Connecting to Spotify Web…"
+    "message": "Spotify Web'ye bağlanılıyor…"
   },
   "addedLiked": {
-    "message": "Added to Liked Songs."
+    "message": "Beğenilen Şarkılar'a eklendi."
   },
   "removedLiked": {
-    "message": "Removed from Liked Songs."
+    "message": "Beğenilen Şarkılar'dan kaldırıldı."
   },
   "linkCopied": {
-    "message": "Spotify link copied."
+    "message": "Spotify bağlantısı kopyalandı."
   },
   "copyFailed": {
-    "message": "Unable to copy the link."
+    "message": "Bağlantı kopyalanamıyor."
   },
   "noTrackLink": {
-    "message": "No track link available."
+    "message": "Parça bağlantısı mevcut değil."
   },
   "widgetPermissionDenied": {
-    "message": "Permission denied: the widget remains disabled."
+    "message": "İzin reddedildi: Widget devre dışı kalır."
   },
   "widgetShown": {
-    "message": "Widget shown on HTTPS pages."
+    "message": "HTTPS sayfalarında gösterilen widget."
   },
   "widgetHidden": {
-    "message": "Widget hidden."
+    "message": "Widget gizlendi."
   },
   "previousUnavailable": {
-    "message": "Previous track is unavailable for the current Spotify playback."
+    "message": "Geçerli Spotify oynatma için önceki parça kullanılamaz."
   },
   "nextUnavailable": {
-    "message": "Next track is unavailable for the current Spotify playback."
+    "message": "Geçerli Spotify oynatma için sonraki parça kullanılamaz."
   },
   "shuffleUnavailable": {
-    "message": "Shuffle is unavailable for the current Spotify playback or account."
+    "message": "Geçerli Spotify oynatma veya hesap için karıştırma kullanılamaz."
   },
   "repeatUnavailable": {
-    "message": "Repeat is unavailable for the current Spotify playback or account."
+    "message": "Geçerli Spotify oynatma veya hesap için tekrarlama kullanılamaz."
   },
   "devicesUnavailable": {
-    "message": "Spotify's device selector could not be found."
+    "message": "Spotify'nin cihaz seçicisi bulunamadı."
   },
   "favoriteUnavailable": {
-    "message": "The Liked Songs button could not be found in Spotify Web."
+    "message": "Beğenilen Şarkılar düğmesi Spotify Web'de bulunamadı."
   },
   "commandUnavailable": {
-    "message": "This command is unavailable in Spotify Web."
+    "message": "Bu komut Spotify Web'de mevcut değildir."
   },
   "commandFailed": {
-    "message": "Command failed."
+    "message": "Komut başarısız oldu."
   },
   "controlUnavailable": {
-    "message": "Spotify Web control unavailable."
+    "message": "Spotify Web kontrolü kullanılamıyor."
   },
   "seekUnavailable": {
-    "message": "Seeking is unavailable in Spotify Web."
+    "message": "Spotify Web'de arama yapılamaz."
   },
   "volumeUnavailable": {
-    "message": "Volume is unavailable in Spotify Web."
+    "message": "Spotify Web'de ses düzeyi mevcut değil."
   },
   "spotifyUnavailable": {
-    "message": "Spotify Web is unavailable."
+    "message": "Spotify Web kullanılamıyor."
   },
   "spotifyStartupTimeout": {
-    "message": "Spotify Web is taking too long to start."
+    "message": "Spotify Web'nin başlatılması çok uzun sürüyor."
   },
   "spotifyOpenFailed": {
-    "message": "Unable to open Spotify Web."
+    "message": "Spotify Web açılamıyor."
   },
   "spotifyNotOpen": {
-    "message": "Spotify Web is not open."
+    "message": "Spotify Web açık değil."
   },
   "spotifyNotResponding": {
-    "message": "Spotify Web is not responding. Open Spotify and try again."
+    "message": "Spotify Web yanıt vermiyor. Spotify'yi açın ve tekrar deneyin."
   },
   "unknownCommand": {
-    "message": "Unknown TuneDock command."
+    "message": "Bilinmeyen TuneDock komutu."
   },
   "tunedockUnavailable": {
-    "message": "TuneDock unavailable"
+    "message": "TuneDock kullanılamıyor"
   },
   "expand": {
-    "message": "Expand"
+    "message": "Genişlet"
   },
   "collapse": {
-    "message": "Collapse"
+    "message": "Daralt"
+  },
+  "settings": {
+    "message": "Ayarlar"
+  },
+  "backToPlayer": {
+    "message": "Oyuncuya geri dön"
+  },
+  "settingsSubtitle": {
+    "message": "TuneDock'yi özelleştirin ve yardım alın."
+  },
+  "languageTitle": {
+    "message": "TuneDock dili"
+  },
+  "languageHelp": {
+    "message": "Varsayılan olarak TuneDock, Chrome'nin dilini otomatik olarak takip eder."
+  },
+  "automaticLanguage": {
+    "message": "Otomatik — Chrome (1$)"
+  },
+  "feedbackTitle": {
+    "message": "Geri bildiriminiz yardımcı olur"
+  },
+  "feedbackBody": {
+    "message": "Bir derecelendirme veya rapor, gelecekteki sürümlerin iyileştirilmesine yardımcı olur."
+  },
+  "rateTuneDock": {
+    "message": "Değerlendir TuneDock for Spotify"
+  },
+  "contactSupport": {
+    "message": "Desteğe başvurun"
+  },
+  "advancedSettings": {
+    "message": "Gelişmiş ayarlar"
+  },
+  "advancedPrivacy": {
+    "message": "Tercihler yalnızca Chrome'de saklanır. TuneDock kişisel verileri toplamaz."
+  },
+  "resetPreferences": {
+    "message": "Tercihleri sıfırla"
+  },
+  "resetConfirm": {
+    "message": "TuneDock tercihleri sıfırlansın mı?"
+  },
+  "resetDone": {
+    "message": "Tercihler sıfırlandı."
+  },
+  "dragWidget": {
+    "message": "TuneDock'yi taşımak için sürükleyin"
+  },
+  "reduceWidget": {
+    "message": "Widget boyutunu azaltın"
+  },
+  "enlargeWidget": {
+    "message": "Widget boyutunu artırın"
+  },
+  "resizeWidget": {
+    "message": "Widget'ı yeniden boyutlandırmak için sürükleyin"
+  },
+  "playbackPosition": {
+    "message": "Oynatma konumu"
+  },
+  "volume": {
+    "message": "Hacim"
+  },
+  "mute": {
+    "message": "Sessiz"
+  },
+  "unmute": {
+    "message": "Sesi geri yükle"
+  },
+  "playingOn": {
+    "message": "1$ ile oynuyoruz"
+  },
+  "privacyPageTitle": {
+    "message": "TuneDock for Spotify Gizlilik"
+  },
+  "privacyUpdated": {
+    "message": "Son güncelleme: 9 Ağustos 2026"
+  },
+  "privacyNotice": {
+    "message": "TuneDock kişisel verileri toplamaz, satmaz veya paylaşmaz. Sunucusu, reklamı veya analizi yoktur."
+  },
+  "privacyLocalTitle": {
+    "message": "Yerel olarak kullanılan veriler"
+  },
+  "privacyLocalBody": {
+    "message": "TuneDock, yalnızca kullanıcı tarafından talep edilen oynatmayı görüntülemek ve kontrol etmek için görünür Spotify Web oynatıcı bilgilerini (başlık, sanatçı, çizim, oynatma, konum, ses seviyesi ve kontrol durumu) okur."
+  },
+  "privacyStorageTitle": {
+    "message": "Chrome depolama"
+  },
+  "privacyStorageBody": {
+    "message": "Tercihler, widget konumu ve katılım durumu yerel olarak Chrome profilinde saklanır. Hiçbir Spotify tanımlayıcısı, parolası veya OAuth belirteci depolanmaz."
+  },
+  "privacyWidgetTitle": {
+    "message": "İsteğe bağlı widget"
+  },
+  "privacyWidgetBody": {
+    "message": "HTTPS sayfa erişimi yalnızca kullanıcı widget'ı etkinleştirdiğinde istenir. Widget sayfa içeriğini, formları veya tarama geçmişini okumaz; yalnızca TuneDock kontrollerini görüntüler."
+  },
+  "privacyThirdTitle": {
+    "message": "Üçüncü taraf hizmetleri"
+  },
+  "privacyThirdBody": {
+    "message": "TuneDock, istenen eylemleri gerçekleştirmek için yalnızca HTTPS üzerinden Spotify Web ile iletişim kurar. Spotify kullanımı Spotify'nin şartlarına tabi olmaya devam edecektir."
+  },
+  "privacyLyricsTitle": {
+    "message": "İsteğe bağlı şarkı sözü arama"
+  },
+  "privacyLyricsBody": {
+    "message": "Açık bir tıklamanın ardından TuneDock, başlığı ve sanatçıyı içeren bir Google araması açabilir. TuneDock arka planda Google ile iletişim kurmaz, sonuçları almaz, şarkı sözlerini saklamaz veya çoğaltmaz."
+  },
+  "privacyContactTitle": {
+    "message": "İletişim"
+  },
+  "privacyDeveloper": {
+    "message": "Geliştirici: Stéphane Dinahet"
+  },
+  "toggleAmbience": {
+    "message": "Işık ortamını aç/kapat"
+  },
+  "ambienceTitle": {
+    "message": "Aydınlık ortam"
+  },
+  "ambienceHelp": {
+    "message": "Efekti anında önizleyin ve ayarlayın."
+  },
+  "ambienceEnabled": {
+    "message": "LED neon"
+  },
+  "lightEffect": {
+    "message": "Etki"
+  },
+  "lightColor": {
+    "message": "Renk"
+  },
+  "brightness": {
+    "message": "Parlaklık"
+  },
+  "animationSpeed": {
+    "message": "Hız"
+  },
+  "movingHeads": {
+    "message": "Hareketli ışıklar"
+  },
+  "randomAmbience": {
+    "message": "Beni şaşırt"
+  },
+  "resetAmbience": {
+    "message": "Işıkları sıfırla"
+  },
+  "effectStatic": {
+    "message": "Sabit"
+  },
+  "effectBreathe": {
+    "message": "Nefes alma"
+  },
+  "effectPulse": {
+    "message": "Nabız"
+  },
+  "effectWave": {
+    "message": "Dalga"
+  },
+  "effectChase": {
+    "message": "LED kovalamaca"
+  },
+  "effectGradient": {
+    "message": "Gradyan"
+  },
+  "effectRainbow": {
+    "message": "Gökkuşağı"
+  },
+  "effectAurora": {
+    "message": "Aurora"
+  },
+  "effectSparkle": {
+    "message": "ışıltı"
+  },
+  "effectClub": {
+    "message": "Gece kulübü"
+  },
+  "effectSlowBeat": {
+    "message": "Yavaş vuruş"
+  },
+  "effectStrobeSoft": {
+    "message": "Yumuşak flaş"
+  },
+  "colorViolet": {
+    "message": "Menekşe"
+  },
+  "colorBlue": {
+    "message": "Mavi"
+  },
+  "colorCyan": {
+    "message": "Camgöbeği"
+  },
+  "colorGreen": {
+    "message": "Yeşil"
+  },
+  "colorRed": {
+    "message": "Kırmızı"
+  },
+  "colorPink": {
+    "message": "Pembe"
+  },
+  "colorOrange": {
+    "message": "Turuncu"
+  },
+  "colorGold": {
+    "message": "Altın"
+  },
+  "colorWhite": {
+    "message": "Beyaz"
+  },
+  "colorRainbow": {
+    "message": "Çok renkli"
+  },
+  "lyreSweep": {
+    "message": "Süpürme"
+  },
+  "lyreCross": {
+    "message": "Çapraz kirişler"
+  },
+  "lyreFan": {
+    "message": "hayran"
+  },
+  "lyreSlow": {
+    "message": "Yavaş"
+  },
+  "lyreClub": {
+    "message": "Kulüp"
+  },
+  "discoBall": {
+    "message": "Disko topu"
+  },
+  "autoSurprise": {
+    "message": "Sürpriz sekans"
+  },
+  "changeEvery": {
+    "message": "Her birini değiştir"
+  },
+  "effectLedSnake": {
+    "message": "LED yılan"
+  },
+  "effectComet": {
+    "message": "Kuyruklu yıldız"
+  },
+  "effectPrism": {
+    "message": "prizma"
+  },
+  "effectLaser": {
+    "message": "Lazer"
+  },
+  "effectColorFlow": {
+    "message": "Renk akışı"
+  },
+  "effectDoubleChase": {
+    "message": "Çift kovalamaca"
+  },
+  "effectElectric": {
+    "message": "Elektrik"
+  },
+  "effectVelvet": {
+    "message": "Kadife parıltı"
+  },
+  "lasers": {
+    "message": "Lazerler"
+  },
+  "laserScan": {
+    "message": "Tarama"
+  },
+  "laserCross": {
+    "message": "Çapraz lazerler"
+  },
+  "laserFan": {
+    "message": "Lazer fanı"
+  },
+  "laserTunnel": {
+    "message": "Tünel"
+  },
+  "laserRandom": {
+    "message": "Rastgele lazerler"
+  },
+  "closeWidget": {
+    "message": "Widget'ı gizle"
+  },
+  "beatIntensity": {
+    "message": "Yoğunluk"
+  },
+  "beatSpeed": {
+    "message": "Hız"
+  },
+  "coverBeat": {
+    "message": "Hafif kapak parıltısı"
+  },
+  "coverBeatHelp": {
+    "message": "Yakınlaştırma veya hareket yok."
+  },
+  "generalSection": {
+    "message": "Genel"
+  },
+  "widgetSection": {
+    "message": "Yüzen araç"
+  },
+  "appearanceSection": {
+    "message": "Uygulama görünümü"
+  },
+  "youtubePromoTitle": {
+    "message": "TuneDock for YouTube’u keşfedin"
+  },
+  "youtubePromoBody": {
+    "message": "YouTube için TuneDock kumandası yakında Chrome ve Firefox’ta."
+  },
+  "comingSoonChrome": {
+    "message": "Chrome Web Store · Yakında"
+  },
+  "comingSoonFirefox": {
+    "message": "Firefox Add-ons · Yakında"
+  },
+  "discoverChrome": {
+    "message": "Chrome Web Store ↗"
+  },
+  "discoverFirefox": {
+    "message": "Firefox Add-ons ↗"
+  },
+  "supportSection": {
+    "message": "Destek ve hakkında"
+  },
+  "advancedLights": {
+    "message": "Gelişmiş ışık efektleri"
+  },
+  "widgetLed": {
+    "message": "Araç çevresinde LED"
+  },
+  "widgetLedHelp": {
+    "message": "Aracı hareket ettirmeyen isteğe bağlı kenar ışığı."
+  },
+  "ledMode": {
+    "message": "LED modu"
+  },
+  "ledStatic": {
+    "message": "Sabit"
+  },
+  "ledFlow": {
+    "message": "Renk akışı"
+  },
+  "ledBreathe": {
+    "message": "Hafif nefes"
+  },
+  "showEmail": {
+    "message": "E-posta adresini göster"
   }
 }

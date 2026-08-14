@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "TuneDock – Remote for Spotify"
+    "message": "TuneDock for Spotify"
   },
   "appDescription": {
-    "message": "Control Spotify Web from the side panel or an optional floating widget."
+    "message": "Controle Spotify Web desde el panel lateral o un widget flotante opcional."
   },
   "actionTitle": {
-    "message": "Open TuneDock"
+    "message": "Abrir TuneDock"
   },
   "tagline": {
     "message": "Control remoto para Spotify"
@@ -27,19 +27,19 @@
     "message": "Tu música, siempre a mano"
   },
   "welcomeBody": {
-    "message": "Control Spotify Web from Firefox's sidebar or an optional floating widget."
+    "message": "Controle Spotify Web desde el panel lateral de Chrome o desde un widget flotante opcional."
   },
   "privacyTitle": {
     "message": "Privacidad primero"
   },
   "privacyBody": {
-    "message": "No TuneDock account, no server and no personal data collection. Preferences stay in Firefox."
+    "message": "Sin cuenta TuneDock, sin servidor y sin recopilación de datos personales. Las preferencias permanecen en Chrome."
   },
   "continueSpotify": {
     "message": "Continuar con Spotify"
   },
   "officialSpotifyHelp": {
-    "message": "Spotify opens on its official website."
+    "message": "Spotify se abre en su sitio web oficial."
   },
   "thisComputer": {
     "message": "Este ordenador"
@@ -48,10 +48,10 @@
     "message": "Cambiar"
   },
   "changeDeviceTitle": {
-    "message": "Change device in Spotify"
+    "message": "Cambiar dispositivo en Spotify"
   },
   "reconnect": {
-    "message": "Reconnect Spotify Web"
+    "message": "Vuelva a conectar Spotify Web"
   },
   "noTrack": {
     "message": "Sin canción"
@@ -60,16 +60,16 @@
     "message": "No hay canción activa"
   },
   "openSpotifyToStart": {
-    "message": "Open Spotify Web to get started"
+    "message": "Abra Spotify Web para comenzar"
   },
   "startMusicSpotify": {
-    "message": "Start playing music in Spotify Web"
+    "message": "Comience a reproducir música en Spotify Web"
   },
   "previousTrack": {
     "message": "Canción anterior"
   },
   "playPause": {
-    "message": "Play or pause"
+    "message": "Reproducir o pausar"
   },
   "nextTrack": {
     "message": "Canción siguiente"
@@ -99,13 +99,13 @@
     "message": "Copiar enlace"
   },
   "openSpotify": {
-    "message": "OPEN SPOTIFY"
+    "message": "ABRIR SPOTIFY"
   },
   "spotifyAuto": {
     "message": "Spotify auto"
   },
   "widgetAuto": {
-    "message": "Widget auto"
+    "message": "Widget automático"
   },
   "atStartup": {
     "message": "Al iniciar"
@@ -117,105 +117,456 @@
     "message": "Ocultar widget"
   },
   "createdBy": {
-    "message": "Created by Stéphane Dinahet"
+    "message": "Creado por Stéphane Dinahet"
   },
   "privacy": {
     "message": "Privacidad"
   },
   "notAffiliated": {
-    "message": "TuneDock is independent and not affiliated with Spotify."
+    "message": "TuneDock es independiente y no está afiliado a Spotify."
   },
   "unknownArtist": {
-    "message": "Unknown artist"
+    "message": "Artista desconocido"
   },
   "unknownTrack": {
-    "message": "Unknown track"
+    "message": "Pista desconocida"
   },
   "connectingSpotify": {
-    "message": "Connecting to Spotify Web…"
+    "message": "Conectándose a Spotify Web…"
   },
   "addedLiked": {
-    "message": "Added to Liked Songs."
+    "message": "Agregado a Canciones que me gustan."
   },
   "removedLiked": {
-    "message": "Removed from Liked Songs."
+    "message": "Eliminado de Canciones que me gustan."
   },
   "linkCopied": {
-    "message": "Spotify link copied."
+    "message": "Enlace Spotify copiado."
   },
   "copyFailed": {
-    "message": "Unable to copy the link."
+    "message": "No se puede copiar el enlace."
   },
   "noTrackLink": {
-    "message": "No track link available."
+    "message": "No hay enlace de seguimiento disponible."
   },
   "widgetPermissionDenied": {
-    "message": "Permission denied: the widget remains disabled."
+    "message": "Permiso denegado: el widget permanece deshabilitado."
   },
   "widgetShown": {
-    "message": "Widget shown on HTTPS pages."
+    "message": "Widget que se muestra en las páginas HTTPS."
   },
   "widgetHidden": {
-    "message": "Widget hidden."
+    "message": "Widget oculto."
   },
   "previousUnavailable": {
-    "message": "Previous track is unavailable for the current Spotify playback."
+    "message": "La pista anterior no está disponible para la reproducción actual de Spotify."
   },
   "nextUnavailable": {
-    "message": "Next track is unavailable for the current Spotify playback."
+    "message": "La siguiente pista no está disponible para la reproducción actual de Spotify."
   },
   "shuffleUnavailable": {
-    "message": "Shuffle is unavailable for the current Spotify playback or account."
+    "message": "La reproducción aleatoria no está disponible para la reproducción o cuenta actual de Spotify."
   },
   "repeatUnavailable": {
-    "message": "Repeat is unavailable for the current Spotify playback or account."
+    "message": "La repetición no está disponible para la reproducción o cuenta actual de Spotify."
   },
   "devicesUnavailable": {
-    "message": "Spotify's device selector could not be found."
+    "message": "No se pudo encontrar el selector de dispositivos de Spotify."
   },
   "favoriteUnavailable": {
-    "message": "The Liked Songs button could not be found in Spotify Web."
+    "message": "El botón Canciones que me gustan no se pudo encontrar en Spotify Web."
   },
   "commandUnavailable": {
-    "message": "This command is unavailable in Spotify Web."
+    "message": "Este comando no está disponible en Spotify Web."
   },
   "commandFailed": {
-    "message": "Command failed."
+    "message": "El comando falló."
   },
   "controlUnavailable": {
-    "message": "Spotify Web control unavailable."
+    "message": "El control Spotify Web no está disponible."
   },
   "seekUnavailable": {
-    "message": "Seeking is unavailable in Spotify Web."
+    "message": "La búsqueda no está disponible en Spotify Web."
   },
   "volumeUnavailable": {
-    "message": "Volume is unavailable in Spotify Web."
+    "message": "El volumen no está disponible en Spotify Web."
   },
   "spotifyUnavailable": {
-    "message": "Spotify Web is unavailable."
+    "message": "Spotify Web no está disponible."
   },
   "spotifyStartupTimeout": {
-    "message": "Spotify Web is taking too long to start."
+    "message": "Spotify Web está tardando demasiado en iniciarse."
   },
   "spotifyOpenFailed": {
-    "message": "Unable to open Spotify Web."
+    "message": "No se puede abrir Spotify Web."
   },
   "spotifyNotOpen": {
-    "message": "Spotify Web is not open."
+    "message": "Spotify Web no está abierto."
   },
   "spotifyNotResponding": {
-    "message": "Spotify Web is not responding. Open Spotify and try again."
+    "message": "Spotify Web no responde. Abra Spotify y vuelva a intentarlo."
   },
   "unknownCommand": {
-    "message": "Unknown TuneDock command."
+    "message": "Comando TuneDock desconocido."
   },
   "tunedockUnavailable": {
-    "message": "TuneDock unavailable"
+    "message": "TuneDock no disponible"
   },
   "expand": {
-    "message": "Expand"
+    "message": "Expandir"
   },
   "collapse": {
-    "message": "Collapse"
+    "message": "Colapso"
+  },
+  "settings": {
+    "message": "Configuración"
+  },
+  "backToPlayer": {
+    "message": "Volver al jugador"
+  },
+  "settingsSubtitle": {
+    "message": "Personaliza TuneDock y obtén ayuda."
+  },
+  "languageTitle": {
+    "message": "Idioma TuneDock"
+  },
+  "languageHelp": {
+    "message": "De forma predeterminada, TuneDock sigue automáticamente el idioma de Chrome."
+  },
+  "automaticLanguage": {
+    "message": "Automático - Chrome ($ 1)"
+  },
+  "feedbackTitle": {
+    "message": "Tus comentarios ayudan"
+  },
+  "feedbackBody": {
+    "message": "Una calificación o informe ayuda a mejorar futuras versiones."
+  },
+  "rateTuneDock": {
+    "message": "Califica TuneDock for Spotify"
+  },
+  "contactSupport": {
+    "message": "Contactar con soporte"
+  },
+  "advancedSettings": {
+    "message": "Configuraciones avanzadas"
+  },
+  "advancedPrivacy": {
+    "message": "Las preferencias se almacenan únicamente en Chrome. TuneDock no recoge datos personales."
+  },
+  "resetPreferences": {
+    "message": "Restablecer preferencias"
+  },
+  "resetConfirm": {
+    "message": "¿Restablecer las preferencias de TuneDock?"
+  },
+  "resetDone": {
+    "message": "Restablecer preferencias."
+  },
+  "dragWidget": {
+    "message": "Arrastra para mover TuneDock"
+  },
+  "reduceWidget": {
+    "message": "Reducir el tamaño del widget"
+  },
+  "enlargeWidget": {
+    "message": "Aumentar el tamaño del widget"
+  },
+  "resizeWidget": {
+    "message": "Arrastre para cambiar el tamaño del widget"
+  },
+  "playbackPosition": {
+    "message": "Posición de reproducción"
+  },
+  "volume": {
+    "message": "Volumen"
+  },
+  "mute": {
+    "message": "Silenciar"
+  },
+  "unmute": {
+    "message": "Restaurar sonido"
+  },
+  "playingOn": {
+    "message": "Jugando con $1"
+  },
+  "privacyPageTitle": {
+    "message": "TuneDock for Spotify Privacidad"
+  },
+  "privacyUpdated": {
+    "message": "Última actualización: 9 de agosto de 2026"
+  },
+  "privacyNotice": {
+    "message": "TuneDock no recopila, vende ni comparte datos personales. No tiene servidor, publicidad ni analíticas."
+  },
+  "privacyLocalTitle": {
+    "message": "Datos utilizados localmente"
+  },
+  "privacyLocalBody": {
+    "message": "TuneDock lee la información visible del reproductor Spotify Web (título, artista, obra de arte, reproducción, posición, volumen y estado de control) solo para mostrar y controlar la reproducción solicitada por el usuario."
+  },
+  "privacyStorageTitle": {
+    "message": "Almacenamiento Chrome"
+  },
+  "privacyStorageBody": {
+    "message": "Las preferencias, la posición del widget y el estado de incorporación se almacenan localmente en el perfil Chrome. No se almacena ningún identificador Spotify, contraseña o token OAuth."
+  },
+  "privacyWidgetTitle": {
+    "message": "Widget opcional"
+  },
+  "privacyWidgetBody": {
+    "message": "El acceso a la página HTTPS se solicita solo cuando el usuario habilita el widget. El widget no lee el contenido de la página, los formularios ni el historial de navegación; solo muestra los controles TuneDock."
+  },
+  "privacyThirdTitle": {
+    "message": "Servicios de terceros"
+  },
+  "privacyThirdBody": {
+    "message": "TuneDock se comunica solo con Spotify Web a través de HTTPS para realizar las acciones solicitadas. El uso de Spotify permanece sujeto a los términos de Spotify."
+  },
+  "privacyLyricsTitle": {
+    "message": "Búsqueda de letras opcional"
+  },
+  "privacyLyricsBody": {
+    "message": "Después de un clic explícito, TuneDock puede abrir una búsqueda en Google que contiene el título y el artista. TuneDock no contacta a Google en segundo plano, no recupera resultados, ni almacena ni reproduce letras."
+  },
+  "privacyContactTitle": {
+    "message": "Contacto"
+  },
+  "privacyDeveloper": {
+    "message": "Desarrollador: Stéphane Dinahet"
+  },
+  "toggleAmbience": {
+    "message": "Alternar ambiente de luz"
+  },
+  "ambienceTitle": {
+    "message": "Ambiente luminoso"
+  },
+  "ambienceHelp": {
+    "message": "Obtenga una vista previa y ajuste el efecto al instante."
+  },
+  "ambienceEnabled": {
+    "message": "neón LED"
+  },
+  "lightEffect": {
+    "message": "Efecto"
+  },
+  "lightColor": {
+    "message": "Color"
+  },
+  "brightness": {
+    "message": "Brillo"
+  },
+  "animationSpeed": {
+    "message": "Velocidad"
+  },
+  "movingHeads": {
+    "message": "luces en movimiento"
+  },
+  "randomAmbience": {
+    "message": "Sorpréndeme"
+  },
+  "resetAmbience": {
+    "message": "Restablecer luces"
+  },
+  "effectStatic": {
+    "message": "constante"
+  },
+  "effectBreathe": {
+    "message": "Respiración"
+  },
+  "effectPulse": {
+    "message": "Pulso"
+  },
+  "effectWave": {
+    "message": "Ola"
+  },
+  "effectChase": {
+    "message": "persecución LED"
+  },
+  "effectGradient": {
+    "message": "gradiente"
+  },
+  "effectRainbow": {
+    "message": "arcoiris"
+  },
+  "effectAurora": {
+    "message": "aurora"
+  },
+  "effectSparkle": {
+    "message": "brillar"
+  },
+  "effectClub": {
+    "message": "discoteca"
+  },
+  "effectSlowBeat": {
+    "message": "ritmo lento"
+  },
+  "effectStrobeSoft": {
+    "message": "luz estroboscópica suave"
+  },
+  "colorViolet": {
+    "message": "violeta"
+  },
+  "colorBlue": {
+    "message": "azul"
+  },
+  "colorCyan": {
+    "message": "cian"
+  },
+  "colorGreen": {
+    "message": "verde"
+  },
+  "colorRed": {
+    "message": "rojo"
+  },
+  "colorPink": {
+    "message": "rosa"
+  },
+  "colorOrange": {
+    "message": "naranja"
+  },
+  "colorGold": {
+    "message": "oro"
+  },
+  "colorWhite": {
+    "message": "blanco"
+  },
+  "colorRainbow": {
+    "message": "multicolores"
+  },
+  "lyreSweep": {
+    "message": "barrer"
+  },
+  "lyreCross": {
+    "message": "vigas cruzadas"
+  },
+  "lyreFan": {
+    "message": "ventilador"
+  },
+  "lyreSlow": {
+    "message": "Lento"
+  },
+  "lyreClub": {
+    "message": "club"
+  },
+  "discoBall": {
+    "message": "bola de discoteca"
+  },
+  "autoSurprise": {
+    "message": "Secuencia sorpresa"
+  },
+  "changeEvery": {
+    "message": "cambiar cada"
+  },
+  "effectLedSnake": {
+    "message": "serpiente LED"
+  },
+  "effectComet": {
+    "message": "cometa"
+  },
+  "effectPrism": {
+    "message": "prisma"
+  },
+  "effectLaser": {
+    "message": "Láser"
+  },
+  "effectColorFlow": {
+    "message": "flujo de color"
+  },
+  "effectDoubleChase": {
+    "message": "doble persecución"
+  },
+  "effectElectric": {
+    "message": "Eléctrico"
+  },
+  "effectVelvet": {
+    "message": "Resplandor de terciopelo"
+  },
+  "lasers": {
+    "message": "Láseres"
+  },
+  "laserScan": {
+    "message": "Escaneo"
+  },
+  "laserCross": {
+    "message": "Láseres cruzados"
+  },
+  "laserFan": {
+    "message": "ventilador láser"
+  },
+  "laserTunnel": {
+    "message": "Túnel"
+  },
+  "laserRandom": {
+    "message": "Láseres aleatorios"
+  },
+  "closeWidget": {
+    "message": "Ocultar widget"
+  },
+  "beatIntensity": {
+    "message": "Intensidad"
+  },
+  "beatSpeed": {
+    "message": "Velocidad"
+  },
+  "coverBeat": {
+    "message": "Brillo sutil de la portada"
+  },
+  "coverBeatHelp": {
+    "message": "Sin zoom ni movimiento."
+  },
+  "generalSection": {
+    "message": "General"
+  },
+  "widgetSection": {
+    "message": "Widget flotante"
+  },
+  "appearanceSection": {
+    "message": "Apariencia de la aplicación"
+  },
+  "youtubePromoTitle": {
+    "message": "Descubre TuneDock for YouTube"
+  },
+  "youtubePromoBody": {
+    "message": "El control remoto TuneDock para YouTube llegará pronto a Chrome y Firefox."
+  },
+  "comingSoonChrome": {
+    "message": "Chrome Web Store · Próximamente"
+  },
+  "comingSoonFirefox": {
+    "message": "Firefox Add-ons · Próximamente"
+  },
+  "discoverChrome": {
+    "message": "Chrome Web Store ↗"
+  },
+  "discoverFirefox": {
+    "message": "Firefox Add-ons ↗"
+  },
+  "supportSection": {
+    "message": "Ayuda y acerca de"
+  },
+  "advancedLights": {
+    "message": "Efectos de luz avanzados"
+  },
+  "widgetLed": {
+    "message": "Borde LED del widget"
+  },
+  "widgetLedHelp": {
+    "message": "Iluminación opcional del borde sin mover el widget."
+  },
+  "ledMode": {
+    "message": "Modo LED"
+  },
+  "ledStatic": {
+    "message": "Estático"
+  },
+  "ledFlow": {
+    "message": "Flujo de color"
+  },
+  "ledBreathe": {
+    "message": "Respiración suave"
+  },
+  "showEmail": {
+    "message": "Mostrar la dirección de correo"
   }
 }

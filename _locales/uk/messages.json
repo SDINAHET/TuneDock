@@ -1,6 +1,6 @@
 {
   "appName": {
-    "message": "TuneDock – Remote for Spotify"
+    "message": "TuneDock for Spotify"
   },
   "appDescription": {
     "message": "Control Spotify Web from the side panel or an optional floating widget."
@@ -27,13 +27,13 @@
     "message": "Музика завжди під рукою"
   },
   "welcomeBody": {
-    "message": "Control Spotify Web from Firefox's sidebar or an optional floating widget."
+    "message": "Control Spotify Web from Chrome's side panel or an optional floating widget."
   },
   "privacyTitle": {
     "message": "Конфіденційність передусім"
   },
   "privacyBody": {
-    "message": "No TuneDock account, no server and no personal data collection. Preferences stay in Firefox."
+    "message": "No TuneDock account, no server and no personal data collection. Preferences stay in Chrome."
   },
   "continueSpotify": {
     "message": "Продовжити зі Spotify"
@@ -217,5 +217,356 @@
   },
   "collapse": {
     "message": "Collapse"
+  },
+  "closeWidget": {
+    "message": "Приховати віджет"
+  },
+  "settings": {
+    "message": "Налаштування"
+  },
+  "backToPlayer": {
+    "message": "Повернутися до плеєра"
+  },
+  "settingsSubtitle": {
+    "message": "Налаштувати TuneDock та отримати допомогу."
+  },
+  "languageTitle": {
+    "message": "Мова TuneDock"
+  },
+  "languageHelp": {
+    "message": "За замовчуванням TuneDock автоматично дотримується мови Chrome."
+  },
+  "automaticLanguage": {
+    "message": "Automatic — Chrome ($ 1)"
+  },
+  "feedbackTitle": {
+    "message": "Ваш відгук допомагає"
+  },
+  "feedbackBody": {
+    "message": "Рейтинг або звіт допомагають покращити майбутні версії."
+  },
+  "rateTuneDock": {
+    "message": "Rate TuneDock для Spotify"
+  },
+  "contactSupport": {
+    "message": "Зв '↗язатися зі службою підтримки"
+  },
+  "advancedSettings": {
+    "message": "Розширені налаштування Налаштування"
+  },
+  "advancedPrivacy": {
+    "message": "зберігаються лише в Chrome. TuneDock не збирає особисті дані."
+  },
+  "resetPreferences": {
+    "message": "Скинути налаштування"
+  },
+  "resetConfirm": {
+    "message": "Скинути налаштування TuneDock?"
+  },
+  "resetDone": {
+    "message": "Скидання налаштувань."
+  },
+  "dragWidget": {
+    "message": "Перетягніть, щоб перемістити TuneDock"
+  },
+  "reduceWidget": {
+    "message": "Зменшити розмір віджета"
+  },
+  "enlargeWidget": {
+    "message": "Збільшити розмір віджета"
+  },
+  "resizeWidget": {
+    "message": "Перетягніть, щоб змінити розмір віджета"
+  },
+  "playbackPosition": {
+    "message": "Позиція відтворення"
+  },
+  "volume": {
+    "message": "Гучність"
+  },
+  "mute": {
+    "message": "Вимкнути звук"
+  },
+  "unmute": {
+    "message": "Відновити звук"
+  },
+  "playingOn": {
+    "message": "Відтворення на $ 1"
+  },
+  "privacyPageTitle": {
+    "message": "TuneDock для Spotify Конфіденційність"
+  },
+  "privacyUpdated": {
+    "message": "Останнє оновлення: 9 серпня 2026"
+  },
+  "privacyNotice": {
+    "message": "TuneDock не збирає, не продає та не передає особисті дані. У ньому немає сервера, реклами чи аналітики."
+  },
+  "privacyLocalTitle": {
+    "message": "Дані, що використовуються локально"
+  },
+  "privacyLocalBody": {
+    "message": "TuneDock зчитує видиму інформацію веб-програвача Spotify — назву, виконавця, графічний твір, відтворення, положення, гучність та стан керування — лише для відображення та керування відтворенням, запрошеним користувачем. Пам 'ять"
+  },
+  "privacyStorageTitle": {
+    "message": "Chrome Налаштування"
+  },
+  "privacyStorageBody": {
+    "message": ", розташування віджета та статус реєстрації зберігаються локально в профілі Chrome. Не збережено ідентифікатор Spotify, пароль або OAuth-токен. Додатковий віджет"
+  },
+  "privacyWidgetTitle": {
+    "message": ""
+  },
+  "privacyWidgetBody": {
+    "message": "Доступ до сторінки HTTPS запитується лише тоді, коли користувач вмикає віджет. Віджет не читає вміст сторінки, форми або історію перегляду; він відображає лише елементи керування TuneDock."
+  },
+  "privacyThirdTitle": {
+    "message": "Сторонні служби"
+  },
+  "privacyThirdBody": {
+    "message": "TuneDock обмінюється даними лише зі Spotify Web через HTTPS для виконання запитаних дій. Використання Spotify регулюється умовами Spotify."
+  },
+  "privacyLyricsTitle": {
+    "message": "Необов 'язковий пошук текстів пісень"
+  },
+  "privacyLyricsBody": {
+    "message": "Після явного натискання TuneDock може відкрити пошук Google, що містить назву та виконавця. TuneDock не зв 'язується з Google у фоновому режимі, не отримує результати, не зберігає та не відтворює тексти пісень."
+  },
+  "privacyContactTitle": {
+    "message": "Зв' яжіться з"
+  },
+  "privacyDeveloper": {
+    "message": "Розробник: Stéphane Dinahet"
+  },
+  "toggleAmbience": {
+    "message": "Перемикач освітлення"
+  },
+  "ambienceTitle": {
+    "message": "Світле освітлення"
+  },
+  "ambienceHelp": {
+    "message": "Попередній перегляд та миттєве регулювання ефекту."
+  },
+  "ambienceEnabled": {
+    "message": "СВІТЛОДІОДНИЙ неоновий"
+  },
+  "lightEffect": {
+    "message": "Ефект"
+  },
+  "lightColor": {
+    "message": "Колір"
+  },
+  "brightness": {
+    "message": "Brightness"
+  },
+  "animationSpeed": {
+    "message": "Speed"
+  },
+  "movingHeads": {
+    "message": "Moving lights"
+  },
+  "randomAmbience": {
+    "message": "Surprise me"
+  },
+  "resetAmbience": {
+    "message": "Reset lights"
+  },
+  "effectStatic": {
+    "message": "Steady"
+  },
+  "effectBreathe": {
+    "message": "Breathing"
+  },
+  "effectPulse": {
+    "message": "Pulse"
+  },
+  "effectWave": {
+    "message": "Wave"
+  },
+  "effectChase": {
+    "message": "LED chase"
+  },
+  "effectGradient": {
+    "message": "Gradient"
+  },
+  "effectRainbow": {
+    "message": "Rainbow"
+  },
+  "effectAurora": {
+    "message": "Aurora"
+  },
+  "effectSparkle": {
+    "message": "Sparkle"
+  },
+  "effectClub": {
+    "message": "Nightclub"
+  },
+  "effectSlowBeat": {
+    "message": "Slow beat"
+  },
+  "effectStrobeSoft": {
+    "message": "Soft strobe"
+  },
+  "colorViolet": {
+    "message": "Violet"
+  },
+  "colorBlue": {
+    "message": "Blue"
+  },
+  "colorCyan": {
+    "message": "Cyan"
+  },
+  "colorGreen": {
+    "message": "Green"
+  },
+  "colorRed": {
+    "message": "Red"
+  },
+  "colorPink": {
+    "message": "Pink"
+  },
+  "colorOrange": {
+    "message": "Orange"
+  },
+  "colorGold": {
+    "message": "Gold"
+  },
+  "colorWhite": {
+    "message": "White"
+  },
+  "colorRainbow": {
+    "message": "Multicolor"
+  },
+  "lyreSweep": {
+    "message": "Sweep"
+  },
+  "lyreCross": {
+    "message": "Crossed beams"
+  },
+  "lyreFan": {
+    "message": "Fan"
+  },
+  "lyreSlow": {
+    "message": "Slow"
+  },
+  "lyreClub": {
+    "message": "Club"
+  },
+  "discoBall": {
+    "message": "Disco ball"
+  },
+  "autoSurprise": {
+    "message": "Surprise sequence"
+  },
+  "changeEvery": {
+    "message": "Change every"
+  },
+  "effectLedSnake": {
+    "message": "LED snake"
+  },
+  "effectComet": {
+    "message": "Comet"
+  },
+  "effectPrism": {
+    "message": "Prism"
+  },
+  "effectLaser": {
+    "message": "Laser"
+  },
+  "effectColorFlow": {
+    "message": "Color flow"
+  },
+  "effectDoubleChase": {
+    "message": "Double chase"
+  },
+  "effectElectric": {
+    "message": "Electric"
+  },
+  "effectVelvet": {
+    "message": "Velvet glow"
+  },
+  "lasers": {
+    "message": "Lasers"
+  },
+  "laserScan": {
+    "message": "Scanning"
+  },
+  "laserCross": {
+    "message": "Перехресні лазери"
+  },
+  "laserFan": {
+    "message": "Лазерний вентилятор"
+  },
+  "laserTunnel": {
+    "message": "Тунель"
+  },
+  "laserRandom": {
+    "message": "Випадкові лазери"
+  },
+  "beatIntensity": {
+    "message": "Інтенсивність"
+  },
+  "beatSpeed": {
+    "message": "Швидкість"
+  },
+  "coverBeat": {
+    "message": "Легке сяйво обкладинки"
+  },
+  "coverBeatHelp": {
+    "message": "Без масштабування та руху."
+  },
+  "generalSection": {
+    "message": "Загальні"
+  },
+  "widgetSection": {
+    "message": "Плаваючий віджет"
+  },
+  "appearanceSection": {
+    "message": "Вигляд застосунку"
+  },
+  "youtubePromoTitle": {
+    "message": "Відкрийте TuneDock for YouTube"
+  },
+  "youtubePromoBody": {
+    "message": "Пульт TuneDock для YouTube незабаром з’явиться в Chrome і Firefox."
+  },
+  "comingSoonChrome": {
+    "message": "Chrome Web Store · Незабаром"
+  },
+  "comingSoonFirefox": {
+    "message": "Firefox Add-ons · Незабаром"
+  },
+  "discoverChrome": {
+    "message": "Chrome Web Store ↗"
+  },
+  "discoverFirefox": {
+    "message": "Firefox Add-ons ↗"
+  },
+  "supportSection": {
+    "message": "Підтримка та відомості"
+  },
+  "advancedLights": {
+    "message": "Розширені світлові ефекти"
+  },
+  "widgetLed": {
+    "message": "LED-рамка віджета"
+  },
+  "widgetLedHelp": {
+    "message": "Додаткове підсвічування без руху віджета."
+  },
+  "ledMode": {
+    "message": "Режим LED"
+  },
+  "ledStatic": {
+    "message": "Статичний"
+  },
+  "ledFlow": {
+    "message": "Потік кольорів"
+  },
+  "ledBreathe": {
+    "message": "М’яке дихання"
+  },
+  "showEmail": {
+    "message": "Показати адресу електронної пошти"
   }
 }

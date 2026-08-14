@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "TuneDock – Remote for Spotify"
+    "message": "TuneDock for Spotify"
   },
   "appDescription": {
-    "message": "Control Spotify Web from the side panel or an optional floating widget."
+    "message": "측면 패널이나 선택적 플로팅 위젯에서 Spotify Web를 제어하세요."
   },
   "actionTitle": {
-    "message": "Open TuneDock"
+    "message": "TuneDock 열기"
   },
   "tagline": {
     "message": "Spotify 리모컨"
@@ -27,19 +27,19 @@
     "message": "음악을 언제나 가까이"
   },
   "welcomeBody": {
-    "message": "Control Spotify Web from Firefox's sidebar or an optional floating widget."
+    "message": "Chrome의 측면 패널이나 선택적 플로팅 위젯에서 Spotify Web를 제어하세요."
   },
   "privacyTitle": {
     "message": "개인정보 보호 우선"
   },
   "privacyBody": {
-    "message": "No TuneDock account, no server and no personal data collection. Preferences stay in Firefox."
+    "message": "TuneDock 계정도 없고, 서버도 없고, 개인 데이터 수집도 없습니다. 기본 설정은 Chrome에 유지됩니다."
   },
   "continueSpotify": {
     "message": "Spotify로 계속"
   },
   "officialSpotifyHelp": {
-    "message": "Spotify opens on its official website."
+    "message": "Spotify가 공식 웹사이트에 오픈됩니다."
   },
   "thisComputer": {
     "message": "이 컴퓨터"
@@ -48,10 +48,10 @@
     "message": "변경"
   },
   "changeDeviceTitle": {
-    "message": "Change device in Spotify"
+    "message": "Spotify에서 장치 변경"
   },
   "reconnect": {
-    "message": "Reconnect Spotify Web"
+    "message": "Spotify Web 다시 연결"
   },
   "noTrack": {
     "message": "재생 곡 없음"
@@ -60,16 +60,16 @@
     "message": "활성 곡 없음"
   },
   "openSpotifyToStart": {
-    "message": "Open Spotify Web to get started"
+    "message": "시작하려면 Spotify Web를 여세요."
   },
   "startMusicSpotify": {
-    "message": "Start playing music in Spotify Web"
+    "message": "Spotify Web에서 음악 재생을 시작하세요"
   },
   "previousTrack": {
     "message": "이전 곡"
   },
   "playPause": {
-    "message": "Play or pause"
+    "message": "재생 또는 일시중지"
   },
   "nextTrack": {
     "message": "다음 곡"
@@ -99,13 +99,13 @@
     "message": "링크 복사"
   },
   "openSpotify": {
-    "message": "OPEN SPOTIFY"
+    "message": "오픈 스포티파이"
   },
   "spotifyAuto": {
-    "message": "Spotify auto"
+    "message": "Spotify 자동"
   },
   "widgetAuto": {
-    "message": "Widget auto"
+    "message": "위젯 자동"
   },
   "atStartup": {
     "message": "시작 시"
@@ -117,105 +117,456 @@
     "message": "위젯 숨기기"
   },
   "createdBy": {
-    "message": "Created by Stéphane Dinahet"
+    "message": "제작자 Stéphane Dinahet"
   },
   "privacy": {
     "message": "개인정보 보호"
   },
   "notAffiliated": {
-    "message": "TuneDock is independent and not affiliated with Spotify."
+    "message": "TuneDock는 독립적이며 Spotify와 제휴하지 않습니다."
   },
   "unknownArtist": {
-    "message": "Unknown artist"
+    "message": "알 수 없는 아티스트"
   },
   "unknownTrack": {
-    "message": "Unknown track"
+    "message": "알 수 없는 트랙"
   },
   "connectingSpotify": {
-    "message": "Connecting to Spotify Web…"
+    "message": "Spotify Web에 연결하는 중…"
   },
   "addedLiked": {
-    "message": "Added to Liked Songs."
+    "message": "좋아요 표시한 노래에 추가되었습니다."
   },
   "removedLiked": {
-    "message": "Removed from Liked Songs."
+    "message": "좋아요 표시한 노래에서 삭제되었습니다."
   },
   "linkCopied": {
-    "message": "Spotify link copied."
+    "message": "Spotify 링크가 복사되었습니다."
   },
   "copyFailed": {
-    "message": "Unable to copy the link."
+    "message": "링크를 복사할 수 없습니다."
   },
   "noTrackLink": {
-    "message": "No track link available."
+    "message": "사용할 수 있는 트랙 링크가 없습니다."
   },
   "widgetPermissionDenied": {
-    "message": "Permission denied: the widget remains disabled."
+    "message": "권한 거부됨: 위젯이 비활성화된 상태로 유지됩니다."
   },
   "widgetShown": {
-    "message": "Widget shown on HTTPS pages."
+    "message": "HTTPS 페이지에 표시되는 위젯입니다."
   },
   "widgetHidden": {
-    "message": "Widget hidden."
+    "message": "위젯이 숨겨져 있습니다."
   },
   "previousUnavailable": {
-    "message": "Previous track is unavailable for the current Spotify playback."
+    "message": "현재 Spotify 재생에는 이전 트랙을 사용할 수 없습니다."
   },
   "nextUnavailable": {
-    "message": "Next track is unavailable for the current Spotify playback."
+    "message": "현재 Spotify 재생에는 다음 트랙을 사용할 수 없습니다."
   },
   "shuffleUnavailable": {
-    "message": "Shuffle is unavailable for the current Spotify playback or account."
+    "message": "현재 Spotify 재생 또는 계정에서는 셔플을 사용할 수 없습니다."
   },
   "repeatUnavailable": {
-    "message": "Repeat is unavailable for the current Spotify playback or account."
+    "message": "현재 Spotify 재생 또는 계정에서는 반복을 사용할 수 없습니다."
   },
   "devicesUnavailable": {
-    "message": "Spotify's device selector could not be found."
+    "message": "Spotify의 장치 선택기를 찾을 수 없습니다."
   },
   "favoriteUnavailable": {
-    "message": "The Liked Songs button could not be found in Spotify Web."
+    "message": "좋아요 표시한 노래 버튼을 Spotify Web에서 찾을 수 없습니다."
   },
   "commandUnavailable": {
-    "message": "This command is unavailable in Spotify Web."
+    "message": "Spotify Web에서는 이 명령을 사용할 수 없습니다."
   },
   "commandFailed": {
-    "message": "Command failed."
+    "message": "명령이 실패했습니다."
   },
   "controlUnavailable": {
-    "message": "Spotify Web control unavailable."
+    "message": "Spotify Web 제어를 사용할 수 없습니다."
   },
   "seekUnavailable": {
-    "message": "Seeking is unavailable in Spotify Web."
+    "message": "Spotify Web에서는 검색을 사용할 수 없습니다."
   },
   "volumeUnavailable": {
-    "message": "Volume is unavailable in Spotify Web."
+    "message": "Spotify Web에서는 볼륨을 사용할 수 없습니다."
   },
   "spotifyUnavailable": {
-    "message": "Spotify Web is unavailable."
+    "message": "Spotify Web를 사용할 수 없습니다."
   },
   "spotifyStartupTimeout": {
-    "message": "Spotify Web is taking too long to start."
+    "message": "Spotify Web를 시작하는 데 너무 오랜 시간이 걸립니다."
   },
   "spotifyOpenFailed": {
-    "message": "Unable to open Spotify Web."
+    "message": "Spotify Web를 열 수 없습니다."
   },
   "spotifyNotOpen": {
-    "message": "Spotify Web is not open."
+    "message": "Spotify Web가 열려 있지 않습니다."
   },
   "spotifyNotResponding": {
-    "message": "Spotify Web is not responding. Open Spotify and try again."
+    "message": "Spotify Web가 응답하지 않습니다. Spotify를 열고 다시 시도하세요."
   },
   "unknownCommand": {
-    "message": "Unknown TuneDock command."
+    "message": "알 수 없는 TuneDock 명령."
   },
   "tunedockUnavailable": {
-    "message": "TuneDock unavailable"
+    "message": "TuneDock를 사용할 수 없습니다."
   },
   "expand": {
-    "message": "Expand"
+    "message": "펼치기"
   },
   "collapse": {
-    "message": "Collapse"
+    "message": "접기"
+  },
+  "settings": {
+    "message": "설정"
+  },
+  "backToPlayer": {
+    "message": "플레이어로 돌아가기"
+  },
+  "settingsSubtitle": {
+    "message": "TuneDock를 사용자 정의하고 도움을 받으세요."
+  },
+  "languageTitle": {
+    "message": "TuneDock 언어"
+  },
+  "languageHelp": {
+    "message": "기본적으로 TuneDock는 자동으로 Chrome의 언어를 따릅니다."
+  },
+  "automaticLanguage": {
+    "message": "자동 — Chrome ($1)"
+  },
+  "feedbackTitle": {
+    "message": "귀하의 의견이 도움이 됩니다"
+  },
+  "feedbackBody": {
+    "message": "평가나 보고서는 향후 버전을 개선하는 데 도움이 됩니다."
+  },
+  "rateTuneDock": {
+    "message": "TuneDock for Spotify 평가"
+  },
+  "contactSupport": {
+    "message": "지원팀에 문의"
+  },
+  "advancedSettings": {
+    "message": "고급 설정"
+  },
+  "advancedPrivacy": {
+    "message": "기본 설정은 Chrome에만 저장됩니다. TuneDock는 개인 데이터를 수집하지 않습니다."
+  },
+  "resetPreferences": {
+    "message": "환경설정 재설정"
+  },
+  "resetConfirm": {
+    "message": "TuneDock 환경설정을 재설정하시겠습니까?"
+  },
+  "resetDone": {
+    "message": "환경설정이 재설정되었습니다."
+  },
+  "dragWidget": {
+    "message": "TuneDock를 이동하려면 드래그하세요."
+  },
+  "reduceWidget": {
+    "message": "위젯 크기 줄이기"
+  },
+  "enlargeWidget": {
+    "message": "위젯 크기 늘리기"
+  },
+  "resizeWidget": {
+    "message": "위젯 크기를 조정하려면 드래그하세요."
+  },
+  "playbackPosition": {
+    "message": "재생 위치"
+  },
+  "volume": {
+    "message": "볼륨"
+  },
+  "mute": {
+    "message": "음소거"
+  },
+  "unmute": {
+    "message": "소리 복원"
+  },
+  "playingOn": {
+    "message": "1달러로 플레이하기"
+  },
+  "privacyPageTitle": {
+    "message": "TuneDock for Spotify 개인 정보 보호"
+  },
+  "privacyUpdated": {
+    "message": "최종 업데이트 날짜: 2026년 8월 9일"
+  },
+  "privacyNotice": {
+    "message": "TuneDock는 개인 데이터를 수집, 판매 또는 공유하지 않습니다. 서버, 광고 또는 분석이 없습니다."
+  },
+  "privacyLocalTitle": {
+    "message": "로컬에서 사용되는 데이터"
+  },
+  "privacyLocalBody": {
+    "message": "TuneDock는 제목, 아티스트, 작품, 재생, 위치, 볼륨 및 제어 상태 등 눈에 보이는 Spotify Web 플레이어 정보를 읽어 사용자가 요청한 재생을 표시하고 제어합니다."
+  },
+  "privacyStorageTitle": {
+    "message": "Chrome 스토리지"
+  },
+  "privacyStorageBody": {
+    "message": "기본 설정, 위젯 위치 및 온보딩 상태는 Chrome 프로필에 로컬로 저장됩니다. Spotify 식별자, 비밀번호 또는 OAuth 토큰은 저장되지 않습니다."
+  },
+  "privacyWidgetTitle": {
+    "message": "선택적 위젯"
+  },
+  "privacyWidgetBody": {
+    "message": "HTTPS 페이지 액세스는 사용자가 위젯을 활성화한 경우에만 요청됩니다. 위젯은 페이지 콘텐츠, 양식 또는 검색 기록을 읽지 않습니다. TuneDock 컨트롤만 표시합니다."
+  },
+  "privacyThirdTitle": {
+    "message": "제3자 서비스"
+  },
+  "privacyThirdBody": {
+    "message": "TuneDock는 요청된 작업을 수행하기 위해 HTTPS를 통해 Spotify Web와만 통신합니다. Spotify 사용에는 Spotify 약관이 적용됩니다."
+  },
+  "privacyLyricsTitle": {
+    "message": "선택적 가사 검색"
+  },
+  "privacyLyricsBody": {
+    "message": "명시적인 클릭 후 TuneDock는 제목과 아티스트가 포함된 Google 검색을 열 수 있습니다. TuneDock는 백그라운드에서 Google에 접속하거나 결과를 검색하거나 가사를 저장하거나 재생산하지 않습니다."
+  },
+  "privacyContactTitle": {
+    "message": "연락처"
+  },
+  "privacyDeveloper": {
+    "message": "개발자: Stéphane Dinahet"
+  },
+  "toggleAmbience": {
+    "message": "조명 분위기 전환"
+  },
+  "ambienceTitle": {
+    "message": "가벼운 분위기"
+  },
+  "ambienceHelp": {
+    "message": "효과를 즉시 미리 보고 조정하세요."
+  },
+  "ambienceEnabled": {
+    "message": "LED 네온"
+  },
+  "lightEffect": {
+    "message": "효과"
+  },
+  "lightColor": {
+    "message": "색상"
+  },
+  "brightness": {
+    "message": "밝기"
+  },
+  "animationSpeed": {
+    "message": "속도"
+  },
+  "movingHeads": {
+    "message": "움직이는 조명"
+  },
+  "randomAmbience": {
+    "message": "나를 놀라게 해주세요"
+  },
+  "resetAmbience": {
+    "message": "조명 재설정"
+  },
+  "effectStatic": {
+    "message": "꾸준한"
+  },
+  "effectBreathe": {
+    "message": "호흡"
+  },
+  "effectPulse": {
+    "message": "펄스"
+  },
+  "effectWave": {
+    "message": "웨이브"
+  },
+  "effectChase": {
+    "message": "LED 추적"
+  },
+  "effectGradient": {
+    "message": "그라데이션"
+  },
+  "effectRainbow": {
+    "message": "무지개"
+  },
+  "effectAurora": {
+    "message": "오로라"
+  },
+  "effectSparkle": {
+    "message": "스파클"
+  },
+  "effectClub": {
+    "message": "나이트클럽"
+  },
+  "effectSlowBeat": {
+    "message": "느린 비트"
+  },
+  "effectStrobeSoft": {
+    "message": "소프트스트로보"
+  },
+  "colorViolet": {
+    "message": "보라색"
+  },
+  "colorBlue": {
+    "message": "블루"
+  },
+  "colorCyan": {
+    "message": "청록색"
+  },
+  "colorGreen": {
+    "message": "녹색"
+  },
+  "colorRed": {
+    "message": "빨간색"
+  },
+  "colorPink": {
+    "message": "핑크"
+  },
+  "colorOrange": {
+    "message": "오렌지"
+  },
+  "colorGold": {
+    "message": "골드"
+  },
+  "colorWhite": {
+    "message": "화이트"
+  },
+  "colorRainbow": {
+    "message": "여러 가지 빛깔의"
+  },
+  "lyreSweep": {
+    "message": "스윕"
+  },
+  "lyreCross": {
+    "message": "교차된 빔"
+  },
+  "lyreFan": {
+    "message": "팬"
+  },
+  "lyreSlow": {
+    "message": "느림"
+  },
+  "lyreClub": {
+    "message": "클럽"
+  },
+  "discoBall": {
+    "message": "디스코 볼"
+  },
+  "autoSurprise": {
+    "message": "깜짝 시퀀스"
+  },
+  "changeEvery": {
+    "message": "변경 간격"
+  },
+  "effectLedSnake": {
+    "message": "LED 스네이크"
+  },
+  "effectComet": {
+    "message": "혜성"
+  },
+  "effectPrism": {
+    "message": "프리즘"
+  },
+  "effectLaser": {
+    "message": "레이저"
+  },
+  "effectColorFlow": {
+    "message": "색상 흐름"
+  },
+  "effectDoubleChase": {
+    "message": "더블 체이스"
+  },
+  "effectElectric": {
+    "message": "전기"
+  },
+  "effectVelvet": {
+    "message": "벨벳 글로우"
+  },
+  "lasers": {
+    "message": "레이저"
+  },
+  "laserScan": {
+    "message": "스캐닝 중"
+  },
+  "laserCross": {
+    "message": "교차 레이저"
+  },
+  "laserFan": {
+    "message": "레이저 팬"
+  },
+  "laserTunnel": {
+    "message": "터널"
+  },
+  "laserRandom": {
+    "message": "무작위 레이저"
+  },
+  "closeWidget": {
+    "message": "위젯 숨기기"
+  },
+  "beatIntensity": {
+    "message": "강도"
+  },
+  "beatSpeed": {
+    "message": "속도"
+  },
+  "coverBeat": {
+    "message": "은은한 표지 빛"
+  },
+  "coverBeatHelp": {
+    "message": "확대나 움직임이 없습니다."
+  },
+  "generalSection": {
+    "message": "일반"
+  },
+  "widgetSection": {
+    "message": "플로팅 위젯"
+  },
+  "appearanceSection": {
+    "message": "앱 모양"
+  },
+  "youtubePromoTitle": {
+    "message": "TuneDock for YouTube 알아보기"
+  },
+  "youtubePromoBody": {
+    "message": "YouTube용 TuneDock 리모컨이 곧 Chrome과 Firefox에 출시됩니다."
+  },
+  "comingSoonChrome": {
+    "message": "Chrome Web Store · 출시 예정"
+  },
+  "comingSoonFirefox": {
+    "message": "Firefox Add-ons · 출시 예정"
+  },
+  "discoverChrome": {
+    "message": "Chrome Web Store ↗"
+  },
+  "discoverFirefox": {
+    "message": "Firefox Add-ons ↗"
+  },
+  "supportSection": {
+    "message": "지원 및 정보"
+  },
+  "advancedLights": {
+    "message": "고급 조명 효과"
+  },
+  "widgetLed": {
+    "message": "위젯 LED 테두리"
+  },
+  "widgetLedHelp": {
+    "message": "위젯을 움직이지 않는 선택적 테두리 조명입니다."
+  },
+  "ledMode": {
+    "message": "LED 모드"
+  },
+  "ledStatic": {
+    "message": "고정"
+  },
+  "ledFlow": {
+    "message": "색상 흐름"
+  },
+  "ledBreathe": {
+    "message": "부드러운 숨쉬기"
+  },
+  "showEmail": {
+    "message": "이메일 주소 표시"
   }
 }

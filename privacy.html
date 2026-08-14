@@ -3,23 +3,25 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>TuneDock Privacy</title>
+    <title>TuneDock for Spotify Privacy</title>
     <style>
       :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #0b0d0c; color: #f2f4f2; }
       body { max-width: 760px; margin: 0 auto; padding: 36px 22px; line-height: 1.6; }
       h1 { margin-bottom: 4px; } h2 { margin-top: 28px; font-size: 18px; }
       p, li { color: #b9c0bb; } a { color: #a99eff; }
       .notice { padding: 16px; border: 1px solid rgba(30,215,96,.28); border-radius: 12px; background: rgba(30,215,96,.07); }
+      .email-reveal { padding: 8px 12px; border: 1px solid rgba(169,158,255,.45); border-radius: 9px; background: rgba(169,158,255,.1); color: #ded9ff; font: inherit; font-size: 13px; font-weight: 700; cursor: pointer; }
+      .email-reveal:hover { border-color: #a99eff; background: rgba(169,158,255,.18); }
     </style>
   </head>
   <body>
-    <h1 data-i18n="privacyPageTitle">TuneDock Privacy</h1>
+    <h1 data-i18n="privacyPageTitle">TuneDock for Spotify Privacy</h1>
     <p data-i18n="privacyUpdated">Last updated: August 9, 2026</p>
     <p class="notice" data-i18n="privacyNotice">TuneDock does not collect, sell or share personal data. It has no server, advertising or analytics.</p>
     <h2 data-i18n="privacyLocalTitle">Data used locally</h2>
     <p data-i18n="privacyLocalBody">TuneDock reads visible Spotify Web player information only to display and control playback requested by the user.</p>
-    <h2 data-i18n="privacyStorageTitle">Firefox storage</h2>
-    <p data-i18n="privacyStorageBody">Preferences and widget settings are stored locally in Firefox. No Spotify credentials or OAuth token are stored.</p>
+    <h2 data-i18n="privacyStorageTitle">Chrome storage</h2>
+    <p data-i18n="privacyStorageBody">Preferences and widget settings are stored locally in Chrome. No Spotify credentials or OAuth token are stored.</p>
     <h2 data-i18n="privacyWidgetTitle">Optional widget</h2>
     <p data-i18n="privacyWidgetBody">HTTPS page access is requested only when the user enables the widget. The widget displays TuneDock controls and does not read page content, forms or browsing history.</p>
     <h2 data-i18n="privacyThirdTitle">Third-party services</h2>
@@ -27,7 +29,8 @@
     <h2 data-i18n="privacyLyricsTitle">Optional lyrics search</h2>
     <p data-i18n="privacyLyricsBody">After an explicit click, TuneDock can open a Google search containing the title and artist. It does not retrieve, store or reproduce lyrics.</p>
     <h2 data-i18n="privacyContactTitle">Contact</h2>
-    <p><span data-i18n="privacyDeveloper">Developer: Stéphane Dinahet</span> · <a href="mailto:contact@loto-tracker.fr">contact@loto-tracker.fr</a> · <a href="https://github.com/SDINAHET/TuneDock">GitHub</a></p>
+    <p><span data-i18n="privacyDeveloper">Developer: Stéphane Dinahet</span> · <button id="privacyContactEmail" class="email-reveal" type="button" data-contact-email data-i18n="showEmail">Afficher l’adresse e-mail</button></p>
     <script src="i18n.js"></script>
+    <script src="privacy-contact.js"></script>
   </body>
 </html>

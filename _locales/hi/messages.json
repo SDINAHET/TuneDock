@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "TuneDock – Remote for Spotify"
+    "message": "TuneDock for Spotify"
   },
   "appDescription": {
-    "message": "Control Spotify Web from the side panel or an optional floating widget."
+    "message": "साइड पैनल या वैकल्पिक फ़्लोटिंग विजेट से Spotify Web को नियंत्रित करें।"
   },
   "actionTitle": {
-    "message": "Open TuneDock"
+    "message": "TuneDock खोलें"
   },
   "tagline": {
     "message": "Spotify के लिए रिमोट"
@@ -27,19 +27,19 @@
     "message": "आपका संगीत हमेशा पास"
   },
   "welcomeBody": {
-    "message": "Control Spotify Web from Firefox's sidebar or an optional floating widget."
+    "message": "Chrome के साइड पैनल या वैकल्पिक फ़्लोटिंग विजेट से Spotify Web को नियंत्रित करें।"
   },
   "privacyTitle": {
     "message": "गोपनीयता पहले"
   },
   "privacyBody": {
-    "message": "No TuneDock account, no server and no personal data collection. Preferences stay in Firefox."
+    "message": "कोई TuneDock खाता नहीं, कोई सर्वर नहीं और कोई व्यक्तिगत डेटा संग्रह नहीं। प्राथमिकताएँ Chrome में रहती हैं।"
   },
   "continueSpotify": {
     "message": "Spotify के साथ जारी रखें"
   },
   "officialSpotifyHelp": {
-    "message": "Spotify opens on its official website."
+    "message": "Spotify अपनी आधिकारिक वेबसाइट पर खुलता है।"
   },
   "thisComputer": {
     "message": "यह कंप्यूटर"
@@ -48,10 +48,10 @@
     "message": "बदलें"
   },
   "changeDeviceTitle": {
-    "message": "Change device in Spotify"
+    "message": "Spotify में डिवाइस बदलें"
   },
   "reconnect": {
-    "message": "Reconnect Spotify Web"
+    "message": "Spotify Web को पुनः कनेक्ट करें"
   },
   "noTrack": {
     "message": "कोई गाना नहीं"
@@ -60,16 +60,16 @@
     "message": "कोई सक्रिय गाना नहीं"
   },
   "openSpotifyToStart": {
-    "message": "Open Spotify Web to get started"
+    "message": "आरंभ करने के लिए Spotify Web खोलें"
   },
   "startMusicSpotify": {
-    "message": "Start playing music in Spotify Web"
+    "message": "Spotify Web में संगीत बजाना प्रारंभ करें"
   },
   "previousTrack": {
     "message": "पिछला गाना"
   },
   "playPause": {
-    "message": "Play or pause"
+    "message": "चलायें या रोकें"
   },
   "nextTrack": {
     "message": "अगला गाना"
@@ -99,13 +99,13 @@
     "message": "लिंक कॉपी करें"
   },
   "openSpotify": {
-    "message": "OPEN SPOTIFY"
+    "message": "Spotify खोलें"
   },
   "spotifyAuto": {
-    "message": "Spotify auto"
+    "message": "Spotify ऑटो"
   },
   "widgetAuto": {
-    "message": "Widget auto"
+    "message": "विजेट ऑटो"
   },
   "atStartup": {
     "message": "स्टार्टअप पर"
@@ -117,105 +117,456 @@
     "message": "विजेट छिपाएँ"
   },
   "createdBy": {
-    "message": "Created by Stéphane Dinahet"
+    "message": "स्टीफन दीनाहेट द्वारा बनाया गया"
   },
   "privacy": {
     "message": "गोपनीयता"
   },
   "notAffiliated": {
-    "message": "TuneDock is independent and not affiliated with Spotify."
+    "message": "TuneDock स्वतंत्र है और Spotify से संबद्ध नहीं है।"
   },
   "unknownArtist": {
-    "message": "Unknown artist"
+    "message": "अज्ञात कलाकार"
   },
   "unknownTrack": {
-    "message": "Unknown track"
+    "message": "अज्ञात ट्रैक"
   },
   "connectingSpotify": {
-    "message": "Connecting to Spotify Web…"
+    "message": "Spotify Web से कनेक्ट हो रहा है…"
   },
   "addedLiked": {
-    "message": "Added to Liked Songs."
+    "message": "पसंद किए गए गानों में जोड़ा गया."
   },
   "removedLiked": {
-    "message": "Removed from Liked Songs."
+    "message": "पसंद किए गए गानों से हटा दिया गया."
   },
   "linkCopied": {
-    "message": "Spotify link copied."
+    "message": "Spotify लिंक कॉपी किया गया।"
   },
   "copyFailed": {
-    "message": "Unable to copy the link."
+    "message": "लिंक कॉपी करने में असमर्थ."
   },
   "noTrackLink": {
-    "message": "No track link available."
+    "message": "कोई ट्रैक लिंक उपलब्ध नहीं है."
   },
   "widgetPermissionDenied": {
-    "message": "Permission denied: the widget remains disabled."
+    "message": "अनुमति अस्वीकृत: विजेट अक्षम बना हुआ है।"
   },
   "widgetShown": {
-    "message": "Widget shown on HTTPS pages."
+    "message": "विजेट HTTPS पृष्ठों पर दिखाया गया है।"
   },
   "widgetHidden": {
-    "message": "Widget hidden."
+    "message": "विजेट छिपा हुआ."
   },
   "previousUnavailable": {
-    "message": "Previous track is unavailable for the current Spotify playback."
+    "message": "वर्तमान Spotify प्लेबैक के लिए पिछला ट्रैक अनुपलब्ध है।"
   },
   "nextUnavailable": {
-    "message": "Next track is unavailable for the current Spotify playback."
+    "message": "वर्तमान Spotify प्लेबैक के लिए अगला ट्रैक उपलब्ध नहीं है।"
   },
   "shuffleUnavailable": {
-    "message": "Shuffle is unavailable for the current Spotify playback or account."
+    "message": "शफ़ल वर्तमान Spotify प्लेबैक या खाते के लिए अनुपलब्ध है।"
   },
   "repeatUnavailable": {
-    "message": "Repeat is unavailable for the current Spotify playback or account."
+    "message": "वर्तमान Spotify प्लेबैक या खाते के लिए रिपीट अनुपलब्ध है।"
   },
   "devicesUnavailable": {
-    "message": "Spotify's device selector could not be found."
+    "message": "Spotify का डिवाइस चयनकर्ता नहीं मिल सका।"
   },
   "favoriteUnavailable": {
-    "message": "The Liked Songs button could not be found in Spotify Web."
+    "message": "पसंद किए गए गाने बटन Spotify Web में नहीं मिल सका।"
   },
   "commandUnavailable": {
-    "message": "This command is unavailable in Spotify Web."
+    "message": "यह आदेश Spotify Web में उपलब्ध नहीं है।"
   },
   "commandFailed": {
-    "message": "Command failed."
+    "message": "आदेश विफल रहा."
   },
   "controlUnavailable": {
-    "message": "Spotify Web control unavailable."
+    "message": "Spotify Web नियंत्रण अनुपलब्ध है।"
   },
   "seekUnavailable": {
-    "message": "Seeking is unavailable in Spotify Web."
+    "message": "Spotify Web में तलाश उपलब्ध नहीं है।"
   },
   "volumeUnavailable": {
-    "message": "Volume is unavailable in Spotify Web."
+    "message": "Spotify Web में वॉल्यूम उपलब्ध नहीं है।"
   },
   "spotifyUnavailable": {
-    "message": "Spotify Web is unavailable."
+    "message": "Spotify Web अनुपलब्ध है।"
   },
   "spotifyStartupTimeout": {
-    "message": "Spotify Web is taking too long to start."
+    "message": "Spotify Web को प्रारंभ होने में बहुत अधिक समय लग रहा है।"
   },
   "spotifyOpenFailed": {
-    "message": "Unable to open Spotify Web."
+    "message": "Spotify Web खोलने में असमर्थ."
   },
   "spotifyNotOpen": {
-    "message": "Spotify Web is not open."
+    "message": "Spotify Web खुला नहीं है।"
   },
   "spotifyNotResponding": {
-    "message": "Spotify Web is not responding. Open Spotify and try again."
+    "message": "Spotify Web जवाब नहीं दे रहा है। Spotify खोलें और पुनः प्रयास करें।"
   },
   "unknownCommand": {
-    "message": "Unknown TuneDock command."
+    "message": "अज्ञात TuneDock कमांड।"
   },
   "tunedockUnavailable": {
-    "message": "TuneDock unavailable"
+    "message": "TuneDock अनुपलब्ध है"
   },
   "expand": {
-    "message": "Expand"
+    "message": "विस्तार करें"
   },
   "collapse": {
-    "message": "Collapse"
+    "message": "पतन"
+  },
+  "settings": {
+    "message": "सेटिंग्स"
+  },
+  "backToPlayer": {
+    "message": "खिलाड़ी पर वापस जाएँ"
+  },
+  "settingsSubtitle": {
+    "message": "TuneDock को अनुकूलित करें और सहायता प्राप्त करें।"
+  },
+  "languageTitle": {
+    "message": "TuneDock भाषा"
+  },
+  "languageHelp": {
+    "message": "डिफ़ॉल्ट रूप से, TuneDock स्वचालित रूप से Chrome की भाषा का अनुसरण करता है।"
+  },
+  "automaticLanguage": {
+    "message": "स्वचालित - Chrome ($1)"
+  },
+  "feedbackTitle": {
+    "message": "आपकी प्रतिक्रिया से मदद मिलती है"
+  },
+  "feedbackBody": {
+    "message": "एक रेटिंग या रिपोर्ट भविष्य के संस्करणों को बेहतर बनाने में मदद करती है।"
+  },
+  "rateTuneDock": {
+    "message": "TuneDock for Spotify को रेट करें"
+  },
+  "contactSupport": {
+    "message": "समर्थन से संपर्क करें"
+  },
+  "advancedSettings": {
+    "message": "उन्नत सेटिंग्स"
+  },
+  "advancedPrivacy": {
+    "message": "प्राथमिकताएँ केवल Chrome में संग्रहीत की जाती हैं। TuneDock व्यक्तिगत डेटा एकत्र नहीं करता है।"
+  },
+  "resetPreferences": {
+    "message": "प्राथमिकताएँ रीसेट करें"
+  },
+  "resetConfirm": {
+    "message": "TuneDock प्राथमिकताएँ रीसेट करें?"
+  },
+  "resetDone": {
+    "message": "प्राथमिकताएँ रीसेट."
+  },
+  "dragWidget": {
+    "message": "TuneDock को स्थानांतरित करने के लिए खींचें"
+  },
+  "reduceWidget": {
+    "message": "विजेट का आकार कम करें"
+  },
+  "enlargeWidget": {
+    "message": "विजेट का आकार बढ़ाएँ"
+  },
+  "resizeWidget": {
+    "message": "विजेट का आकार बदलने के लिए खींचें"
+  },
+  "playbackPosition": {
+    "message": "प्लेबैक स्थिति"
+  },
+  "volume": {
+    "message": "आयतन"
+  },
+  "mute": {
+    "message": "मूक"
+  },
+  "unmute": {
+    "message": "ध्वनि पुनर्स्थापित करें"
+  },
+  "playingOn": {
+    "message": "$1 पर खेल रहा हूँ"
+  },
+  "privacyPageTitle": {
+    "message": "TuneDock for Spotify गोपनीयता"
+  },
+  "privacyUpdated": {
+    "message": "अंतिम अद्यतन: 9 अगस्त, 2026"
+  },
+  "privacyNotice": {
+    "message": "TuneDock व्यक्तिगत डेटा एकत्र, बिक्री या साझा नहीं करता है। इसका कोई सर्वर, विज्ञापन या विश्लेषण नहीं है।"
+  },
+  "privacyLocalTitle": {
+    "message": "स्थानीय स्तर पर उपयोग किया गया डेटा"
+  },
+  "privacyLocalBody": {
+    "message": "TuneDock दृश्यमान Spotify Web प्लेयर जानकारी पढ़ता है - शीर्षक, कलाकार, कलाकृति, प्लेबैक, स्थिति, वॉल्यूम और नियंत्रण स्थिति - केवल उपयोगकर्ता द्वारा अनुरोधित प्लेबैक को प्रदर्शित करने और नियंत्रित करने के लिए।"
+  },
+  "privacyStorageTitle": {
+    "message": "Chrome भंडारण"
+  },
+  "privacyStorageBody": {
+    "message": "प्राथमिकताएँ, विजेट स्थिति और ऑनबोर्डिंग स्थिति Chrome प्रोफ़ाइल में स्थानीय रूप से संग्रहीत की जाती हैं। कोई Spotify पहचानकर्ता, पासवर्ड या OAuth टोकन संग्रहीत नहीं है।"
+  },
+  "privacyWidgetTitle": {
+    "message": "वैकल्पिक विजेट"
+  },
+  "privacyWidgetBody": {
+    "message": "HTTPS पेज एक्सेस का अनुरोध केवल तभी किया जाता है जब उपयोगकर्ता विजेट को सक्षम करता है। विजेट पृष्ठ सामग्री, प्रपत्र या ब्राउज़िंग इतिहास नहीं पढ़ता है; यह केवल TuneDock नियंत्रण प्रदर्शित करता है।"
+  },
+  "privacyThirdTitle": {
+    "message": "तृतीय-पक्ष सेवाएँ"
+  },
+  "privacyThirdBody": {
+    "message": "TuneDock अनुरोधित कार्रवाई करने के लिए केवल HTTPS पर Spotify Web के साथ संचार करता है। Spotify का उपयोग Spotify की शर्तों के अधीन रहता है।"
+  },
+  "privacyLyricsTitle": {
+    "message": "वैकल्पिक गीत खोज"
+  },
+  "privacyLyricsBody": {
+    "message": "एक स्पष्ट क्लिक के बाद, TuneDock शीर्षक और कलाकार वाली एक Google खोज खोल सकता है। TuneDock पृष्ठभूमि में Google से संपर्क नहीं करता, परिणाम प्राप्त नहीं करता, गीत संग्रहित या पुनरुत्पादित नहीं करता।"
+  },
+  "privacyContactTitle": {
+    "message": "संपर्क करें"
+  },
+  "privacyDeveloper": {
+    "message": "डेवलपर: स्टीफन दीनाहेट"
+  },
+  "toggleAmbience": {
+    "message": "प्रकाश परिवेश टॉगल करें"
+  },
+  "ambienceTitle": {
+    "message": "हल्का माहौल"
+  },
+  "ambienceHelp": {
+    "message": "प्रभाव का तुरंत पूर्वावलोकन करें और उसे समायोजित करें।"
+  },
+  "ambienceEnabled": {
+    "message": "एलईडी नियॉन"
+  },
+  "lightEffect": {
+    "message": "प्रभाव"
+  },
+  "lightColor": {
+    "message": "रंग"
+  },
+  "brightness": {
+    "message": "चमक"
+  },
+  "animationSpeed": {
+    "message": "गति"
+  },
+  "movingHeads": {
+    "message": "चलती हुई रोशनी"
+  },
+  "randomAmbience": {
+    "message": "मुझे आश्चर्यचकित करो"
+  },
+  "resetAmbience": {
+    "message": "लाइटें रीसेट करें"
+  },
+  "effectStatic": {
+    "message": "स्थिर"
+  },
+  "effectBreathe": {
+    "message": "साँस लेना"
+  },
+  "effectPulse": {
+    "message": "नाड़ी"
+  },
+  "effectWave": {
+    "message": "लहर"
+  },
+  "effectChase": {
+    "message": "एलईडी पीछा"
+  },
+  "effectGradient": {
+    "message": "ढाल"
+  },
+  "effectRainbow": {
+    "message": "इंद्रधनुष"
+  },
+  "effectAurora": {
+    "message": "अरोड़ा"
+  },
+  "effectSparkle": {
+    "message": "चमक"
+  },
+  "effectClub": {
+    "message": "नाइट क्लब"
+  },
+  "effectSlowBeat": {
+    "message": "धीमी धड़कन"
+  },
+  "effectStrobeSoft": {
+    "message": "मुलायम स्ट्रोब"
+  },
+  "colorViolet": {
+    "message": "बैंगनी"
+  },
+  "colorBlue": {
+    "message": "नीला"
+  },
+  "colorCyan": {
+    "message": "सियान"
+  },
+  "colorGreen": {
+    "message": "हरा"
+  },
+  "colorRed": {
+    "message": "लाल"
+  },
+  "colorPink": {
+    "message": "गुलाबी"
+  },
+  "colorOrange": {
+    "message": "नारंगी"
+  },
+  "colorGold": {
+    "message": "सोना"
+  },
+  "colorWhite": {
+    "message": "सफ़ेद"
+  },
+  "colorRainbow": {
+    "message": "बहुरंगा"
+  },
+  "lyreSweep": {
+    "message": "झाडू"
+  },
+  "lyreCross": {
+    "message": "क्रॉस्ड बीम"
+  },
+  "lyreFan": {
+    "message": "पंखा"
+  },
+  "lyreSlow": {
+    "message": "धीरे"
+  },
+  "lyreClub": {
+    "message": "क्लब"
+  },
+  "discoBall": {
+    "message": "डिस्को बॉल"
+  },
+  "autoSurprise": {
+    "message": "आश्चर्य क्रम"
+  },
+  "changeEvery": {
+    "message": "प्रत्येक को बदलें"
+  },
+  "effectLedSnake": {
+    "message": "एलईडी साँप"
+  },
+  "effectComet": {
+    "message": "धूमकेतु"
+  },
+  "effectPrism": {
+    "message": "प्रिज्म"
+  },
+  "effectLaser": {
+    "message": "लेजर"
+  },
+  "effectColorFlow": {
+    "message": "रंग प्रवाह"
+  },
+  "effectDoubleChase": {
+    "message": "दोहरा पीछा"
+  },
+  "effectElectric": {
+    "message": "बिजली"
+  },
+  "effectVelvet": {
+    "message": "मखमली चमक"
+  },
+  "lasers": {
+    "message": "लेजर"
+  },
+  "laserScan": {
+    "message": "स्कैनिंग"
+  },
+  "laserCross": {
+    "message": "क्रॉस्ड लेजर"
+  },
+  "laserFan": {
+    "message": "लेजर पंखा"
+  },
+  "laserTunnel": {
+    "message": "सुरंग"
+  },
+  "laserRandom": {
+    "message": "यादृच्छिक लेजर"
+  },
+  "closeWidget": {
+    "message": "विजेट छिपाएँ"
+  },
+  "beatIntensity": {
+    "message": "तीव्रता"
+  },
+  "beatSpeed": {
+    "message": "गति"
+  },
+  "coverBeat": {
+    "message": "कवर की हल्की चमक"
+  },
+  "coverBeatHelp": {
+    "message": "कोई ज़ूम या गति नहीं।"
+  },
+  "generalSection": {
+    "message": "सामान्य"
+  },
+  "widgetSection": {
+    "message": "फ़्लोटिंग विजेट"
+  },
+  "appearanceSection": {
+    "message": "ऐप का रूप"
+  },
+  "youtubePromoTitle": {
+    "message": "TuneDock for YouTube खोजें"
+  },
+  "youtubePromoBody": {
+    "message": "YouTube के लिए TuneDock रिमोट जल्द Chrome और Firefox पर आ रहा है।"
+  },
+  "comingSoonChrome": {
+    "message": "Chrome Web Store · जल्द आ रहा है"
+  },
+  "comingSoonFirefox": {
+    "message": "Firefox Add-ons · जल्द आ रहा है"
+  },
+  "discoverChrome": {
+    "message": "Chrome Web Store ↗"
+  },
+  "discoverFirefox": {
+    "message": "Firefox Add-ons ↗"
+  },
+  "supportSection": {
+    "message": "सहायता और परिचय"
+  },
+  "advancedLights": {
+    "message": "उन्नत प्रकाश प्रभाव"
+  },
+  "widgetLed": {
+    "message": "विजेट के चारों ओर LED"
+  },
+  "widgetLedHelp": {
+    "message": "विजेट को हिलाए बिना वैकल्पिक किनारी रोशनी।"
+  },
+  "ledMode": {
+    "message": "LED मोड"
+  },
+  "ledStatic": {
+    "message": "स्थिर"
+  },
+  "ledFlow": {
+    "message": "रंग प्रवाह"
+  },
+  "ledBreathe": {
+    "message": "हल्की धड़कन"
+  },
+  "showEmail": {
+    "message": "ईमेल पता दिखाएँ"
   }
 }

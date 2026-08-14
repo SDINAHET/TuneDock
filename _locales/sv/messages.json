@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "TuneDock – Remote for Spotify"
+    "message": "TuneDock for Spotify"
   },
   "appDescription": {
-    "message": "Control Spotify Web from the side panel or an optional floating widget."
+    "message": "Styr Spotify Web från sidopanelen eller en valfri flytande widget."
   },
   "actionTitle": {
-    "message": "Open TuneDock"
+    "message": "Öppna TuneDock"
   },
   "tagline": {
     "message": "Fjärrkontroll för Spotify"
@@ -27,19 +27,19 @@
     "message": "Din musik, alltid nära"
   },
   "welcomeBody": {
-    "message": "Control Spotify Web from Firefox's sidebar or an optional floating widget."
+    "message": "Styr Spotify Web från Chromes sidopanel eller en valfri flytande widget."
   },
   "privacyTitle": {
     "message": "Integritet först"
   },
   "privacyBody": {
-    "message": "No TuneDock account, no server and no personal data collection. Preferences stay in Firefox."
+    "message": "Inget TuneDock-konto, ingen server och ingen personlig datainsamling. Preferenser stannar i Chrome."
   },
   "continueSpotify": {
     "message": "Fortsätt med Spotify"
   },
   "officialSpotifyHelp": {
-    "message": "Spotify opens on its official website."
+    "message": "Spotify öppnar på sin officiella hemsida."
   },
   "thisComputer": {
     "message": "Den här datorn"
@@ -48,10 +48,10 @@
     "message": "Byt"
   },
   "changeDeviceTitle": {
-    "message": "Change device in Spotify"
+    "message": "Byt enhet i Spotify"
   },
   "reconnect": {
-    "message": "Reconnect Spotify Web"
+    "message": "Återanslut Spotify Web"
   },
   "noTrack": {
     "message": "Ingen låt"
@@ -60,16 +60,16 @@
     "message": "Ingen aktiv låt"
   },
   "openSpotifyToStart": {
-    "message": "Open Spotify Web to get started"
+    "message": "Öppna Spotify Web för att komma igång"
   },
   "startMusicSpotify": {
-    "message": "Start playing music in Spotify Web"
+    "message": "Börja spela musik i Spotify Web"
   },
   "previousTrack": {
     "message": "Föregående låt"
   },
   "playPause": {
-    "message": "Play or pause"
+    "message": "Spela eller pausa"
   },
   "nextTrack": {
     "message": "Nästa låt"
@@ -99,13 +99,13 @@
     "message": "Kopiera länk"
   },
   "openSpotify": {
-    "message": "OPEN SPOTIFY"
+    "message": "ÖPPNA SPOTIFY"
   },
   "spotifyAuto": {
     "message": "Spotify auto"
   },
   "widgetAuto": {
-    "message": "Widget auto"
+    "message": "Widget automatisk"
   },
   "atStartup": {
     "message": "Vid start"
@@ -117,105 +117,456 @@
     "message": "Dölj widget"
   },
   "createdBy": {
-    "message": "Created by Stéphane Dinahet"
+    "message": "Skapad av Stéphane Dinahet"
   },
   "privacy": {
     "message": "Integritet"
   },
   "notAffiliated": {
-    "message": "TuneDock is independent and not affiliated with Spotify."
+    "message": "TuneDock är oberoende och inte ansluten till Spotify."
   },
   "unknownArtist": {
-    "message": "Unknown artist"
+    "message": "Okänd artist"
   },
   "unknownTrack": {
-    "message": "Unknown track"
+    "message": "Okänt spår"
   },
   "connectingSpotify": {
-    "message": "Connecting to Spotify Web…"
+    "message": "Ansluter till Spotify Web..."
   },
   "addedLiked": {
-    "message": "Added to Liked Songs."
+    "message": "Tillagd till gillade låtar."
   },
   "removedLiked": {
-    "message": "Removed from Liked Songs."
+    "message": "Borttagen från gillade låtar."
   },
   "linkCopied": {
-    "message": "Spotify link copied."
+    "message": "Spotify länk kopierad."
   },
   "copyFailed": {
-    "message": "Unable to copy the link."
+    "message": "Det gick inte att kopiera länken."
   },
   "noTrackLink": {
-    "message": "No track link available."
+    "message": "Ingen spårlänk tillgänglig."
   },
   "widgetPermissionDenied": {
-    "message": "Permission denied: the widget remains disabled."
+    "message": "Tillstånd nekad: widgeten förblir inaktiverad."
   },
   "widgetShown": {
-    "message": "Widget shown on HTTPS pages."
+    "message": "Widget visas på HTTPS-sidor."
   },
   "widgetHidden": {
-    "message": "Widget hidden."
+    "message": "Widget dold."
   },
   "previousUnavailable": {
-    "message": "Previous track is unavailable for the current Spotify playback."
+    "message": "Föregående spår är inte tillgängligt för den aktuella Spotify-uppspelningen."
   },
   "nextUnavailable": {
-    "message": "Next track is unavailable for the current Spotify playback."
+    "message": "Nästa spår är inte tillgängligt för den aktuella Spotify-uppspelningen."
   },
   "shuffleUnavailable": {
-    "message": "Shuffle is unavailable for the current Spotify playback or account."
+    "message": "Blanda är inte tillgängligt för den aktuella Spotify-uppspelningen eller kontot."
   },
   "repeatUnavailable": {
-    "message": "Repeat is unavailable for the current Spotify playback or account."
+    "message": "Repetera är inte tillgängligt för den aktuella Spotify-uppspelningen eller kontot."
   },
   "devicesUnavailable": {
-    "message": "Spotify's device selector could not be found."
+    "message": "Spotifys enhetsväljare kunde inte hittas."
   },
   "favoriteUnavailable": {
-    "message": "The Liked Songs button could not be found in Spotify Web."
+    "message": "Knappen Gillade låtar hittades inte i Spotify Web."
   },
   "commandUnavailable": {
-    "message": "This command is unavailable in Spotify Web."
+    "message": "Detta kommando är inte tillgängligt i Spotify Web."
   },
   "commandFailed": {
-    "message": "Command failed."
+    "message": "Kommandot misslyckades."
   },
   "controlUnavailable": {
-    "message": "Spotify Web control unavailable."
+    "message": "Spotify Web-kontrollen är inte tillgänglig."
   },
   "seekUnavailable": {
-    "message": "Seeking is unavailable in Spotify Web."
+    "message": "Sökning är inte tillgänglig i Spotify Web."
   },
   "volumeUnavailable": {
-    "message": "Volume is unavailable in Spotify Web."
+    "message": "Volymen är inte tillgänglig i Spotify Web."
   },
   "spotifyUnavailable": {
-    "message": "Spotify Web is unavailable."
+    "message": "Spotify Web är inte tillgänglig."
   },
   "spotifyStartupTimeout": {
-    "message": "Spotify Web is taking too long to start."
+    "message": "Spotify Web tar för lång tid att starta."
   },
   "spotifyOpenFailed": {
-    "message": "Unable to open Spotify Web."
+    "message": "Det går inte att öppna Spotify Web."
   },
   "spotifyNotOpen": {
-    "message": "Spotify Web is not open."
+    "message": "Spotify Web är inte öppen."
   },
   "spotifyNotResponding": {
-    "message": "Spotify Web is not responding. Open Spotify and try again."
+    "message": "Spotify Web svarar inte. Öppna Spotify och försök igen."
   },
   "unknownCommand": {
-    "message": "Unknown TuneDock command."
+    "message": "Okänt TuneDock-kommando."
   },
   "tunedockUnavailable": {
-    "message": "TuneDock unavailable"
+    "message": "TuneDock inte tillgänglig"
   },
   "expand": {
-    "message": "Expand"
+    "message": "Expandera"
   },
   "collapse": {
-    "message": "Collapse"
+    "message": "Kollapsa"
+  },
+  "settings": {
+    "message": "Inställningar"
+  },
+  "backToPlayer": {
+    "message": "Tillbaka till spelaren"
+  },
+  "settingsSubtitle": {
+    "message": "Anpassa TuneDock och få hjälp."
+  },
+  "languageTitle": {
+    "message": "TuneDock språk"
+  },
+  "languageHelp": {
+    "message": "Som standard följer TuneDock automatiskt Chromes språk."
+  },
+  "automaticLanguage": {
+    "message": "Automatisk — Chrome ($1)"
+  },
+  "feedbackTitle": {
+    "message": "Din feedback hjälper"
+  },
+  "feedbackBody": {
+    "message": "Ett betyg eller en rapport hjälper till att förbättra framtida versioner."
+  },
+  "rateTuneDock": {
+    "message": "Betygsätt TuneDock for Spotify"
+  },
+  "contactSupport": {
+    "message": "Kontakta supporten"
+  },
+  "advancedSettings": {
+    "message": "Avancerade inställningar"
+  },
+  "advancedPrivacy": {
+    "message": "Inställningar lagras endast i Chrome. TuneDock samlar inte in personuppgifter."
+  },
+  "resetPreferences": {
+    "message": "Återställ inställningarna"
+  },
+  "resetConfirm": {
+    "message": "Återställa TuneDock-inställningarna?"
+  },
+  "resetDone": {
+    "message": "Inställningar återställs."
+  },
+  "dragWidget": {
+    "message": "Dra för att flytta TuneDock"
+  },
+  "reduceWidget": {
+    "message": "Minska widgetstorleken"
+  },
+  "enlargeWidget": {
+    "message": "Öka widgetstorleken"
+  },
+  "resizeWidget": {
+    "message": "Dra för att ändra storlek på widgeten"
+  },
+  "playbackPosition": {
+    "message": "Uppspelningsposition"
+  },
+  "volume": {
+    "message": "Volym"
+  },
+  "mute": {
+    "message": "Ljud av"
+  },
+  "unmute": {
+    "message": "Återställ ljud"
+  },
+  "playingOn": {
+    "message": "Spelar på $1"
+  },
+  "privacyPageTitle": {
+    "message": "TuneDock for Spotify Sekretess"
+  },
+  "privacyUpdated": {
+    "message": "Senast uppdaterad: 9 augusti 2026"
+  },
+  "privacyNotice": {
+    "message": "TuneDock samlar inte in, säljer eller delar personuppgifter. Den har ingen server, reklam eller analys."
+  },
+  "privacyLocalTitle": {
+    "message": "Data används lokalt"
+  },
+  "privacyLocalBody": {
+    "message": "TuneDock läser synlig Spotify Web-spelarinformation – titel, artist, konstverk, uppspelning, position, volym och kontrollstatus – endast för att visa och kontrollera uppspelning som begärs av användaren."
+  },
+  "privacyStorageTitle": {
+    "message": "Chrome lagring"
+  },
+  "privacyStorageBody": {
+    "message": "Inställningar, widgetposition och onboarding-status lagras lokalt i Chrome-profilen. Ingen Spotify-identifierare, lösenord eller OAuth-token lagras."
+  },
+  "privacyWidgetTitle": {
+    "message": "Valfri widget"
+  },
+  "privacyWidgetBody": {
+    "message": "HTTPS sidåtkomst begärs endast när användaren aktiverar widgeten. Widgeten läser inte sidinnehåll, formulär eller webbhistorik; den visar bara TuneDock kontroller."
+  },
+  "privacyThirdTitle": {
+    "message": "Tredjepartstjänster"
+  },
+  "privacyThirdBody": {
+    "message": "TuneDock kommunicerar endast med Spotify Web över HTTPS för att utföra begärda åtgärder. Användning av Spotify förblir föremål för Spotify:s villkor."
+  },
+  "privacyLyricsTitle": {
+    "message": "Valfri textsökning"
+  },
+  "privacyLyricsBody": {
+    "message": "Efter ett uttryckligt klick kan TuneDock öppna en Google-sökning som innehåller titeln och artisten. TuneDock kontaktar inte Google i bakgrunden, hämtar resultat, lagrar eller reproducerar sångtexter."
+  },
+  "privacyContactTitle": {
+    "message": "Kontakta"
+  },
+  "privacyDeveloper": {
+    "message": "Utvecklare: Stéphane Dinahet"
+  },
+  "toggleAmbience": {
+    "message": "Växla ljusmiljö"
+  },
+  "ambienceTitle": {
+    "message": "Ljus atmosfär"
+  },
+  "ambienceHelp": {
+    "message": "Förhandsgranska och justera effekten direkt."
+  },
+  "ambienceEnabled": {
+    "message": "LED neon"
+  },
+  "lightEffect": {
+    "message": "Effekt"
+  },
+  "lightColor": {
+    "message": "Färg"
+  },
+  "brightness": {
+    "message": "Ljusstyrka"
+  },
+  "animationSpeed": {
+    "message": "Hastighet"
+  },
+  "movingHeads": {
+    "message": "Rörliga ljus"
+  },
+  "randomAmbience": {
+    "message": "Överraska mig"
+  },
+  "resetAmbience": {
+    "message": "Återställ lampor"
+  },
+  "effectStatic": {
+    "message": "Stadig"
+  },
+  "effectBreathe": {
+    "message": "Andning"
+  },
+  "effectPulse": {
+    "message": "Puls"
+  },
+  "effectWave": {
+    "message": "Våga"
+  },
+  "effectChase": {
+    "message": "LED-jakt"
+  },
+  "effectGradient": {
+    "message": "Gradient"
+  },
+  "effectRainbow": {
+    "message": "Regnbåge"
+  },
+  "effectAurora": {
+    "message": "Aurora"
+  },
+  "effectSparkle": {
+    "message": "Sparkle"
+  },
+  "effectClub": {
+    "message": "Nattklubb"
+  },
+  "effectSlowBeat": {
+    "message": "Långsam takt"
+  },
+  "effectStrobeSoft": {
+    "message": "Mjuk stroboskop"
+  },
+  "colorViolet": {
+    "message": "Violett"
+  },
+  "colorBlue": {
+    "message": "Blå"
+  },
+  "colorCyan": {
+    "message": "Cyan"
+  },
+  "colorGreen": {
+    "message": "Grönt"
+  },
+  "colorRed": {
+    "message": "Röd"
+  },
+  "colorPink": {
+    "message": "Rosa"
+  },
+  "colorOrange": {
+    "message": "Orange"
+  },
+  "colorGold": {
+    "message": "Guld"
+  },
+  "colorWhite": {
+    "message": "Vit"
+  },
+  "colorRainbow": {
+    "message": "Flerfärgad"
+  },
+  "lyreSweep": {
+    "message": "Sopa"
+  },
+  "lyreCross": {
+    "message": "Korsade balkar"
+  },
+  "lyreFan": {
+    "message": "Fläkt"
+  },
+  "lyreSlow": {
+    "message": "Långsam"
+  },
+  "lyreClub": {
+    "message": "Klubb"
+  },
+  "discoBall": {
+    "message": "Discoboll"
+  },
+  "autoSurprise": {
+    "message": "Överraskningssekvens"
+  },
+  "changeEvery": {
+    "message": "Byt varje"
+  },
+  "effectLedSnake": {
+    "message": "LED orm"
+  },
+  "effectComet": {
+    "message": "Komet"
+  },
+  "effectPrism": {
+    "message": "Prisma"
+  },
+  "effectLaser": {
+    "message": "Laser"
+  },
+  "effectColorFlow": {
+    "message": "Färgflöde"
+  },
+  "effectDoubleChase": {
+    "message": "Dubbeljakt"
+  },
+  "effectElectric": {
+    "message": "Elektrisk"
+  },
+  "effectVelvet": {
+    "message": "Sammetsglöd"
+  },
+  "lasers": {
+    "message": "Lasrar"
+  },
+  "laserScan": {
+    "message": "Skanning"
+  },
+  "laserCross": {
+    "message": "Korsade lasrar"
+  },
+  "laserFan": {
+    "message": "Laserfläkt"
+  },
+  "laserTunnel": {
+    "message": "Tunnel"
+  },
+  "laserRandom": {
+    "message": "Slumpmässiga lasrar"
+  },
+  "closeWidget": {
+    "message": "Dölj widgeten"
+  },
+  "beatIntensity": {
+    "message": "Intensitet"
+  },
+  "beatSpeed": {
+    "message": "Hastighet"
+  },
+  "coverBeat": {
+    "message": "Diskret omslagsglöd"
+  },
+  "coverBeatHelp": {
+    "message": "Ingen zoom eller rörelse."
+  },
+  "generalSection": {
+    "message": "Allmänt"
+  },
+  "widgetSection": {
+    "message": "Flytande widget"
+  },
+  "appearanceSection": {
+    "message": "Appens utseende"
+  },
+  "youtubePromoTitle": {
+    "message": "Upptäck TuneDock for YouTube"
+  },
+  "youtubePromoBody": {
+    "message": "TuneDock-fjärrkontrollen för YouTube kommer snart till Chrome och Firefox."
+  },
+  "comingSoonChrome": {
+    "message": "Chrome Web Store · Kommer snart"
+  },
+  "comingSoonFirefox": {
+    "message": "Firefox Add-ons · Kommer snart"
+  },
+  "discoverChrome": {
+    "message": "Chrome Web Store ↗"
+  },
+  "discoverFirefox": {
+    "message": "Firefox Add-ons ↗"
+  },
+  "supportSection": {
+    "message": "Support och om"
+  },
+  "advancedLights": {
+    "message": "Avancerade ljuseffekter"
+  },
+  "widgetLed": {
+    "message": "LED-kant runt widgeten"
+  },
+  "widgetLedHelp": {
+    "message": "Valfri kantbelysning utan att widgeten rör sig."
+  },
+  "ledMode": {
+    "message": "LED-läge"
+  },
+  "ledStatic": {
+    "message": "Statisk"
+  },
+  "ledFlow": {
+    "message": "Färgflöde"
+  },
+  "ledBreathe": {
+    "message": "Mjuk andning"
+  },
+  "showEmail": {
+    "message": "Visa e-postadress"
   }
 }

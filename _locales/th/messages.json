@@ -1,12 +1,12 @@
 {
   "appName": {
-    "message": "TuneDock – Remote for Spotify"
+    "message": "TuneDock for Spotify"
   },
   "appDescription": {
-    "message": "Control Spotify Web from the side panel or an optional floating widget."
+    "message": "ควบคุม Spotify Web จากแผงด้านข้างหรือวิดเจ็ตลอยตัวเลือก"
   },
   "actionTitle": {
-    "message": "Open TuneDock"
+    "message": "เปิด TuneDock"
   },
   "tagline": {
     "message": "รีโมตสำหรับ Spotify"
@@ -27,19 +27,19 @@
     "message": "เพลงของคุณอยู่ใกล้มือเสมอ"
   },
   "welcomeBody": {
-    "message": "Control Spotify Web from Firefox's sidebar or an optional floating widget."
+    "message": "ควบคุม Spotify Web จากแผงด้านข้างของ Chrome หรือวิดเจ็ตลอยตัวเลือก"
   },
   "privacyTitle": {
     "message": "ความเป็นส่วนตัวมาก่อน"
   },
   "privacyBody": {
-    "message": "No TuneDock account, no server and no personal data collection. Preferences stay in Firefox."
+    "message": "ไม่มีบัญชี TuneDock ไม่มีเซิร์ฟเวอร์ และไม่มีการรวบรวมข้อมูลส่วนบุคคล การตั้งค่าจะอยู่ใน Chrome"
   },
   "continueSpotify": {
     "message": "ดำเนินการต่อด้วย Spotify"
   },
   "officialSpotifyHelp": {
-    "message": "Spotify opens on its official website."
+    "message": "Spotify เปิดบนเว็บไซต์อย่างเป็นทางการ"
   },
   "thisComputer": {
     "message": "คอมพิวเตอร์เครื่องนี้"
@@ -48,10 +48,10 @@
     "message": "เปลี่ยน"
   },
   "changeDeviceTitle": {
-    "message": "Change device in Spotify"
+    "message": "เปลี่ยนอุปกรณ์ใน Spotify"
   },
   "reconnect": {
-    "message": "Reconnect Spotify Web"
+    "message": "เชื่อมต่อ Spotify Web อีกครั้ง"
   },
   "noTrack": {
     "message": "ไม่มีเพลง"
@@ -60,16 +60,16 @@
     "message": "ไม่มีเพลงที่เล่นอยู่"
   },
   "openSpotifyToStart": {
-    "message": "Open Spotify Web to get started"
+    "message": "เปิด Spotify Web เพื่อเริ่มต้น"
   },
   "startMusicSpotify": {
-    "message": "Start playing music in Spotify Web"
+    "message": "เริ่มเล่นเพลงใน Spotify Web"
   },
   "previousTrack": {
     "message": "เพลงก่อนหน้า"
   },
   "playPause": {
-    "message": "Play or pause"
+    "message": "เล่นหรือหยุดชั่วคราว"
   },
   "nextTrack": {
     "message": "เพลงถัดไป"
@@ -99,13 +99,13 @@
     "message": "คัดลอกลิงก์"
   },
   "openSpotify": {
-    "message": "OPEN SPOTIFY"
+    "message": "เปิดสปอตไลท์"
   },
   "spotifyAuto": {
-    "message": "Spotify auto"
+    "message": "Spotify อัตโนมัติ"
   },
   "widgetAuto": {
-    "message": "Widget auto"
+    "message": "วิดเจ็ตอัตโนมัติ"
   },
   "atStartup": {
     "message": "เมื่อเริ่มต้น"
@@ -117,105 +117,456 @@
     "message": "ซ่อนวิดเจ็ต"
   },
   "createdBy": {
-    "message": "Created by Stéphane Dinahet"
+    "message": "สร้างโดยสเตฟาน ไดนาเฮต"
   },
   "privacy": {
     "message": "ความเป็นส่วนตัว"
   },
   "notAffiliated": {
-    "message": "TuneDock is independent and not affiliated with Spotify."
+    "message": "TuneDock มีความเป็นอิสระและไม่มีส่วนเกี่ยวข้องกับ Spotify"
   },
   "unknownArtist": {
-    "message": "Unknown artist"
+    "message": "ศิลปินที่ไม่รู้จัก"
   },
   "unknownTrack": {
-    "message": "Unknown track"
+    "message": "แทร็กที่ไม่รู้จัก"
   },
   "connectingSpotify": {
-    "message": "Connecting to Spotify Web…"
+    "message": "กำลังเชื่อมต่อกับ Spotify Web..."
   },
   "addedLiked": {
-    "message": "Added to Liked Songs."
+    "message": "เพิ่มไปยังเพลงที่ชอบแล้ว"
   },
   "removedLiked": {
-    "message": "Removed from Liked Songs."
+    "message": "ลบออกจากเพลงที่ชอบแล้ว"
   },
   "linkCopied": {
-    "message": "Spotify link copied."
+    "message": "คัดลอกลิงก์ Spotify แล้ว"
   },
   "copyFailed": {
-    "message": "Unable to copy the link."
+    "message": "ไม่สามารถคัดลอกลิงก์ได้"
   },
   "noTrackLink": {
-    "message": "No track link available."
+    "message": "ไม่มีลิงก์แทร็ก"
   },
   "widgetPermissionDenied": {
-    "message": "Permission denied: the widget remains disabled."
+    "message": "การอนุญาตถูกปฏิเสธ: วิดเจ็ตยังคงปิดใช้งานอยู่"
   },
   "widgetShown": {
-    "message": "Widget shown on HTTPS pages."
+    "message": "วิดเจ็ตที่แสดงบนหน้า HTTPS"
   },
   "widgetHidden": {
-    "message": "Widget hidden."
+    "message": "ซ่อนวิดเจ็ตแล้ว"
   },
   "previousUnavailable": {
-    "message": "Previous track is unavailable for the current Spotify playback."
+    "message": "แทร็กก่อนหน้าไม่พร้อมใช้งานสำหรับการเล่น Spotify ปัจจุบัน"
   },
   "nextUnavailable": {
-    "message": "Next track is unavailable for the current Spotify playback."
+    "message": "แทร็กถัดไปไม่พร้อมใช้งานสำหรับการเล่น Spotify ปัจจุบัน"
   },
   "shuffleUnavailable": {
-    "message": "Shuffle is unavailable for the current Spotify playback or account."
+    "message": "การสุ่มไม่พร้อมใช้งานสำหรับการเล่นหรือบัญชี Spotify ปัจจุบัน"
   },
   "repeatUnavailable": {
-    "message": "Repeat is unavailable for the current Spotify playback or account."
+    "message": "การทำซ้ำไม่พร้อมใช้งานสำหรับการเล่นหรือบัญชี Spotify ปัจจุบัน"
   },
   "devicesUnavailable": {
-    "message": "Spotify's device selector could not be found."
+    "message": "ไม่พบตัวเลือกอุปกรณ์ของ Spotify"
   },
   "favoriteUnavailable": {
-    "message": "The Liked Songs button could not be found in Spotify Web."
+    "message": "ไม่พบปุ่มเพลงที่ชอบใน Spotify Web"
   },
   "commandUnavailable": {
-    "message": "This command is unavailable in Spotify Web."
+    "message": "คำสั่งนี้ไม่พร้อมใช้งานใน Spotify Web"
   },
   "commandFailed": {
-    "message": "Command failed."
+    "message": "คำสั่งล้มเหลว"
   },
   "controlUnavailable": {
-    "message": "Spotify Web control unavailable."
+    "message": "การควบคุม Spotify Web ไม่พร้อมใช้งาน"
   },
   "seekUnavailable": {
-    "message": "Seeking is unavailable in Spotify Web."
+    "message": "การค้นหาไม่พร้อมใช้งานใน Spotify Web"
   },
   "volumeUnavailable": {
-    "message": "Volume is unavailable in Spotify Web."
+    "message": "ปริมาณไม่พร้อมใช้งานใน ZXQSPOTIFYWBQXZ"
   },
   "spotifyUnavailable": {
-    "message": "Spotify Web is unavailable."
+    "message": "Spotify Web ไม่พร้อมใช้งาน"
   },
   "spotifyStartupTimeout": {
-    "message": "Spotify Web is taking too long to start."
+    "message": "Spotify Web ใช้เวลาเริ่มต้นนานเกินไป"
   },
   "spotifyOpenFailed": {
-    "message": "Unable to open Spotify Web."
+    "message": "ไม่สามารถเปิด Spotify Web ได้"
   },
   "spotifyNotOpen": {
-    "message": "Spotify Web is not open."
+    "message": "Spotify Web ไม่ได้เปิดอยู่"
   },
   "spotifyNotResponding": {
-    "message": "Spotify Web is not responding. Open Spotify and try again."
+    "message": "Spotify Web ไม่ตอบสนอง เปิด Spotify แล้วลองอีกครั้ง"
   },
   "unknownCommand": {
-    "message": "Unknown TuneDock command."
+    "message": "คำสั่ง TuneDock ที่ไม่รู้จัก"
   },
   "tunedockUnavailable": {
-    "message": "TuneDock unavailable"
+    "message": "TuneDock ไม่พร้อมใช้งาน"
   },
   "expand": {
-    "message": "Expand"
+    "message": "ขยาย"
   },
   "collapse": {
-    "message": "Collapse"
+    "message": "ยุบ"
+  },
+  "settings": {
+    "message": "การตั้งค่า"
+  },
+  "backToPlayer": {
+    "message": "กลับไปที่ผู้เล่น"
+  },
+  "settingsSubtitle": {
+    "message": "ปรับแต่ง TuneDock และรับความช่วยเหลือ"
+  },
+  "languageTitle": {
+    "message": "ภาษา TuneDock"
+  },
+  "languageHelp": {
+    "message": "ตามค่าเริ่มต้น TuneDock จะติดตามภาษาของ Chrome โดยอัตโนมัติ"
+  },
+  "automaticLanguage": {
+    "message": "อัตโนมัติ — Chrome ($1)"
+  },
+  "feedbackTitle": {
+    "message": "ความคิดเห็นของคุณช่วยได้"
+  },
+  "feedbackBody": {
+    "message": "การให้คะแนนหรือรายงานจะช่วยปรับปรุงเวอร์ชันในอนาคต"
+  },
+  "rateTuneDock": {
+    "message": "ให้คะแนน TuneDock for Spotify"
+  },
+  "contactSupport": {
+    "message": "ติดต่อฝ่ายสนับสนุน"
+  },
+  "advancedSettings": {
+    "message": "การตั้งค่าขั้นสูง"
+  },
+  "advancedPrivacy": {
+    "message": "การตั้งค่าจะถูกเก็บไว้ใน Chrome เท่านั้น TuneDock จะไม่เก็บรวบรวมข้อมูลส่วนบุคคล"
+  },
+  "resetPreferences": {
+    "message": "รีเซ็ตการตั้งค่า"
+  },
+  "resetConfirm": {
+    "message": "รีเซ็ตการตั้งค่า TuneDock หรือไม่"
+  },
+  "resetDone": {
+    "message": "รีเซ็ตการตั้งค่าแล้ว"
+  },
+  "dragWidget": {
+    "message": "ลากเพื่อย้าย TuneDock"
+  },
+  "reduceWidget": {
+    "message": "ลดขนาดวิดเจ็ต"
+  },
+  "enlargeWidget": {
+    "message": "เพิ่มขนาดวิดเจ็ต"
+  },
+  "resizeWidget": {
+    "message": "ลากเพื่อปรับขนาดวิดเจ็ต"
+  },
+  "playbackPosition": {
+    "message": "ตำแหน่งการเล่น"
+  },
+  "volume": {
+    "message": "ปริมาณ"
+  },
+  "mute": {
+    "message": "ปิดเสียง"
+  },
+  "unmute": {
+    "message": "คืนค่าเสียง"
+  },
+  "playingOn": {
+    "message": "เล่นด้วยเงิน 1 ดอลลาร์"
+  },
+  "privacyPageTitle": {
+    "message": "TuneDock for Spotify ความเป็นส่วนตัว"
+  },
+  "privacyUpdated": {
+    "message": "อัปเดตล่าสุด: 9 สิงหาคม 2026"
+  },
+  "privacyNotice": {
+    "message": "TuneDock จะไม่รวบรวม ขาย หรือแบ่งปันข้อมูลส่วนบุคคล ไม่มีเซิร์ฟเวอร์ โฆษณา หรือการวิเคราะห์"
+  },
+  "privacyLocalTitle": {
+    "message": "ข้อมูลที่ใช้ในเครื่อง"
+  },
+  "privacyLocalBody": {
+    "message": "TuneDock อ่านข้อมูลเครื่องเล่น Spotify Web ที่มองเห็นได้ — ชื่อ ศิลปิน อาร์ตเวิร์ค การเล่น ตำแหน่ง ระดับเสียง และสถานะการควบคุม — เพื่อแสดงและควบคุมการเล่นที่ผู้ใช้ร้องขอเท่านั้น"
+  },
+  "privacyStorageTitle": {
+    "message": "ที่เก็บข้อมูล Chrome"
+  },
+  "privacyStorageBody": {
+    "message": "การตั้งค่า ตำแหน่งวิดเจ็ต และสถานะการเริ่มต้นใช้งานจะถูกจัดเก็บไว้ในโปรไฟล์ Chrome ไม่มีการจัดเก็บตัวระบุ รหัสผ่าน หรือโทเค็น OAuth ของ Spotify"
+  },
+  "privacyWidgetTitle": {
+    "message": "วิดเจ็ตเสริม"
+  },
+  "privacyWidgetBody": {
+    "message": "มีการร้องขอการเข้าถึงเพจ HTTPS เมื่อผู้ใช้เปิดใช้งานวิดเจ็ตเท่านั้น วิดเจ็ตไม่อ่านเนื้อหาของหน้า แบบฟอร์ม หรือประวัติการเรียกดู มันแสดงเฉพาะส่วนควบคุม TuneDock"
+  },
+  "privacyThirdTitle": {
+    "message": "บริการของบุคคลที่สาม"
+  },
+  "privacyThirdBody": {
+    "message": "TuneDock สื่อสารกับ Spotify Web ผ่าน HTTPS เท่านั้น เพื่อดำเนินการตามที่ร้องขอ การใช้ Spotify ยังคงอยู่ภายใต้เงื่อนไขของ Spotify"
+  },
+  "privacyLyricsTitle": {
+    "message": "ค้นหาเนื้อเพลงเพิ่มเติม"
+  },
+  "privacyLyricsBody": {
+    "message": "หลังจากการคลิกอย่างชัดเจน TuneDock จะสามารถเปิดการค้นหาโดย Google ที่มีชื่อและศิลปินได้ TuneDock จะไม่ติดต่อกับ Google ในเบื้องหลัง ดึงผลลัพธ์ จัดเก็บหรือทำซ้ำเนื้อเพลง"
+  },
+  "privacyContactTitle": {
+    "message": "ติดต่อ"
+  },
+  "privacyDeveloper": {
+    "message": "ผู้พัฒนา: Stephane Dinahet"
+  },
+  "toggleAmbience": {
+    "message": "สลับบรรยากาศแสง"
+  },
+  "ambienceTitle": {
+    "message": "บรรยากาศเบาๆ"
+  },
+  "ambienceHelp": {
+    "message": "ดูตัวอย่างและปรับเอฟเฟ็กต์ได้ทันที"
+  },
+  "ambienceEnabled": {
+    "message": "แอลอีดีนีออน"
+  },
+  "lightEffect": {
+    "message": "เอฟเฟกต์"
+  },
+  "lightColor": {
+    "message": "สี"
+  },
+  "brightness": {
+    "message": "ความสว่าง"
+  },
+  "animationSpeed": {
+    "message": "ความเร็ว"
+  },
+  "movingHeads": {
+    "message": "ไฟเคลื่อนที่"
+  },
+  "randomAmbience": {
+    "message": "ทำให้ฉันประหลาดใจ"
+  },
+  "resetAmbience": {
+    "message": "รีเซ็ตไฟ"
+  },
+  "effectStatic": {
+    "message": "มั่นคง"
+  },
+  "effectBreathe": {
+    "message": "การหายใจ"
+  },
+  "effectPulse": {
+    "message": "ชีพจร"
+  },
+  "effectWave": {
+    "message": "คลื่น"
+  },
+  "effectChase": {
+    "message": "ไฟ LED ไล่ล่า"
+  },
+  "effectGradient": {
+    "message": "การไล่ระดับสี"
+  },
+  "effectRainbow": {
+    "message": "สายรุ้ง"
+  },
+  "effectAurora": {
+    "message": "ออโรร่า"
+  },
+  "effectSparkle": {
+    "message": "สปาร์คเคิล"
+  },
+  "effectClub": {
+    "message": "ไนต์คลับ"
+  },
+  "effectSlowBeat": {
+    "message": "จังหวะช้าๆ"
+  },
+  "effectStrobeSoft": {
+    "message": "ไฟแฟลชอ่อน"
+  },
+  "colorViolet": {
+    "message": "สีม่วง"
+  },
+  "colorBlue": {
+    "message": "สีฟ้า"
+  },
+  "colorCyan": {
+    "message": "สีฟ้า"
+  },
+  "colorGreen": {
+    "message": "สีเขียว"
+  },
+  "colorRed": {
+    "message": "สีแดง"
+  },
+  "colorPink": {
+    "message": "สีชมพู"
+  },
+  "colorOrange": {
+    "message": "ส้ม"
+  },
+  "colorGold": {
+    "message": "ทอง"
+  },
+  "colorWhite": {
+    "message": "ขาว"
+  },
+  "colorRainbow": {
+    "message": "หลากสี"
+  },
+  "lyreSweep": {
+    "message": "กวาด"
+  },
+  "lyreCross": {
+    "message": "คานขวาง"
+  },
+  "lyreFan": {
+    "message": "พัดลม"
+  },
+  "lyreSlow": {
+    "message": "ช้า"
+  },
+  "lyreClub": {
+    "message": "สโมสร"
+  },
+  "discoBall": {
+    "message": "ดิสโก้บอล"
+  },
+  "autoSurprise": {
+    "message": "ลำดับเซอร์ไพรส์"
+  },
+  "changeEvery": {
+    "message": "เปลี่ยนทุก"
+  },
+  "effectLedSnake": {
+    "message": "งูแอลอีดี"
+  },
+  "effectComet": {
+    "message": "ดาวหาง"
+  },
+  "effectPrism": {
+    "message": "ปริซึม"
+  },
+  "effectLaser": {
+    "message": "เลเซอร์"
+  },
+  "effectColorFlow": {
+    "message": "การไหลของสี"
+  },
+  "effectDoubleChase": {
+    "message": "การไล่ล่าสองครั้ง"
+  },
+  "effectElectric": {
+    "message": "ไฟฟ้า"
+  },
+  "effectVelvet": {
+    "message": "เรืองแสงกำมะหยี่"
+  },
+  "lasers": {
+    "message": "เลเซอร์"
+  },
+  "laserScan": {
+    "message": "กำลังสแกน"
+  },
+  "laserCross": {
+    "message": "ข้ามเลเซอร์"
+  },
+  "laserFan": {
+    "message": "พัดลมเลเซอร์"
+  },
+  "laserTunnel": {
+    "message": "อุโมงค์"
+  },
+  "laserRandom": {
+    "message": "เลเซอร์แบบสุ่ม"
+  },
+  "closeWidget": {
+    "message": "ซ่อนวิดเจ็ต"
+  },
+  "beatIntensity": {
+    "message": "ความเข้ม"
+  },
+  "beatSpeed": {
+    "message": "ความเร็ว"
+  },
+  "coverBeat": {
+    "message": "แสงปกแบบนุ่มนวล"
+  },
+  "coverBeatHelp": {
+    "message": "ไม่มีการซูมหรือเคลื่อนไหว"
+  },
+  "generalSection": {
+    "message": "ทั่วไป"
+  },
+  "widgetSection": {
+    "message": "วิดเจ็ตลอย"
+  },
+  "appearanceSection": {
+    "message": "รูปลักษณ์แอป"
+  },
+  "youtubePromoTitle": {
+    "message": "พบกับ TuneDock for YouTube"
+  },
+  "youtubePromoBody": {
+    "message": "รีโมต TuneDock สำหรับ YouTube กำลังจะมาใน Chrome และ Firefox"
+  },
+  "comingSoonChrome": {
+    "message": "Chrome Web Store · เร็ว ๆ นี้"
+  },
+  "comingSoonFirefox": {
+    "message": "Firefox Add-ons · เร็ว ๆ นี้"
+  },
+  "discoverChrome": {
+    "message": "Chrome Web Store ↗"
+  },
+  "discoverFirefox": {
+    "message": "Firefox Add-ons ↗"
+  },
+  "supportSection": {
+    "message": "ช่วยเหลือและเกี่ยวกับ"
+  },
+  "advancedLights": {
+    "message": "เอฟเฟกต์แสงขั้นสูง"
+  },
+  "widgetLed": {
+    "message": "ขอบ LED รอบวิดเจ็ต"
+  },
+  "widgetLedHelp": {
+    "message": "ไฟขอบเสริมโดยไม่ทำให้วิดเจ็ตเคลื่อนไหว"
+  },
+  "ledMode": {
+    "message": "โหมด LED"
+  },
+  "ledStatic": {
+    "message": "คงที่"
+  },
+  "ledFlow": {
+    "message": "สีไหล"
+  },
+  "ledBreathe": {
+    "message": "หายใจเบา ๆ"
+  },
+  "showEmail": {
+    "message": "แสดงที่อยู่อีเมล"
   }
 }

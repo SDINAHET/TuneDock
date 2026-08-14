@@ -1,6 +1,6 @@
 {
   "appName": {
-    "message": "TuneDock – Remote for Spotify"
+    "message": "TuneDock for Spotify"
   },
   "appDescription": {
     "message": "Control Spotify Web from the side panel or an optional floating widget."
@@ -27,13 +27,13 @@
     "message": "Your music, always within reach"
   },
   "welcomeBody": {
-    "message": "Control Spotify Web from Firefox's sidebar or an optional floating widget."
+    "message": "Control Spotify Web from Chrome's side panel or an optional floating widget."
   },
   "privacyTitle": {
     "message": "Privacy first"
   },
   "privacyBody": {
-    "message": "No TuneDock account, no server and no personal data collection. Preferences stay in Firefox."
+    "message": "No TuneDock account, no server and no personal data collection. Preferences stay in Chrome."
   },
   "continueSpotify": {
     "message": "Continue with Spotify"
@@ -218,45 +218,355 @@
   "collapse": {
     "message": "Collapse"
   },
-  "settings": { "message": "Settings" },
-  "backToPlayer": { "message": "Back to player" },
-  "settingsSubtitle": { "message": "Customize TuneDock and get help." },
-  "languageTitle": { "message": "TuneDock language" },
-  "languageHelp": { "message": "By default, TuneDock automatically follows Firefox's language." },
-  "automaticLanguage": { "message": "Automatic — Firefox ($1)" },
-  "feedbackTitle": { "message": "Your feedback helps" },
-  "feedbackBody": { "message": "A rating or report helps improve future versions." },
-  "rateTuneDock": { "message": "Rate and review TuneDock" },
-  "reportIssue": { "message": "Report a problem ↗" },
-  "contactSupport": { "message": "Contact support" },
-  "followGithub": { "message": "Follow on GitHub ↗" },
-  "advancedSettings": { "message": "Advanced settings" },
-  "advancedPrivacy": { "message": "Preferences are stored only in Firefox. TuneDock does not collect personal data." },
-  "resetPreferences": { "message": "Reset preferences" },
-  "resetConfirm": { "message": "Reset TuneDock preferences?" },
-  "resetDone": { "message": "Preferences reset." },
-  "dragWidget": { "message": "Drag to move TuneDock" },
-  "reduceWidget": { "message": "Reduce widget size" },
-  "enlargeWidget": { "message": "Increase widget size" },
-  "resizeWidget": { "message": "Drag to resize the widget" },
-  "playbackPosition": { "message": "Playback position" },
-  "volume": { "message": "Volume" },
-  "mute": { "message": "Mute" },
-  "unmute": { "message": "Restore sound" },
-  "playingOn": { "message": "Playing on $1" },
-  "privacyPageTitle": { "message": "TuneDock Privacy" },
-  "privacyUpdated": { "message": "Last updated: August 9, 2026" },
-  "privacyNotice": { "message": "TuneDock does not collect, sell or share personal data. It has no server, advertising or analytics." },
-  "privacyLocalTitle": { "message": "Data used locally" },
-  "privacyLocalBody": { "message": "TuneDock reads visible Spotify Web player information — title, artist, artwork, playback, position, volume and control status — only to display and control playback requested by the user." },
-  "privacyStorageTitle": { "message": "Firefox storage" },
-  "privacyStorageBody": { "message": "Preferences, widget position and onboarding status are stored locally in the Firefox profile. No Spotify identifier, password or OAuth token is stored." },
-  "privacyWidgetTitle": { "message": "Optional widget" },
-  "privacyWidgetBody": { "message": "HTTPS page access is requested only when the user enables the widget. The widget does not read page content, forms or browsing history; it only displays TuneDock controls." },
-  "privacyThirdTitle": { "message": "Third-party services" },
-  "privacyThirdBody": { "message": "TuneDock communicates only with Spotify Web over HTTPS to perform requested actions. Spotify use remains subject to Spotify's terms." },
-  "privacyLyricsTitle": { "message": "Optional lyrics search" },
-  "privacyLyricsBody": { "message": "After an explicit click, TuneDock can open a Google search containing the title and artist. TuneDock does not contact Google in the background, retrieve results, store or reproduce lyrics." },
-  "privacyContactTitle": { "message": "Contact" },
-  "privacyDeveloper": { "message": "Developer: Stéphane Dinahet" }
+  "settings": {
+    "message": "Settings"
+  },
+  "backToPlayer": {
+    "message": "Back to player"
+  },
+  "settingsSubtitle": {
+    "message": "Customize TuneDock and get help."
+  },
+  "languageTitle": {
+    "message": "TuneDock language"
+  },
+  "languageHelp": {
+    "message": "By default, TuneDock automatically follows Chrome's language."
+  },
+  "automaticLanguage": {
+    "message": "Automatic — Chrome ($1)"
+  },
+  "feedbackTitle": {
+    "message": "Your feedback helps"
+  },
+  "feedbackBody": {
+    "message": "A rating or report helps improve future versions."
+  },
+  "rateTuneDock": {
+    "message": "Rate TuneDock for Spotify"
+  },
+  "contactSupport": {
+    "message": "Contact support"
+  },
+  "advancedSettings": {
+    "message": "Advanced settings"
+  },
+  "advancedPrivacy": {
+    "message": "Preferences are stored only in Chrome. TuneDock does not collect personal data."
+  },
+  "resetPreferences": {
+    "message": "Reset preferences"
+  },
+  "resetConfirm": {
+    "message": "Reset TuneDock preferences?"
+  },
+  "resetDone": {
+    "message": "Preferences reset."
+  },
+  "dragWidget": {
+    "message": "Drag to move TuneDock"
+  },
+  "reduceWidget": {
+    "message": "Reduce widget size"
+  },
+  "enlargeWidget": {
+    "message": "Increase widget size"
+  },
+  "resizeWidget": {
+    "message": "Drag to resize the widget"
+  },
+  "playbackPosition": {
+    "message": "Playback position"
+  },
+  "volume": {
+    "message": "Volume"
+  },
+  "mute": {
+    "message": "Mute"
+  },
+  "unmute": {
+    "message": "Restore sound"
+  },
+  "playingOn": {
+    "message": "Playing on $1"
+  },
+  "privacyPageTitle": {
+    "message": "TuneDock for Spotify Privacy"
+  },
+  "privacyUpdated": {
+    "message": "Last updated: August 9, 2026"
+  },
+  "privacyNotice": {
+    "message": "TuneDock does not collect, sell or share personal data. It has no server, advertising or analytics."
+  },
+  "privacyLocalTitle": {
+    "message": "Data used locally"
+  },
+  "privacyLocalBody": {
+    "message": "TuneDock reads visible Spotify Web player information — title, artist, artwork, playback, position, volume and control status — only to display and control playback requested by the user."
+  },
+  "privacyStorageTitle": {
+    "message": "Chrome storage"
+  },
+  "privacyStorageBody": {
+    "message": "Preferences, widget position and onboarding status are stored locally in the Chrome profile. No Spotify identifier, password or OAuth token is stored."
+  },
+  "privacyWidgetTitle": {
+    "message": "Optional widget"
+  },
+  "privacyWidgetBody": {
+    "message": "HTTPS page access is requested only when the user enables the widget. The widget does not read page content, forms or browsing history; it only displays TuneDock controls."
+  },
+  "privacyThirdTitle": {
+    "message": "Third-party services"
+  },
+  "privacyThirdBody": {
+    "message": "TuneDock communicates only with Spotify Web over HTTPS to perform requested actions. Spotify use remains subject to Spotify's terms."
+  },
+  "privacyLyricsTitle": {
+    "message": "Optional lyrics search"
+  },
+  "privacyLyricsBody": {
+    "message": "After an explicit click, TuneDock can open a Google search containing the title and artist. TuneDock does not contact Google in the background, retrieve results, store or reproduce lyrics."
+  },
+  "privacyContactTitle": {
+    "message": "Contact"
+  },
+  "privacyDeveloper": {
+    "message": "Developer: Stéphane Dinahet"
+  },
+  "toggleAmbience": {
+    "message": "Toggle light ambience"
+  },
+  "ambienceTitle": {
+    "message": "Light ambience"
+  },
+  "ambienceHelp": {
+    "message": "Preview and adjust the effect instantly."
+  },
+  "ambienceEnabled": {
+    "message": "LED neon"
+  },
+  "lightEffect": {
+    "message": "Effect"
+  },
+  "lightColor": {
+    "message": "Color"
+  },
+  "brightness": {
+    "message": "Brightness"
+  },
+  "animationSpeed": {
+    "message": "Speed"
+  },
+  "movingHeads": {
+    "message": "Moving lights"
+  },
+  "randomAmbience": {
+    "message": "Surprise me"
+  },
+  "resetAmbience": {
+    "message": "Reset lights"
+  },
+  "effectStatic": {
+    "message": "Steady"
+  },
+  "effectBreathe": {
+    "message": "Breathing"
+  },
+  "effectPulse": {
+    "message": "Pulse"
+  },
+  "effectWave": {
+    "message": "Wave"
+  },
+  "effectChase": {
+    "message": "LED chase"
+  },
+  "effectGradient": {
+    "message": "Gradient"
+  },
+  "effectRainbow": {
+    "message": "Rainbow"
+  },
+  "effectAurora": {
+    "message": "Aurora"
+  },
+  "effectSparkle": {
+    "message": "Sparkle"
+  },
+  "effectClub": {
+    "message": "Nightclub"
+  },
+  "effectSlowBeat": {
+    "message": "Slow beat"
+  },
+  "effectStrobeSoft": {
+    "message": "Soft strobe"
+  },
+  "colorViolet": {
+    "message": "Violet"
+  },
+  "colorBlue": {
+    "message": "Blue"
+  },
+  "colorCyan": {
+    "message": "Cyan"
+  },
+  "colorGreen": {
+    "message": "Green"
+  },
+  "colorRed": {
+    "message": "Red"
+  },
+  "colorPink": {
+    "message": "Pink"
+  },
+  "colorOrange": {
+    "message": "Orange"
+  },
+  "colorGold": {
+    "message": "Gold"
+  },
+  "colorWhite": {
+    "message": "White"
+  },
+  "colorRainbow": {
+    "message": "Multicolor"
+  },
+  "lyreSweep": {
+    "message": "Sweep"
+  },
+  "lyreCross": {
+    "message": "Crossed beams"
+  },
+  "lyreFan": {
+    "message": "Fan"
+  },
+  "lyreSlow": {
+    "message": "Slow"
+  },
+  "lyreClub": {
+    "message": "Club"
+  },
+  "discoBall": {
+    "message": "Disco ball"
+  },
+  "autoSurprise": {
+    "message": "Surprise sequence"
+  },
+  "changeEvery": {
+    "message": "Change every"
+  },
+  "effectLedSnake": {
+    "message": "LED snake"
+  },
+  "effectComet": {
+    "message": "Comet"
+  },
+  "effectPrism": {
+    "message": "Prism"
+  },
+  "effectLaser": {
+    "message": "Laser"
+  },
+  "effectColorFlow": {
+    "message": "Color flow"
+  },
+  "effectDoubleChase": {
+    "message": "Double chase"
+  },
+  "effectElectric": {
+    "message": "Electric"
+  },
+  "effectVelvet": {
+    "message": "Velvet glow"
+  },
+  "lasers": {
+    "message": "Lasers"
+  },
+  "laserScan": {
+    "message": "Scanning"
+  },
+  "laserCross": {
+    "message": "Crossed lasers"
+  },
+  "laserFan": {
+    "message": "Laser fan"
+  },
+  "laserTunnel": {
+    "message": "Tunnel"
+  },
+  "laserRandom": {
+    "message": "Random lasers"
+  },
+  "closeWidget": {
+    "message": "Hide widget"
+  },
+  "beatIntensity": {
+    "message": "Intensity"
+  },
+  "beatSpeed": {
+    "message": "Speed"
+  },
+  "coverBeat": {
+    "message": "Subtle cover glow"
+  },
+  "coverBeatHelp": {
+    "message": "No zoom or movement."
+  },
+  "generalSection": {
+    "message": "General"
+  },
+  "widgetSection": {
+    "message": "Floating widget"
+  },
+  "appearanceSection": {
+    "message": "App appearance"
+  },
+  "youtubePromoTitle": {
+    "message": "Discover TuneDock for YouTube"
+  },
+  "youtubePromoBody": {
+    "message": "The TuneDock remote for YouTube is coming soon to Chrome and Firefox."
+  },
+  "comingSoonChrome": {
+    "message": "Chrome Web Store · Coming soon"
+  },
+  "comingSoonFirefox": {
+    "message": "Firefox Add-ons · Coming soon"
+  },
+  "discoverChrome": {
+    "message": "Chrome Web Store ↗"
+  },
+  "discoverFirefox": {
+    "message": "Firefox Add-ons ↗"
+  },
+  "supportSection": {
+    "message": "Support and about"
+  },
+  "advancedLights": {
+    "message": "Advanced light effects"
+  },
+  "widgetLed": {
+    "message": "Widget LED strip"
+  },
+  "widgetLedHelp": {
+    "message": "The widget’s only optional animation."
+  },
+  "ledMode": {
+    "message": "Mode"
+  },
+  "ledStatic": {
+    "message": "Static"
+  },
+  "ledFlow": {
+    "message": "Color flow"
+  },
+  "ledBreathe": {
+    "message": "Soft breathing"
+  },
+  "showEmail": {
+    "message": "Show email address"
+  }
 }
